@@ -1,0 +1,70 @@
+{
+ "data": [
+  {
+   "id": "vercel-labs/skills/find-skills",
+   "slug": "find-skills",
+   "name": "find-skills",
+   "source": "vercel-labs/skills",
+   "installs": 2517916,
+   "sourceType": "github",
+   "installUrl": "https://github.com/vercel-labs/skills",
+   "url": "https://skills.sh/vercel-labs/skills/find-skills",
+   "installsYesterday": 15584,
+   "change": -16
+  },
+  {
+   "id": "101-skills/skills/ai-video-generation",
+   "slug": "ai-video-generation",
+   "name": "ai-video-generation",
+   "source": "101-skills/skills",
+   "installs": 161634,
+   "sourceType": "github",
+   "installUrl": "https://github.com/101-skills/skills",
+   "url": "https://skills.sh/101-skills/skills/ai-video-generation",
+   "installsYesterday": 15332,
+   "change": 15332
+  },
+  {
+   "id": "101-skills/skills/ai-image-generation",
+   "slug": "ai-image-generation",
+   "name": "ai-image-generation",
+   "source": "101-skills/skills",
+   "installs": 161245,
+   "sourceType": "github",
+   "installUrl": "https://github.com/101-skills/skills",
+   "url": "https://skills.sh/101-skills/skills/ai-image-generation",
+   "installsYesterday": 15303,
+   "change": 15303
+  },
+  {
+   "id": "101-skills/skills/ai-avatar-video",
+   "slug": "ai-avatar-video",
+   "name": "ai-avatar-video",
+   "source": "101-skills/skills",
+   "installs": 161217,
+   "sourceType": "github",
+   "installUrl": "https://github.com/101-skills/skills",
+   "url": "https://skills.sh/101-skills/skills/ai-avatar-video",
+   "installsYesterday": 15300,
+   "change": 15300
+  },
+  {
+   "id": "101-skills/skills/remotion-render",
+   "slug": "remotion-render",
+   "name": "remotion-render",
+   "source": "101-skills/skills",
+   "installs": 161202,
+   "sourceType": "github",
+   "installUrl": "https://github.com/101-skills/skills",
+   "url": "https://skills.sh/101-skills/skills/remotion-render",
+   "installsYesterday": 15299,
+   "change": 15299
+  }
+ ],
+ "pagination": {
+  "page": 0,
+  "perPage": 5,
+  "total": 600,
+  "hasMore": true
+ }
+}

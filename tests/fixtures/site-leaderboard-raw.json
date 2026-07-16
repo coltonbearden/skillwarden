@@ -1,0 +1,9771 @@
+[
+ {
+  "source": "vercel-labs/skills",
+  "skillId": "find-skills",
+  "name": "find-skills",
+  "installs": 2517916,
+  "weeklyInstalls": [
+   116561,
+   111669,
+   112706,
+   118887,
+   110834,
+   113781,
+   109199,
+   109085
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "frontend-design",
+  "name": "frontend-design",
+  "installs": 668333,
+  "weeklyInstalls": [
+   31670,
+   29655,
+   28343,
+   31976,
+   29131,
+   27857,
+   26134,
+   28120
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "grill-me",
+  "name": "grill-me",
+  "installs": 563664,
+  "weeklyInstalls": [
+   45437,
+   38189,
+   33210,
+   41774,
+   46900,
+   47001,
+   49104,
+   70968
+  ]
+ },
+ {
+  "source": "vercel-labs/agent-skills",
+  "skillId": "vercel-react-best-practices",
+  "name": "vercel-react-best-practices",
+  "installs": 554569,
+  "weeklyInstalls": [
+   18579,
+   16667,
+   16386,
+   18712,
+   16786,
+   16806,
+   17517,
+   19019
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "vercel-labs/agent-browser",
+  "skillId": "agent-browser",
+  "name": "agent-browser",
+  "installs": 548331,
+  "weeklyInstalls": [
+   23904,
+   24247,
+   24509,
+   23294,
+   21383,
+   21902,
+   20807,
+   24138
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "grill-with-docs",
+  "name": "grill-with-docs",
+  "installs": 475567,
+  "weeklyInstalls": [
+   43755,
+   35966,
+   30283,
+   38107,
+   42338,
+   41746,
+   42976,
+   65694
+  ]
+ },
+ {
+  "source": "vercel-labs/agent-skills",
+  "skillId": "web-design-guidelines",
+  "name": "web-design-guidelines",
+  "installs": 466362,
+  "weeklyInstalls": [
+   16461,
+   14795,
+   15368,
+   18630,
+   16249,
+   15927,
+   17160,
+   18614
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "improve-codebase-architecture",
+  "name": "improve-codebase-architecture",
+  "installs": 465345,
+  "weeklyInstalls": [
+   40939,
+   33132,
+   28255,
+   35239,
+   39822,
+   39159,
+   39485,
+   61006
+  ]
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "microsoft-foundry",
+  "name": "microsoft-foundry",
+  "installs": 457686,
+  "weeklyInstalls": [
+   18740,
+   15102,
+   17341,
+   15469,
+   16147,
+   13388,
+   12104,
+   16172
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-ai",
+  "name": "azure-ai",
+  "installs": 454303,
+  "weeklyInstalls": [
+   18493,
+   14850,
+   17008,
+   15299,
+   16001,
+   13214,
+   11849,
+   15888
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-deploy",
+  "name": "azure-deploy",
+  "installs": 453998,
+  "weeklyInstalls": [
+   18453,
+   14807,
+   17044,
+   15302,
+   15949,
+   13203,
+   11882,
+   15923
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-diagnostics",
+  "name": "azure-diagnostics",
+  "installs": 453859,
+  "weeklyInstalls": [
+   18538,
+   14812,
+   17025,
+   15285,
+   15930,
+   13189,
+   11865,
+   15912
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-prepare",
+  "name": "azure-prepare",
+  "installs": 453714,
+  "weeklyInstalls": [
+   18422,
+   14840,
+   17043,
+   15281,
+   15934,
+   13174,
+   11842,
+   15872
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-storage",
+  "name": "azure-storage",
+  "installs": 453398,
+  "weeklyInstalls": [
+   18426,
+   14801,
+   17012,
+   15280,
+   15927,
+   13168,
+   11827,
+   15867
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-validate",
+  "name": "azure-validate",
+  "installs": 453069,
+  "weeklyInstalls": [
+   18393,
+   14760,
+   17011,
+   15281,
+   15922,
+   13168,
+   11832,
+   15867
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "entra-app-registration",
+  "name": "entra-app-registration",
+  "installs": 452956,
+  "weeklyInstalls": [
+   18399,
+   14742,
+   16986,
+   15241,
+   15919,
+   13172,
+   11827,
+   15874
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "appinsights-instrumentation",
+  "name": "appinsights-instrumentation",
+  "installs": 452872,
+  "weeklyInstalls": [
+   18397,
+   14722,
+   16930,
+   15226,
+   15905,
+   13159,
+   11819,
+   15867
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-compliance",
+  "name": "azure-compliance",
+  "installs": 452797,
+  "weeklyInstalls": [
+   18401,
+   14740,
+   16964,
+   15225,
+   15905,
+   13154,
+   11822,
+   15864
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-resource-lookup",
+  "name": "azure-resource-lookup",
+  "installs": 452786,
+  "weeklyInstalls": [
+   18383,
+   14798,
+   16984,
+   15214,
+   15906,
+   13153,
+   11822,
+   15861
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-rbac",
+  "name": "azure-rbac",
+  "installs": 452785,
+  "weeklyInstalls": [
+   18386,
+   14739,
+   16972,
+   15234,
+   15907,
+   13150,
+   11820,
+   15863
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-aigateway",
+  "name": "azure-aigateway",
+  "installs": 452698,
+  "weeklyInstalls": [
+   18383,
+   14734,
+   16969,
+   15224,
+   15906,
+   13149,
+   11817,
+   15861
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-kusto",
+  "name": "azure-kusto",
+  "installs": 452633,
+  "weeklyInstalls": [
+   18379,
+   14726,
+   16959,
+   15230,
+   15901,
+   13147,
+   11814,
+   15857
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-resource-visualizer",
+  "name": "azure-resource-visualizer",
+  "installs": 452622,
+  "weeklyInstalls": [
+   18379,
+   14712,
+   16926,
+   15221,
+   15903,
+   13147,
+   11820,
+   15858
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "tdd",
+  "name": "tdd",
+  "installs": 446550,
+  "weeklyInstalls": [
+   37550,
+   30544,
+   25976,
+   32534,
+   37183,
+   37176,
+   40327,
+   61196
+  ]
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-messaging",
+  "name": "azure-messaging",
+  "installs": 442378,
+  "weeklyInstalls": [
+   18360,
+   14716,
+   16953,
+   15209,
+   15889,
+   13132,
+   11813,
+   15851
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "remotion-dev/skills",
+  "skillId": "remotion-best-practices",
+  "name": "remotion-best-practices",
+  "installs": 427673,
+  "weeklyInstalls": [
+   13434,
+   13210,
+   13629,
+   15781,
+   13113,
+   13206,
+   12578,
+   12520
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-hosted-copilot-sdk",
+  "name": "azure-hosted-copilot-sdk",
+  "installs": 418403,
+  "weeklyInstalls": [
+   18324,
+   14687,
+   16927,
+   15181,
+   15869,
+   13114,
+   11801,
+   12958
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-approval",
+  "name": "lark-approval",
+  "installs": 412784,
+  "weeklyInstalls": [
+   36441,
+   39652,
+   40361,
+   42547,
+   36670,
+   44133,
+   46544,
+   39875
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-doc",
+  "name": "lark-doc",
+  "installs": 412610,
+  "weeklyInstalls": [
+   36393,
+   39617,
+   40320,
+   42495,
+   36649,
+   44134,
+   46563,
+   39893
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-base",
+  "name": "lark-base",
+  "installs": 412528,
+  "weeklyInstalls": [
+   36397,
+   39612,
+   40313,
+   42507,
+   36650,
+   44110,
+   46552,
+   39863
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-drive",
+  "name": "lark-drive",
+  "installs": 412398,
+  "weeklyInstalls": [
+   36389,
+   39594,
+   40296,
+   42483,
+   36640,
+   44097,
+   46526,
+   39854
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-calendar",
+  "name": "lark-calendar",
+  "installs": 412386,
+  "weeklyInstalls": [
+   36395,
+   39608,
+   40313,
+   42496,
+   36630,
+   44088,
+   46529,
+   39836
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-contact",
+  "name": "lark-contact",
+  "installs": 412336,
+  "weeklyInstalls": [
+   36385,
+   39597,
+   40299,
+   42489,
+   36629,
+   44091,
+   46518,
+   39842
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-im",
+  "name": "lark-im",
+  "installs": 412310,
+  "weeklyInstalls": [
+   36378,
+   39614,
+   40281,
+   42483,
+   36641,
+   44076,
+   46512,
+   39833
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-shared",
+  "name": "lark-shared",
+  "installs": 412309,
+  "weeklyInstalls": [
+   36389,
+   39595,
+   40267,
+   42478,
+   36639,
+   44094,
+   46514,
+   39819
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-attendance",
+  "name": "lark-attendance",
+  "installs": 412211,
+  "weeklyInstalls": [
+   36389,
+   39588,
+   40306,
+   42485,
+   36618,
+   44056,
+   46480,
+   39815
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-event",
+  "name": "lark-event",
+  "installs": 412127,
+  "weeklyInstalls": [
+   36376,
+   39586,
+   40282,
+   42487,
+   36604,
+   44061,
+   46479,
+   39798
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-sheets",
+  "name": "lark-sheets",
+  "installs": 412122,
+  "weeklyInstalls": [
+   36367,
+   39593,
+   40257,
+   42461,
+   36623,
+   44051,
+   46500,
+   39812
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-mail",
+  "name": "lark-mail",
+  "installs": 412060,
+  "weeklyInstalls": [
+   36390,
+   39594,
+   40276,
+   42463,
+   36599,
+   44049,
+   46461,
+   39793
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-minutes",
+  "name": "lark-minutes",
+  "installs": 412059,
+  "weeklyInstalls": [
+   36381,
+   39573,
+   40271,
+   42451,
+   36609,
+   44050,
+   46467,
+   39796
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-openapi-explorer",
+  "name": "lark-openapi-explorer",
+  "installs": 412032,
+  "weeklyInstalls": [
+   36385,
+   39578,
+   40251,
+   42455,
+   36607,
+   44050,
+   46459,
+   39794
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-wiki",
+  "name": "lark-wiki",
+  "installs": 412031,
+  "weeklyInstalls": [
+   36371,
+   39570,
+   40244,
+   42440,
+   36600,
+   44063,
+   46481,
+   39803
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-whiteboard",
+  "name": "lark-whiteboard",
+  "installs": 412003,
+  "weeklyInstalls": [
+   36370,
+   39553,
+   40239,
+   42451,
+   36601,
+   44055,
+   46471,
+   39800
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-task",
+  "name": "lark-task",
+  "installs": 411963,
+  "weeklyInstalls": [
+   36378,
+   39580,
+   40256,
+   42464,
+   36607,
+   44041,
+   46446,
+   39778
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-skill-maker",
+  "name": "lark-skill-maker",
+  "installs": 411911,
+  "weeklyInstalls": [
+   36379,
+   39555,
+   40253,
+   42447,
+   36594,
+   44031,
+   46445,
+   39775
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-slides",
+  "name": "lark-slides",
+  "installs": 411875,
+  "weeklyInstalls": [
+   36372,
+   39559,
+   40252,
+   42450,
+   36579,
+   44026,
+   46439,
+   39774
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-vc",
+  "name": "lark-vc",
+  "installs": 411826,
+  "weeklyInstalls": [
+   36363,
+   39560,
+   40244,
+   42431,
+   36595,
+   44023,
+   46440,
+   39764
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-workflow-meeting-summary",
+  "name": "lark-workflow-meeting-summary",
+  "installs": 411776,
+  "weeklyInstalls": [
+   36364,
+   39542,
+   40242,
+   42449,
+   36587,
+   44006,
+   46434,
+   39755
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-workflow-standup-report",
+  "name": "lark-workflow-standup-report",
+  "installs": 411731,
+  "weeklyInstalls": [
+   36366,
+   39549,
+   40243,
+   42439,
+   36568,
+   44010,
+   46418,
+   39754
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "setup-matt-pocock-skills",
+  "name": "setup-matt-pocock-skills",
+  "installs": 401172,
+  "weeklyInstalls": [
+   35684,
+   28730,
+   23971,
+   30772,
+   35398,
+   35407,
+   37202,
+   59451
+  ]
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-compute",
+  "name": "azure-compute",
+  "installs": 396356,
+  "weeklyInstalls": [
+   18245,
+   14664,
+   16908,
+   15173,
+   15852,
+   13083,
+   11781,
+   15822
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-okr",
+  "name": "lark-okr",
+  "installs": 392872,
+  "weeklyInstalls": [
+   30110,
+   39321,
+   40259,
+   42460,
+   36591,
+   44039,
+   46440,
+   39773
+  ]
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-cloud-migrate",
+  "name": "azure-cloud-migrate",
+  "installs": 386289,
+  "weeklyInstalls": [
+   18220,
+   14616,
+   16849,
+   15092,
+   15812,
+   13064,
+   11759,
+   15802
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-markdown",
+  "name": "lark-markdown",
+  "installs": 377773,
+  "weeklyInstalls": [
+   30079,
+   39323,
+   40276,
+   42469,
+   36613,
+   44062,
+   46476,
+   39818
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "triage",
+  "name": "triage",
+  "installs": 373886,
+  "weeklyInstalls": [
+   33152,
+   26805,
+   22532,
+   28938,
+   33480,
+   33465,
+   34205,
+   54797
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "handoff",
+  "name": "handoff",
+  "installs": 365560,
+  "weeklyInstalls": [
+   38065,
+   31812,
+   26358,
+   32645,
+   37337,
+   37303,
+   38551,
+   59444
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-doc",
+  "name": "lark-doc",
+  "installs": 361528,
+  "weeklyInstalls": [
+   23081,
+   24761,
+   21890,
+   25583,
+   23406,
+   28624,
+   29279,
+   30930
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-base",
+  "name": "lark-base",
+  "installs": 360141,
+  "weeklyInstalls": [
+   22999,
+   24665,
+   21811,
+   25411,
+   23204,
+   28472,
+   29149,
+   30718
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-im",
+  "name": "lark-im",
+  "installs": 359699,
+  "weeklyInstalls": [
+   22950,
+   24654,
+   21809,
+   25425,
+   23230,
+   28431,
+   29082,
+   30648
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-drive",
+  "name": "lark-drive",
+  "installs": 359473,
+  "weeklyInstalls": [
+   22951,
+   24610,
+   21759,
+   25385,
+   23177,
+   28458,
+   29100,
+   30742
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-shared",
+  "name": "lark-shared",
+  "installs": 359367,
+  "weeklyInstalls": [
+   22957,
+   24631,
+   21779,
+   25438,
+   23186,
+   28399,
+   29173,
+   30739
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-wiki",
+  "name": "lark-wiki",
+  "installs": 358311,
+  "weeklyInstalls": [
+   22869,
+   24560,
+   21677,
+   25289,
+   23074,
+   28298,
+   28976,
+   30712
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-whiteboard",
+  "name": "lark-whiteboard",
+  "installs": 358158,
+  "weeklyInstalls": [
+   22844,
+   24568,
+   21688,
+   25273,
+   23118,
+   28337,
+   28999,
+   30629
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-sheets",
+  "name": "lark-sheets",
+  "installs": 358142,
+  "weeklyInstalls": [
+   22832,
+   24551,
+   21672,
+   25259,
+   23095,
+   28355,
+   29041,
+   30612
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-calendar",
+  "name": "lark-calendar",
+  "installs": 358101,
+  "weeklyInstalls": [
+   22842,
+   24562,
+   21652,
+   25310,
+   23018,
+   28199,
+   28897,
+   30549
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-task",
+  "name": "lark-task",
+  "installs": 357846,
+  "weeklyInstalls": [
+   22781,
+   24533,
+   21603,
+   25250,
+   23056,
+   28320,
+   28969,
+   30612
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "to-prd",
+  "name": "to-prd",
+  "installs": 357526,
+  "weeklyInstalls": [
+   36938,
+   30095,
+   26139,
+   32619,
+   36749,
+   36489,
+   37819,
+   20213
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-mail",
+  "name": "lark-mail",
+  "installs": 357387,
+  "weeklyInstalls": [
+   22754,
+   24511,
+   21641,
+   25254,
+   23044,
+   28185,
+   28833,
+   30504
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-minutes",
+  "name": "lark-minutes",
+  "installs": 357177,
+  "weeklyInstalls": [
+   22800,
+   24519,
+   21622,
+   25284,
+   23011,
+   28146,
+   28871,
+   30514
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-vc",
+  "name": "lark-vc",
+  "installs": 357093,
+  "weeklyInstalls": [
+   22793,
+   24506,
+   21624,
+   25279,
+   22995,
+   28140,
+   28836,
+   30482
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-event",
+  "name": "lark-event",
+  "installs": 356895,
+  "weeklyInstalls": [
+   22756,
+   24528,
+   21634,
+   25281,
+   22989,
+   28169,
+   28865,
+   30446
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-contact",
+  "name": "lark-contact",
+  "installs": 356682,
+  "weeklyInstalls": [
+   22787,
+   24463,
+   21628,
+   25232,
+   22993,
+   28120,
+   28909,
+   30467
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-vc-agent",
+  "name": "lark-vc-agent",
+  "installs": 356644,
+  "weeklyInstalls": [
+   30028,
+   39270,
+   40234,
+   42416,
+   36571,
+   43993,
+   46393,
+   39749
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-workflow-meeting-summary",
+  "name": "lark-workflow-meeting-summary",
+  "installs": 356439,
+  "weeklyInstalls": [
+   22737,
+   24439,
+   21601,
+   25244,
+   23001,
+   28138,
+   28836,
+   30433
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-workflow-standup-report",
+  "name": "lark-workflow-standup-report",
+  "installs": 355944,
+  "weeklyInstalls": [
+   22714,
+   24480,
+   21573,
+   25198,
+   22958,
+   28092,
+   28802,
+   30399
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-openapi-explorer",
+  "name": "lark-openapi-explorer",
+  "installs": 355804,
+  "weeklyInstalls": [
+   22746,
+   24443,
+   21523,
+   25164,
+   22924,
+   28074,
+   28783,
+   30373
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-skill-maker",
+  "name": "lark-skill-maker",
+  "installs": 355614,
+  "weeklyInstalls": [
+   22732,
+   24410,
+   21510,
+   25162,
+   22925,
+   28060,
+   28773,
+   30353
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "prototype",
+  "name": "prototype",
+  "installs": 354368,
+  "weeklyInstalls": [
+   34251,
+   27663,
+   23088,
+   29575,
+   34020,
+   33997,
+   36047,
+   57724
+  ]
+ },
+ {
+  "source": "juliusbrussee/caveman",
+  "skillId": "caveman",
+  "name": "caveman",
+  "installs": 353651,
+  "weeklyInstalls": [
+   24245,
+   20681,
+   26642,
+   25872,
+   24601,
+   21190,
+   25867,
+   24617
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "to-issues",
+  "name": "to-issues",
+  "installs": 344862,
+  "weeklyInstalls": [
+   35710,
+   28864,
+   24316,
+   30893,
+   35443,
+   35364,
+   36743,
+   20807
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-approval",
+  "name": "lark-approval",
+  "installs": 330393,
+  "weeklyInstalls": [
+   22795,
+   24471,
+   21548,
+   25244,
+   22985,
+   28153,
+   28866,
+   30452
+  ]
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-quotas",
+  "name": "azure-quotas",
+  "installs": 322806,
+  "weeklyInstalls": [
+   18061,
+   14565,
+   16773,
+   15028,
+   15752,
+   13002,
+   11700,
+   15764
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-apps",
+  "name": "lark-apps",
+  "installs": 321612,
+  "weeklyInstalls": [
+   11074,
+   39309,
+   40296,
+   42457,
+   36603,
+   44042,
+   46460,
+   39806
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "skill-creator",
+  "name": "skill-creator",
+  "installs": 315611,
+  "weeklyInstalls": [
+   16869,
+   14248,
+   12386,
+   12169,
+   11491,
+   10775,
+   10292,
+   9599
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-upgrade",
+  "name": "azure-upgrade",
+  "installs": 315297,
+  "weeklyInstalls": [
+   18054,
+   14495,
+   16782,
+   15019,
+   15752,
+   13002,
+   11702,
+   15762
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-slides",
+  "name": "lark-slides",
+  "installs": 310283,
+  "weeklyInstalls": [
+   22814,
+   24503,
+   21619,
+   25256,
+   22978,
+   28176,
+   28854,
+   30475
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-attendance",
+  "name": "lark-attendance",
+  "installs": 308766,
+  "weeklyInstalls": [
+   22708,
+   24392,
+   21484,
+   25140,
+   22916,
+   28043,
+   28771,
+   30358
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-okr",
+  "name": "lark-okr",
+  "installs": 294451,
+  "weeklyInstalls": [
+   22711,
+   24407,
+   21509,
+   25163,
+   22990,
+   28108,
+   28817,
+   30419
+  ]
+ },
+ {
+  "source": "supabase/agent-skills",
+  "skillId": "supabase-postgres-best-practices",
+  "name": "supabase-postgres-best-practices",
+  "installs": 289385,
+  "weeklyInstalls": [
+   15915,
+   13631,
+   14137,
+   15919,
+   13281,
+   11919,
+   12353,
+   14539
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-enterprise-infra-planner",
+  "name": "azure-enterprise-infra-planner",
+  "installs": 289355,
+  "weeklyInstalls": [
+   18031,
+   14543,
+   16768,
+   15007,
+   15745,
+   13004,
+   11699,
+   15756
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-kubernetes",
+  "name": "azure-kubernetes",
+  "installs": 282240,
+  "weeklyInstalls": [
+   18054,
+   14518,
+   16786,
+   15008,
+   15744,
+   13002,
+   11702,
+   15763
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "brainstorming",
+  "name": "brainstorming",
+  "installs": 279766,
+  "weeklyInstalls": [
+   15123,
+   14446,
+   14109,
+   14563,
+   13648,
+   12454,
+   12626,
+   13367
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-markdown",
+  "name": "lark-markdown",
+  "installs": 273500,
+  "weeklyInstalls": [
+   22791,
+   24468,
+   21587,
+   25225,
+   23032,
+   28242,
+   28946,
+   30562
+  ]
+ },
+ {
+  "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "skillId": "ui-ux-pro-max",
+  "name": "ui-ux-pro-max",
+  "installs": 268490,
+  "weeklyInstalls": [
+   12534,
+   11489,
+   11023,
+   12227,
+   11957,
+   11513,
+   11144,
+   11964
+  ]
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "design-taste-frontend",
+  "name": "design-taste-frontend",
+  "installs": 259506,
+  "weeklyInstalls": [
+   12612,
+   22679,
+   24220,
+   27783,
+   23411,
+   23159,
+   26204,
+   28201
+  ]
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-cost",
+  "name": "azure-cost",
+  "installs": 257685,
+  "weeklyInstalls": [
+   17992,
+   14431,
+   16658,
+   14982,
+   15731,
+   12990,
+   11689,
+   15755
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "vercel-labs/agent-skills",
+  "skillId": "vercel-composition-patterns",
+  "name": "vercel-composition-patterns",
+  "installs": 250455,
+  "weeklyInstalls": [
+   9339,
+   8409,
+   8135,
+   8711,
+   8327,
+   8637,
+   9118,
+   8997
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "teach",
+  "name": "teach",
+  "installs": 247118,
+  "weeklyInstalls": [
+   0,
+   7954,
+   13607,
+   34886,
+   37468,
+   36461,
+   36713,
+   54849
+  ]
+ },
+ {
+  "source": "roin-orca/skills",
+  "skillId": "simple",
+  "name": "simple",
+  "installs": 245631,
+  "weeklyInstalls": [
+   13293,
+   13303,
+   13174,
+   13315,
+   13327,
+   13280,
+   13298,
+   13280
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-vc-agent",
+  "name": "lark-vc-agent",
+  "installs": 245507,
+  "weeklyInstalls": [
+   22669,
+   24372,
+   21507,
+   25143,
+   22932,
+   28074,
+   28803,
+   30396
+  ]
+ },
+ {
+  "source": "scrapegraphai/just-scrape",
+  "skillId": "just-scrape",
+  "name": "just-scrape",
+  "installs": 244855,
+  "weeklyInstalls": [
+   9,
+   20393,
+   35387,
+   37641,
+   40915,
+   19,
+   16571,
+   17112
+  ]
+ },
+ {
+  "source": "juliusbrussee/caveman",
+  "skillId": "caveman-commit",
+  "name": "caveman-commit",
+  "installs": 242480,
+  "weeklyInstalls": [
+   18858,
+   16382,
+   20368,
+   19703,
+   18986,
+   16281,
+   20867,
+   20036
+  ]
+ },
+ {
+  "source": "juliusbrussee/caveman",
+  "skillId": "caveman-review",
+  "name": "caveman-review",
+  "installs": 240673,
+  "weeklyInstalls": [
+   18813,
+   16283,
+   20345,
+   19630,
+   18774,
+   16222,
+   20766,
+   19924
+  ]
+ },
+ {
+  "source": "juliusbrussee/caveman",
+  "skillId": "caveman-compress",
+  "name": "caveman-compress",
+  "installs": 238602,
+  "weeklyInstalls": [
+   18622,
+   16293,
+   20288,
+   19558,
+   18697,
+   16129,
+   20726,
+   19905
+  ]
+ },
+ {
+  "source": "shadcn/ui",
+  "skillId": "shadcn",
+  "name": "shadcn",
+  "installs": 237248,
+  "weeklyInstalls": [
+   11754,
+   11193,
+   10922,
+   10388,
+   10210,
+   9996,
+   11201,
+   11103
+  ]
+ },
+ {
+  "source": "juliusbrussee/caveman",
+  "skillId": "caveman-help",
+  "name": "caveman-help",
+  "installs": 233331,
+  "weeklyInstalls": [
+   18547,
+   16075,
+   20028,
+   19381,
+   18642,
+   16005,
+   20568,
+   19689
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "diagnose",
+  "name": "diagnose",
+  "installs": 233233,
+  "weeklyInstalls": [
+   36676,
+   29656,
+   24712,
+   31543,
+   14112,
+   1066,
+   774,
+   1304
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "write-a-skill",
+  "name": "write-a-skill",
+  "installs": 225037,
+  "weeklyInstalls": [
+   34265,
+   27755,
+   23397,
+   30267,
+   13311,
+   995,
+   737,
+   1209
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "zoom-out",
+  "name": "zoom-out",
+  "installs": 224437,
+  "weeklyInstalls": [
+   34990,
+   28238,
+   23514,
+   30030,
+   13351,
+   1036,
+   729,
+   1219
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "caveman",
+  "name": "caveman",
+  "installs": 219375,
+  "weeklyInstalls": [
+   34222,
+   27961,
+   23597,
+   30145,
+   13174,
+   914,
+   669,
+   1087
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "hyperframes",
+  "name": "hyperframes",
+  "installs": 213114,
+  "weeklyInstalls": [
+   17246,
+   13104,
+   10040,
+   10138,
+   9279,
+   31617,
+   28260,
+   31048
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "hyperframes-cli",
+  "name": "hyperframes-cli",
+  "installs": 211984,
+  "weeklyInstalls": [
+   16777,
+   11583,
+   9238,
+   10731,
+   10078,
+   31091,
+   27892,
+   30378
+  ]
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-cost-optimization",
+  "name": "azure-cost-optimization",
+  "installs": 208450,
+  "weeklyInstalls": [
+   617,
+   466,
+   429,
+   376,
+   287,
+   248,
+   211,
+   167
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-apps",
+  "name": "lark-apps",
+  "installs": 205349,
+  "weeklyInstalls": [
+   8166,
+   24258,
+   21381,
+   25011,
+   22884,
+   28004,
+   28760,
+   30371
+  ]
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "high-end-visual-design",
+  "name": "high-end-visual-design",
+  "installs": 202803,
+  "weeklyInstalls": [
+   11076,
+   17730,
+   18314,
+   20839,
+   17617,
+   17284,
+   19127,
+   20104
+  ]
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "airunway-aks-setup",
+  "name": "airunway-aks-setup",
+  "installs": 202279,
+  "weeklyInstalls": [
+   17806,
+   14298,
+   16523,
+   14851,
+   15642,
+   12911,
+   11607,
+   15695
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "hyperframes-registry",
+  "name": "hyperframes-registry",
+  "installs": 201697,
+  "weeklyInstalls": [
+   16399,
+   11195,
+   8846,
+   10246,
+   9791,
+   30803,
+   27598,
+   28345
+  ]
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "redesign-existing-projects",
+  "name": "redesign-existing-projects",
+  "installs": 199579,
+  "weeklyInstalls": [
+   10648,
+   17534,
+   17983,
+   20579,
+   17380,
+   17080,
+   18833,
+   20039
+  ]
+ },
+ {
+  "source": "open.feishu.cn",
+  "skillId": "lark-note",
+  "name": "lark-note",
+  "installs": 196317,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   7742,
+   36675,
+   44087,
+   46473,
+   39780
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "impeccable",
+  "name": "impeccable",
+  "installs": 194940,
+  "weeklyInstalls": [
+   22514,
+   19813,
+   9496,
+   9200,
+   7901,
+   7158,
+   8105,
+   8671
+  ]
+ },
+ {
+  "source": "juliusbrussee/caveman",
+  "skillId": "cavecrew",
+  "name": "cavecrew",
+  "installs": 191359,
+  "weeklyInstalls": [
+   18299,
+   15931,
+   20027,
+   19352,
+   18517,
+   15966,
+   20671,
+   19815
+  ]
+ },
+ {
+  "source": "juliusbrussee/caveman",
+  "skillId": "caveman-stats",
+  "name": "caveman-stats",
+  "installs": 190997,
+  "weeklyInstalls": [
+   18332,
+   15937,
+   20070,
+   19380,
+   18489,
+   15980,
+   20564,
+   19677
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "grilling",
+  "name": "grilling",
+  "installs": 190846,
+  "weeklyInstalls": [
+   0,
+   0,
+   1,
+   0,
+   23281,
+   37017,
+   39688,
+   61842
+  ]
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "systematic-debugging",
+  "name": "systematic-debugging",
+  "installs": 188029,
+  "weeklyInstalls": [
+   10659,
+   11153,
+   10861,
+   11159,
+   10439,
+   9457,
+   9486,
+   10481
+  ]
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "writing-plans",
+  "name": "writing-plans",
+  "installs": 185869,
+  "weeklyInstalls": [
+   10617,
+   11155,
+   10850,
+   11069,
+   10247,
+   9151,
+   9212,
+   10167
+  ]
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "minimalist-ui",
+  "name": "minimalist-ui",
+  "installs": 185651,
+  "weeklyInstalls": [
+   10088,
+   16398,
+   16749,
+   18985,
+   15977,
+   15931,
+   17633,
+   18429
+  ]
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "using-superpowers",
+  "name": "using-superpowers",
+  "installs": 184483,
+  "weeklyInstalls": [
+   10628,
+   11125,
+   10500,
+   10486,
+   9693,
+   8710,
+   9071,
+   9665
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "domain-modeling",
+  "name": "domain-modeling",
+  "installs": 178428,
+  "weeklyInstalls": [
+   0,
+   0,
+   1,
+   0,
+   22432,
+   35158,
+   36870,
+   57201
+  ]
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "full-output-enforcement",
+  "name": "full-output-enforcement",
+  "installs": 177362,
+  "weeklyInstalls": [
+   9607,
+   15648,
+   16012,
+   18163,
+   15220,
+   14913,
+   16651,
+   17336
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "pptx",
+  "name": "pptx",
+  "installs": 176906,
+  "weeklyInstalls": [
+   11400,
+   10032,
+   8938,
+   8439,
+   8107,
+   7486,
+   6494,
+   6437
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "entra-agent-id",
+  "name": "entra-agent-id",
+  "installs": 176455,
+  "weeklyInstalls": [
+   17659,
+   14212,
+   16453,
+   14794,
+   15605,
+   12884,
+   11580,
+   15675
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "codebase-design",
+  "name": "codebase-design",
+  "installs": 172841,
+  "weeklyInstalls": [
+   0,
+   0,
+   1,
+   0,
+   22166,
+   34335,
+   35367,
+   55119
+  ]
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "industrial-brutalist-ui",
+  "name": "industrial-brutalist-ui",
+  "installs": 172611,
+  "weeklyInstalls": [
+   9379,
+   15293,
+   15660,
+   17788,
+   14810,
+   14783,
+   16406,
+   17033
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "writing-great-skills",
+  "name": "writing-great-skills",
+  "installs": 172256,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   21583,
+   33815,
+   36197,
+   55665
+  ]
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "stitch-design-taste",
+  "name": "stitch-design-taste",
+  "installs": 171540,
+  "weeklyInstalls": [
+   9314,
+   15106,
+   15552,
+   17798,
+   14826,
+   14558,
+   16194,
+   16842
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "diagnosing-bugs",
+  "name": "diagnosing-bugs",
+  "installs": 171033,
+  "weeklyInstalls": [
+   0,
+   0,
+   1,
+   1,
+   22027,
+   34098,
+   35003,
+   54567
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "remotion-to-hyperframes",
+  "name": "remotion-to-hyperframes",
+  "installs": 169612,
+  "weeklyInstalls": [
+   16153,
+   10944,
+   8712,
+   10052,
+   9542,
+   30584,
+   27471,
+   21784
+  ]
+ },
+ {
+  "source": "supabase/agent-skills",
+  "skillId": "supabase",
+  "name": "supabase",
+  "installs": 168519,
+  "weeklyInstalls": [
+   12993,
+   11841,
+   11784,
+   12213,
+   10770,
+   10060,
+   10441,
+   10471
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "requesting-code-review",
+  "name": "requesting-code-review",
+  "installs": 168473,
+  "weeklyInstalls": [
+   10063,
+   10405,
+   9941,
+   10150,
+   9466,
+   8343,
+   8608,
+   9618
+  ]
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "gpt-taste",
+  "name": "gpt-taste",
+  "installs": 167393,
+  "weeklyInstalls": [
+   9828,
+   16048,
+   16488,
+   18749,
+   15632,
+   15225,
+   17059,
+   17907
+  ]
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "test-driven-development",
+  "name": "test-driven-development",
+  "installs": 166985,
+  "weeklyInstalls": [
+   9608,
+   10287,
+   9969,
+   10193,
+   9409,
+   8441,
+   8552,
+   9585
+  ]
+ },
+ {
+  "source": "vercel-labs/agent-skills",
+  "skillId": "vercel-react-native-skills",
+  "name": "vercel-react-native-skills",
+  "installs": 166660,
+  "weeklyInstalls": [
+   5987,
+   5659,
+   5292,
+   5934,
+   5413,
+   5294,
+   5612,
+   5653
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "seo-audit",
+  "name": "seo-audit",
+  "installs": 162259,
+  "weeklyInstalls": [
+   7131,
+   5722,
+   5874,
+   6320,
+   5860,
+   5429,
+   5411,
+   5741
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "ask-matt",
+  "name": "ask-matt",
+  "installs": 162224,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   20489,
+   32003,
+   33691,
+   52427
+  ]
+ },
+ {
+  "source": "101-skills/skills",
+  "skillId": "ai-video-generation",
+  "name": "ai-video-generation",
+  "installs": 161634,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   107326
+  ]
+ },
+ {
+  "source": "101-skills/skills",
+  "skillId": "ai-image-generation",
+  "name": "ai-image-generation",
+  "installs": 161245,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   107118
+  ]
+ },
+ {
+  "source": "101-skills/skills",
+  "skillId": "ai-avatar-video",
+  "name": "ai-avatar-video",
+  "installs": 161217,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   107102
+  ]
+ },
+ {
+  "source": "101-skills/skills",
+  "skillId": "remotion-render",
+  "name": "remotion-render",
+  "installs": 161202,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   107090
+  ]
+ },
+ {
+  "source": "101-skills/skills",
+  "skillId": "twitter-automation",
+  "name": "twitter-automation",
+  "installs": 161201,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   107089
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "pdf",
+  "name": "pdf",
+  "installs": 157941,
+  "weeklyInstalls": [
+   8420,
+   7489,
+   5925,
+   5396,
+   5381,
+   5150,
+   4819,
+   5658
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "brandkit",
+  "name": "brandkit",
+  "installs": 155305,
+  "weeklyInstalls": [
+   9823,
+   16009,
+   16457,
+   18644,
+   15680,
+   15497,
+   17450,
+   18100
+  ]
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "executing-plans",
+  "name": "executing-plans",
+  "installs": 155097,
+  "weeklyInstalls": [
+   8681,
+   9654,
+   9082,
+   9388,
+   8691,
+   7864,
+   8358,
+   9112
+  ]
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "image-to-code",
+  "name": "image-to-code",
+  "installs": 152814,
+  "weeklyInstalls": [
+   9470,
+   15466,
+   16066,
+   18093,
+   15066,
+   14855,
+   16544,
+   17251
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "copywriting",
+  "name": "copywriting",
+  "installs": 152426,
+  "weeklyInstalls": [
+   7153,
+   5966,
+   5903,
+   6312,
+   6010,
+   5598,
+   5443,
+   5793
+  ]
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "imagegen-frontend-web",
+  "name": "imagegen-frontend-web",
+  "installs": 152171,
+  "weeklyInstalls": [
+   9658,
+   15773,
+   16229,
+   18349,
+   15351,
+   15077,
+   16871,
+   17604
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "docx",
+  "name": "docx",
+  "installs": 151621,
+  "weeklyInstalls": [
+   9490,
+   8638,
+   7604,
+   7202,
+   7049,
+   6322,
+   5742,
+   5393
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "imagegen-frontend-mobile",
+  "name": "imagegen-frontend-mobile",
+  "installs": 148682,
+  "weeklyInstalls": [
+   9465,
+   15411,
+   15837,
+   17982,
+   15035,
+   14738,
+   16496,
+   17240
+  ]
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "subagent-driven-development",
+  "name": "subagent-driven-development",
+  "installs": 147162,
+  "weeklyInstalls": [
+   8514,
+   9414,
+   8824,
+   9162,
+   8619,
+   7910,
+   8001,
+   8709
+  ]
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "verification-before-completion",
+  "name": "verification-before-completion",
+  "installs": 145554,
+  "weeklyInstalls": [
+   8500,
+   9518,
+   8950,
+   9364,
+   8307,
+   7675,
+   7926,
+   9014
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "design-an-interface",
+  "name": "design-an-interface",
+  "installs": 145390,
+  "weeklyInstalls": [
+   85,
+   8119,
+   13714,
+   16916,
+   19364,
+   20128,
+   20098,
+   27027
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "implement",
+  "name": "implement",
+  "installs": 145096,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   12905,
+   21009,
+   29791,
+   55947
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "hyperframes-media",
+  "name": "hyperframes-media",
+  "installs": 143712,
+  "weeklyInstalls": [
+   16592,
+   11358,
+   9049,
+   10470,
+   9853,
+   30950,
+   27752,
+   6341
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "request-refactor-plan",
+  "name": "request-refactor-plan",
+  "installs": 141452,
+  "weeklyInstalls": [
+   85,
+   7949,
+   13437,
+   16492,
+   18980,
+   19777,
+   19658,
+   26076
+  ]
+ },
+ {
+  "source": "lllllllama/ai-paper-reproduction-skill",
+  "skillId": "paper-context-resolver",
+  "name": "paper-context-resolver",
+  "installs": 140473,
+  "weeklyInstalls": [
+   19896,
+   3589,
+   87,
+   124,
+   99,
+   75,
+   62,
+   73
+  ]
+ },
+ {
+  "source": "emilkowalski/skills",
+  "skillId": "emil-design-eng",
+  "name": "emil-design-eng",
+  "installs": 139931,
+  "weeklyInstalls": [
+   12303,
+   11387,
+   8384,
+   9906,
+   8455,
+   7760,
+   8386,
+   15096
+  ]
+ },
+ {
+  "source": "lllllllama/ai-paper-reproduction-skill",
+  "skillId": "repo-intake-and-plan",
+  "name": "repo-intake-and-plan",
+  "installs": 139897,
+  "weeklyInstalls": [
+   19847,
+   3538,
+   53,
+   62,
+   47,
+   39,
+   40,
+   34
+  ]
+ },
+ {
+  "source": "lllllllama/ai-paper-reproduction-skill",
+  "skillId": "minimal-run-and-audit",
+  "name": "minimal-run-and-audit",
+  "installs": 139847,
+  "weeklyInstalls": [
+   19840,
+   3534,
+   47,
+   61,
+   40,
+   28,
+   45,
+   33
+  ]
+ },
+ {
+  "source": "lllllllama/ai-paper-reproduction-skill",
+  "skillId": "env-and-assets-bootstrap",
+  "name": "env-and-assets-bootstrap",
+  "installs": 139845,
+  "weeklyInstalls": [
+   19839,
+   3526,
+   39,
+   55,
+   44,
+   33,
+   38,
+   29
+  ]
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "receiving-code-review",
+  "name": "receiving-code-review",
+  "installs": 139362,
+  "weeklyInstalls": [
+   8190,
+   9058,
+   8387,
+   8797,
+   8221,
+   7392,
+   7622,
+   8534
+  ]
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "writing-skills",
+  "name": "writing-skills",
+  "installs": 138199,
+  "weeklyInstalls": [
+   7992,
+   8941,
+   8371,
+   8657,
+   8064,
+   7259,
+   7753,
+   8467
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "ubiquitous-language",
+  "name": "ubiquitous-language",
+  "installs": 137216,
+  "weeklyInstalls": [
+   97,
+   7775,
+   13013,
+   15971,
+   18380,
+   19190,
+   19148,
+   25257
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "qa",
+  "name": "qa",
+  "installs": 137041,
+  "weeklyInstalls": [
+   74,
+   7841,
+   13346,
+   16382,
+   18871,
+   19680,
+   19598,
+   25989
+  ]
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "dispatching-parallel-agents",
+  "name": "dispatching-parallel-agents",
+  "installs": 136382,
+  "weeklyInstalls": [
+   7894,
+   8947,
+   8388,
+   8674,
+   8122,
+   7418,
+   7565,
+   8417
+  ]
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-reliability",
+  "name": "azure-reliability",
+  "installs": 135994,
+  "weeklyInstalls": [
+   17028,
+   13922,
+   16233,
+   14644,
+   15503,
+   12792,
+   11510,
+   15614
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "using-git-worktrees",
+  "name": "using-git-worktrees",
+  "installs": 135877,
+  "weeklyInstalls": [
+   7924,
+   8921,
+   8326,
+   8553,
+   8008,
+   7279,
+   7532,
+   8403
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "git-guardrails-claude-code",
+  "name": "git-guardrails-claude-code",
+  "installs": 134492,
+  "weeklyInstalls": [
+   145,
+   7562,
+   12700,
+   15622,
+   18173,
+   19002,
+   19089,
+   25126
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "obsidian-vault",
+  "name": "obsidian-vault",
+  "installs": 134339,
+  "weeklyInstalls": [
+   88,
+   7470,
+   12687,
+   15824,
+   18182,
+   19152,
+   19311,
+   25423
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "xlsx",
+  "name": "xlsx",
+  "installs": 134126,
+  "weeklyInstalls": [
+   8522,
+   7745,
+   6580,
+   6096,
+   6140,
+   5643,
+   5305,
+   4824
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "lllllllama/rigorpilot-skills",
+  "skillId": "ai-research-explore",
+  "name": "ai-research-explore",
+  "installs": 134117,
+  "weeklyInstalls": [
+   0,
+   14833,
+   15970,
+   15933,
+   15107,
+   18928,
+   20609,
+   22309
+  ]
+ },
+ {
+  "source": "lllllllama/rigorpilot-skills",
+  "skillId": "analyze-project",
+  "name": "analyze-project",
+  "installs": 134075,
+  "weeklyInstalls": [
+   5,
+   15094,
+   15967,
+   15900,
+   15062,
+   18861,
+   20537,
+   22266
+  ]
+ },
+ {
+  "source": "lllllllama/rigorpilot-skills",
+  "skillId": "explore-code",
+  "name": "explore-code",
+  "installs": 133866,
+  "weeklyInstalls": [
+   5,
+   15099,
+   15943,
+   15856,
+   15030,
+   18827,
+   20491,
+   22235
+  ]
+ },
+ {
+  "source": "lllllllama/rigorpilot-skills",
+  "skillId": "ai-research-reproduction",
+  "name": "ai-research-reproduction",
+  "installs": 133863,
+  "weeklyInstalls": [
+   5,
+   15088,
+   15934,
+   15855,
+   15035,
+   18830,
+   20492,
+   22243
+  ]
+ },
+ {
+  "source": "lllllllama/rigorpilot-skills",
+  "skillId": "paper-context-resolver",
+  "name": "paper-context-resolver",
+  "installs": 133809,
+  "weeklyInstalls": [
+   6,
+   15085,
+   15935,
+   15848,
+   15026,
+   18825,
+   20481,
+   22225
+  ]
+ },
+ {
+  "source": "lllllllama/rigorpilot-skills",
+  "skillId": "safe-debug",
+  "name": "safe-debug",
+  "installs": 133801,
+  "weeklyInstalls": [
+   5,
+   15085,
+   15933,
+   15846,
+   15024,
+   18822,
+   20482,
+   22226
+  ]
+ },
+ {
+  "source": "lllllllama/rigorpilot-skills",
+  "skillId": "repo-intake-and-plan",
+  "name": "repo-intake-and-plan",
+  "installs": 133794,
+  "weeklyInstalls": [
+   5,
+   15085,
+   15932,
+   15845,
+   15025,
+   18819,
+   20480,
+   22225
+  ]
+ },
+ {
+  "source": "lllllllama/rigorpilot-skills",
+  "skillId": "run-train",
+  "name": "run-train",
+  "installs": 133792,
+  "weeklyInstalls": [
+   5,
+   15086,
+   15933,
+   15848,
+   15023,
+   18821,
+   20477,
+   22220
+  ]
+ },
+ {
+  "source": "lllllllama/rigorpilot-skills",
+  "skillId": "env-and-assets-bootstrap",
+  "name": "env-and-assets-bootstrap",
+  "installs": 133783,
+  "weeklyInstalls": [
+   6,
+   15084,
+   15931,
+   15845,
+   15024,
+   18819,
+   20476,
+   22221
+  ]
+ },
+ {
+  "source": "lllllllama/rigorpilot-skills",
+  "skillId": "explore-run",
+  "name": "explore-run",
+  "installs": 133782,
+  "weeklyInstalls": [
+   5,
+   15085,
+   15931,
+   15845,
+   15023,
+   18819,
+   20476,
+   22220
+  ]
+ },
+ {
+  "source": "lllllllama/rigorpilot-skills",
+  "skillId": "minimal-run-and-audit",
+  "name": "minimal-run-and-audit",
+  "installs": 133782,
+  "weeklyInstalls": [
+   5,
+   15084,
+   15931,
+   15844,
+   15026,
+   18819,
+   20475,
+   22221
+  ]
+ },
+ {
+  "source": "obra/superpowers",
+  "skillId": "finishing-a-development-branch",
+  "name": "finishing-a-development-branch",
+  "installs": 133574,
+  "weeklyInstalls": [
+   7916,
+   8935,
+   8358,
+   8617,
+   7996,
+   7263,
+   7455,
+   8337
+  ]
+ },
+ {
+  "source": "larksuite/cli",
+  "skillId": "lark-note",
+  "name": "lark-note",
+  "installs": 132488,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   6195,
+   22824,
+   27958,
+   28726,
+   30319
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "edit-article",
+  "name": "edit-article",
+  "installs": 131662,
+  "weeklyInstalls": [
+   86,
+   7380,
+   12475,
+   15475,
+   18092,
+   18887,
+   18917,
+   25045
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "setup-pre-commit",
+  "name": "setup-pre-commit",
+  "installs": 129517,
+  "weeklyInstalls": [
+   107,
+   7267,
+   12260,
+   15151,
+   17655,
+   18643,
+   18612,
+   24539
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "scaffold-exercises",
+  "name": "scaffold-exercises",
+  "installs": 127254,
+  "weeklyInstalls": [
+   94,
+   7165,
+   12065,
+   15040,
+   17492,
+   18425,
+   18439,
+   24227
+  ]
+ },
+ {
+  "source": "arvindrk/extract-design-system",
+  "skillId": "extract-design-system",
+  "name": "extract-design-system",
+  "installs": 125446,
+  "weeklyInstalls": [
+   9642,
+   9498,
+   4687,
+   499,
+   386,
+   479,
+   548,
+   541
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "writing-shape",
+  "name": "writing-shape",
+  "installs": 125053,
+  "weeklyInstalls": [
+   65,
+   7139,
+   12166,
+   15061,
+   17561,
+   18714,
+   18776,
+   24511
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "writing-fragments",
+  "name": "writing-fragments",
+  "installs": 125009,
+  "weeklyInstalls": [
+   67,
+   7145,
+   12179,
+   15035,
+   17556,
+   18662,
+   18767,
+   24513
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "migrate-to-shoehorn",
+  "name": "migrate-to-shoehorn",
+  "installs": 124917,
+  "weeklyInstalls": [
+   97,
+   6998,
+   11835,
+   14648,
+   17111,
+   18167,
+   18182,
+   23865
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "writing-beats",
+  "name": "writing-beats",
+  "installs": 124711,
+  "weeklyInstalls": [
+   66,
+   7088,
+   12117,
+   14999,
+   17473,
+   18620,
+   18759,
+   24499
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "hyperframes-creative",
+  "name": "hyperframes-creative",
+  "installs": 117477,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   1208,
+   9742,
+   30789,
+   27640,
+   30254
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "hyperframes-animation",
+  "name": "hyperframes-animation",
+  "installs": 117181,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   1241,
+   9993,
+   31099,
+   27871,
+   30492
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "webapp-testing",
+  "name": "webapp-testing",
+  "installs": 115793,
+  "weeklyInstalls": [
+   7228,
+   6175,
+   5515,
+   5147,
+   5252,
+   4845,
+   4320,
+   4044
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "hyperframes-core",
+  "name": "hyperframes-core",
+  "installs": 114972,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   1223,
+   9870,
+   30874,
+   27680,
+   30435
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "marketing-psychology",
+  "name": "marketing-psychology",
+  "installs": 111821,
+  "weeklyInstalls": [
+   5303,
+   4568,
+   4578,
+   4660,
+   4349,
+   4085,
+   3875,
+   3943
+  ]
+ },
+ {
+  "source": "leonxlnx/taste-skill",
+  "skillId": "design-taste-frontend-v1",
+  "name": "design-taste-frontend-v1",
+  "installs": 111179,
+  "weeklyInstalls": [
+   0,
+   13169,
+   14965,
+   17066,
+   14279,
+   14018,
+   15558,
+   16061
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "content-strategy",
+  "name": "content-strategy",
+  "installs": 107220,
+  "weeklyInstalls": [
+   5296,
+   4639,
+   4625,
+   4667,
+   4307,
+   4070,
+   3865,
+   3885
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-basics",
+  "name": "firebase-basics",
+  "installs": 107172,
+  "weeklyInstalls": [
+   6991,
+   6523,
+   6133,
+   6547,
+   5847,
+   5738,
+   5535,
+   5539
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-auth-basics",
+  "name": "firebase-auth-basics",
+  "installs": 106329,
+  "weeklyInstalls": [
+   6931,
+   6484,
+   6058,
+   6490,
+   5820,
+   5706,
+   5495,
+   5499
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "sentry/dev",
+  "skillId": "sentry-cli",
+  "name": "sentry-cli",
+  "installs": 106278,
+  "weeklyInstalls": [
+   7408,
+   7349,
+   7838,
+   8855,
+   7458,
+   6556,
+   4405,
+   5158
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "code-review",
+  "name": "code-review",
+  "installs": 104855,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   22030,
+   56657
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-hosting-basics",
+  "name": "firebase-hosting-basics",
+  "installs": 103844,
+  "weeklyInstalls": [
+   6799,
+   6353,
+   5938,
+   6368,
+   5676,
+   5558,
+   5384,
+   5367
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-app-hosting-basics",
+  "name": "firebase-app-hosting-basics",
+  "installs": 103459,
+  "weeklyInstalls": [
+   6787,
+   6344,
+   5929,
+   6345,
+   5659,
+   5555,
+   5340,
+   5359
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-data-connect",
+  "name": "firebase-data-connect",
+  "installs": 102956,
+  "weeklyInstalls": [
+   6747,
+   6318,
+   5916,
+   6326,
+   5634,
+   5536,
+   5314,
+   5329
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "programmatic-seo",
+  "name": "programmatic-seo",
+  "installs": 102936,
+  "weeklyInstalls": [
+   4933,
+   4230,
+   4271,
+   4358,
+   4056,
+   3803,
+   3572,
+   3600
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "general-video",
+  "name": "general-video",
+  "installs": 101925,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   1193,
+   9715,
+   30745,
+   27553,
+   23737
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "product-launch-video",
+  "name": "product-launch-video",
+  "installs": 101641,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   1180,
+   9571,
+   30636,
+   27524,
+   23667
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "faceless-explainer",
+  "name": "faceless-explainer",
+  "installs": 101381,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   1169,
+   9551,
+   30633,
+   27564,
+   23439
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "motion-graphics",
+  "name": "motion-graphics",
+  "installs": 100801,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   1206,
+   9829,
+   30824,
+   27635,
+   23165
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "marketing-ideas",
+  "name": "marketing-ideas",
+  "installs": 100076,
+  "weeklyInstalls": [
+   4926,
+   4387,
+   4332,
+   4338,
+   3986,
+   3733,
+   3484,
+   3519
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "pr-to-video",
+  "name": "pr-to-video",
+  "installs": 99620,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   1144,
+   9381,
+   30426,
+   27351,
+   22635
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "resolving-merge-conflicts",
+  "name": "resolving-merge-conflicts",
+  "installs": 99157,
+  "weeklyInstalls": [
+   0,
+   0,
+   1,
+   0,
+   12218,
+   19816,
+   19945,
+   26825
+  ]
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-observability",
+  "name": "azure-observability",
+  "installs": 98235,
+  "weeklyInstalls": [
+   21,
+   18,
+   22,
+   24,
+   12,
+   8,
+   23,
+   11
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "website-to-video",
+  "name": "website-to-video",
+  "installs": 97822,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   1187,
+   9629,
+   30638,
+   27481,
+   22592
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "embedded-captions",
+  "name": "embedded-captions",
+  "installs": 97492,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   1174,
+   9573,
+   30588,
+   27513,
+   21672
+  ]
+ },
+ {
+  "source": "browser-act/skills",
+  "skillId": "browser-act",
+  "name": "browser-act",
+  "installs": 96358,
+  "weeklyInstalls": [
+   3281,
+   6664,
+   14653,
+   12975,
+   12947,
+   14316,
+   13244,
+   10733
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "media-use",
+  "name": "media-use",
+  "installs": 94826,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   17290,
+   27467,
+   31145
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "copy-editing",
+  "name": "copy-editing",
+  "installs": 94765,
+  "weeklyInstalls": [
+   4672,
+   4132,
+   4045,
+   4157,
+   3801,
+   3575,
+   3371,
+   3454
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "research",
+  "name": "research",
+  "installs": 93744,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   14781,
+   54222
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "gsap",
+  "name": "gsap",
+  "installs": 92921,
+  "weeklyInstalls": [
+   16690,
+   11565,
+   9195,
+   9431,
+   80,
+   70,
+   105,
+   284
+  ]
+ },
+ {
+  "source": "firecrawl/cli",
+  "skillId": "firecrawl",
+  "name": "firecrawl",
+  "installs": 92402,
+  "weeklyInstalls": [
+   4075,
+   4665,
+   4484,
+   4190,
+   4949,
+   4206,
+   4576,
+   4615
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "vercel-labs/agent-skills",
+  "skillId": "deploy-to-vercel",
+  "name": "deploy-to-vercel",
+  "installs": 92174,
+  "weeklyInstalls": [
+   4744,
+   4848,
+   4635,
+   4999,
+   4788,
+   4619,
+   4709,
+   4519
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "review",
+  "name": "review",
+  "installs": 91846,
+  "weeklyInstalls": [
+   73,
+   8269,
+   14054,
+   17348,
+   20335,
+   21139,
+   9326,
+   904
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "ai-seo",
+  "name": "ai-seo",
+  "installs": 91239,
+  "weeklyInstalls": [
+   5040,
+   4396,
+   4408,
+   4494,
+   4267,
+   3979,
+   3753,
+   3919
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "slideshow",
+  "name": "slideshow",
+  "installs": 90699,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   3071,
+   30543,
+   27500,
+   22413
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "website-to-hyperframes",
+  "name": "website-to-hyperframes",
+  "installs": 90143,
+  "weeklyInstalls": [
+   16388,
+   11142,
+   8857,
+   9151,
+   79,
+   63,
+   102,
+   271
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "mcp-builder",
+  "name": "mcp-builder",
+  "installs": 89944,
+  "weeklyInstalls": [
+   5661,
+   5046,
+   4241,
+   4047,
+   3951,
+   3481,
+   3272,
+   3395
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/playwright-cli",
+  "skillId": "playwright-cli",
+  "name": "playwright-cli",
+  "installs": 87584,
+  "weeklyInstalls": [
+   4635,
+   5134,
+   5346,
+   6096,
+   5974,
+   6447,
+   7351,
+   7316
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "higgsfield-ai/skills",
+  "skillId": "higgsfield-generate",
+  "name": "higgsfield-generate",
+  "installs": 87555,
+  "weeklyInstalls": [
+   6383,
+   6293,
+   9589,
+   10812,
+   10341,
+   8252,
+   7093,
+   6292
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "canvas-design",
+  "name": "canvas-design",
+  "installs": 86981,
+  "weeklyInstalls": [
+   5231,
+   4594,
+   3842,
+   3413,
+   3711,
+   3338,
+   3118,
+   3166
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "polish",
+  "name": "polish",
+  "installs": 86516,
+  "weeklyInstalls": [
+   29,
+   184,
+   172,
+   134,
+   112,
+   94,
+   63,
+   119
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "wayfinder",
+  "name": "wayfinder",
+  "installs": 85630,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   10843,
+   49242
+  ]
+ },
+ {
+  "source": "get-convex/agent-skills",
+  "skillId": "convex-quickstart",
+  "name": "convex-quickstart",
+  "installs": 85371,
+  "weeklyInstalls": [
+   5017,
+   4568,
+   4198,
+   4451,
+   4593,
+   4768,
+   3746,
+   3655
+  ]
+ },
+ {
+  "source": "get-convex/agent-skills",
+  "skillId": "convex-performance-audit",
+  "name": "convex-performance-audit",
+  "installs": 85008,
+  "weeklyInstalls": [
+   5022,
+   4577,
+   4220,
+   4445,
+   4614,
+   4787,
+   3765,
+   3667
+  ]
+ },
+ {
+  "source": "browser-use/browser-use",
+  "skillId": "browser-use",
+  "name": "browser-use",
+  "installs": 84786,
+  "weeklyInstalls": [
+   1346,
+   962,
+   856,
+   1202,
+   957,
+   965,
+   1146,
+   1548
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "get-convex/agent-skills",
+  "skillId": "convex-setup-auth",
+  "name": "convex-setup-auth",
+  "installs": 84682,
+  "weeklyInstalls": [
+   4995,
+   4560,
+   4200,
+   4439,
+   4581,
+   4757,
+   3742,
+   3655
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "music-to-video",
+  "name": "music-to-video",
+  "installs": 84662,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   27620,
+   27425,
+   22392
+  ]
+ },
+ {
+  "source": "get-convex/agent-skills",
+  "skillId": "convex-migration-helper",
+  "name": "convex-migration-helper",
+  "installs": 84641,
+  "weeklyInstalls": [
+   4990,
+   4571,
+   4192,
+   4447,
+   4593,
+   4759,
+   3741,
+   3642
+  ]
+ },
+ {
+  "source": "get-convex/agent-skills",
+  "skillId": "convex-create-component",
+  "name": "convex-create-component",
+  "installs": 84631,
+  "weeklyInstalls": [
+   4994,
+   4549,
+   4187,
+   4454,
+   4592,
+   4755,
+   3735,
+   3652
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "critique",
+  "name": "critique",
+  "installs": 83944,
+  "weeklyInstalls": [
+   30,
+   175,
+   167,
+   128,
+   107,
+   95,
+   61,
+   117
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "audit",
+  "name": "audit",
+  "installs": 83163,
+  "weeklyInstalls": [
+   30,
+   178,
+   170,
+   131,
+   107,
+   94,
+   60,
+   124
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "animate",
+  "name": "animate",
+  "installs": 83026,
+  "weeklyInstalls": [
+   29,
+   177,
+   164,
+   128,
+   102,
+   92,
+   60,
+   117
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "adapt",
+  "name": "adapt",
+  "installs": 83009,
+  "weeklyInstalls": [
+   31,
+   180,
+   166,
+   124,
+   104,
+   90,
+   60,
+   115
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "clarify",
+  "name": "clarify",
+  "installs": 82496,
+  "weeklyInstalls": [
+   30,
+   176,
+   168,
+   125,
+   104,
+   93,
+   59,
+   117
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "optimize",
+  "name": "optimize",
+  "installs": 82347,
+  "weeklyInstalls": [
+   33,
+   177,
+   166,
+   130,
+   104,
+   91,
+   56,
+   117
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "ad-creative",
+  "name": "ad-creative",
+  "installs": 82299,
+  "weeklyInstalls": [
+   4510,
+   3972,
+   3940,
+   4035,
+   3720,
+   3482,
+   3250,
+   3569
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "colorize",
+  "name": "colorize",
+  "installs": 82163,
+  "weeklyInstalls": [
+   32,
+   176,
+   170,
+   122,
+   102,
+   96,
+   57,
+   112
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "bolder",
+  "name": "bolder",
+  "installs": 81282,
+  "weeklyInstalls": [
+   33,
+   174,
+   166,
+   121,
+   101,
+   91,
+   56,
+   113
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "delight",
+  "name": "delight",
+  "installs": 81118,
+  "weeklyInstalls": [
+   30,
+   175,
+   163,
+   122,
+   105,
+   92,
+   55,
+   112
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "web-artifacts-builder",
+  "name": "web-artifacts-builder",
+  "installs": 81076,
+  "weeklyInstalls": [
+   5434,
+   4929,
+   4116,
+   3926,
+   4297,
+   3654,
+   3378,
+   3369
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "cold-email",
+  "name": "cold-email",
+  "installs": 80810,
+  "weeklyInstalls": [
+   4375,
+   3932,
+   3835,
+   3958,
+   3592,
+   3380,
+   3169,
+   3193
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "distill",
+  "name": "distill",
+  "installs": 80728,
+  "weeklyInstalls": [
+   29,
+   173,
+   163,
+   120,
+   106,
+   92,
+   57,
+   113
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "quieter",
+  "name": "quieter",
+  "installs": 79911,
+  "weeklyInstalls": [
+   30,
+   173,
+   165,
+   121,
+   102,
+   90,
+   52,
+   109
+  ]
+ },
+ {
+  "source": "vercel-labs/agent-skills",
+  "skillId": "vercel-react-view-transitions",
+  "name": "vercel-react-view-transitions",
+  "installs": 79809,
+  "weeklyInstalls": [
+   5269,
+   5285,
+   5275,
+   5573,
+   5228,
+   5131,
+   5273,
+   4931
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "site-architecture",
+  "name": "site-architecture",
+  "installs": 78274,
+  "weeklyInstalls": [
+   4396,
+   3897,
+   3824,
+   3896,
+   3618,
+   3360,
+   3139,
+   3219
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "sales-enablement",
+  "name": "sales-enablement",
+  "installs": 76769,
+  "weeklyInstalls": [
+   4254,
+   3792,
+   3737,
+   3792,
+   3576,
+   3323,
+   3109,
+   3157
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "churn-prevention",
+  "name": "churn-prevention",
+  "installs": 76624,
+  "weeklyInstalls": [
+   4163,
+   3705,
+   3616,
+   3695,
+   3396,
+   3180,
+   2941,
+   3006
+  ]
+ },
+ {
+  "source": "browser-act/skills",
+  "skillId": "browser-act-skill-forge",
+  "name": "browser-act-skill-forge",
+  "installs": 76252,
+  "weeklyInstalls": [
+   2938,
+   5622,
+   11575,
+   10284,
+   10233,
+   11366,
+   10517,
+   8408
+  ]
+ },
+ {
+  "source": "firecrawl/cli",
+  "skillId": "firecrawl-scrape",
+  "name": "firecrawl-scrape",
+  "installs": 74892,
+  "weeklyInstalls": [
+   3705,
+   4311,
+   4055,
+   3739,
+   4515,
+   3796,
+   4212,
+   4266
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/cli",
+  "skillId": "firecrawl-search",
+  "name": "firecrawl-search",
+  "installs": 74804,
+  "weeklyInstalls": [
+   3778,
+   4398,
+   4000,
+   3745,
+   4523,
+   3801,
+   4219,
+   4280
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "better-auth/skills",
+  "skillId": "better-auth-best-practices",
+  "name": "better-auth-best-practices",
+  "installs": 74763,
+  "weeklyInstalls": [
+   2637,
+   2103,
+   2059,
+   3497,
+   2749,
+   2314,
+   2383,
+   4558
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "revops",
+  "name": "revops",
+  "installs": 73770,
+  "weeklyInstalls": [
+   4106,
+   3656,
+   3596,
+   3637,
+   3347,
+   3141,
+   2902,
+   2945
+  ]
+ },
+ {
+  "source": "firecrawl/cli",
+  "skillId": "firecrawl-crawl",
+  "name": "firecrawl-crawl",
+  "installs": 73221,
+  "weeklyInstalls": [
+   3641,
+   4250,
+   3887,
+   3635,
+   4412,
+   3698,
+   4151,
+   4186
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/cli",
+  "skillId": "firecrawl-agent",
+  "name": "firecrawl-agent",
+  "installs": 73201,
+  "weeklyInstalls": [
+   3628,
+   4236,
+   3889,
+   3618,
+   4402,
+   3688,
+   4143,
+   4170
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/cli",
+  "skillId": "firecrawl-map",
+  "name": "firecrawl-map",
+  "installs": 72895,
+  "weeklyInstalls": [
+   3612,
+   4230,
+   3878,
+   3603,
+   4392,
+   3685,
+   4138,
+   4165
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "css-animations",
+  "name": "css-animations",
+  "installs": 72878,
+  "weeklyInstalls": [
+   16826,
+   11467,
+   9229,
+   9474,
+   55,
+   46,
+   76,
+   194
+  ]
+ },
+ {
+  "source": "firecrawl/cli",
+  "skillId": "firecrawl-download",
+  "name": "firecrawl-download",
+  "installs": 72655,
+  "weeklyInstalls": [
+   3603,
+   4206,
+   3863,
+   3587,
+   4376,
+   3666,
+   4116,
+   4150
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "tailwind",
+  "name": "tailwind",
+  "installs": 71100,
+  "weeklyInstalls": [
+   16407,
+   11389,
+   9118,
+   9326,
+   47,
+   44,
+   76,
+   184
+  ]
+ },
+ {
+  "source": "higgsfield-ai/skills",
+  "skillId": "higgsfield-product-photoshoot",
+  "name": "higgsfield-product-photoshoot",
+  "installs": 71028,
+  "weeklyInstalls": [
+   5668,
+   5340,
+   6983,
+   8369,
+   7717,
+   6073,
+   5623,
+   5296
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-security-rules-auditor",
+  "name": "firebase-security-rules-auditor",
+  "installs": 70890,
+  "weeklyInstalls": [
+   6884,
+   6414,
+   6057,
+   6465,
+   5812,
+   5679,
+   5505,
+   5508
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "animejs",
+  "name": "animejs",
+  "installs": 70553,
+  "weeklyInstalls": [
+   16346,
+   11126,
+   8800,
+   9052,
+   48,
+   42,
+   73,
+   184
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "loop-me",
+  "name": "loop-me",
+  "installs": 70319,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   11958,
+   20130,
+   26401
+  ]
+ },
+ {
+  "source": "higgsfield-ai/skills",
+  "skillId": "higgsfield-soul-id",
+  "name": "higgsfield-soul-id",
+  "installs": 70169,
+  "weeklyInstalls": [
+   5583,
+   5289,
+   6912,
+   8237,
+   7624,
+   5992,
+   5550,
+   5233
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "three",
+  "name": "three",
+  "installs": 69854,
+  "weeklyInstalls": [
+   16226,
+   11039,
+   8683,
+   8919,
+   46,
+   41,
+   75,
+   179
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "lead-magnets",
+  "name": "lead-magnets",
+  "installs": 69823,
+  "weeklyInstalls": [
+   4285,
+   3851,
+   3785,
+   3840,
+   3517,
+   3335,
+   3083,
+   3115
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-ai-logic-basics",
+  "name": "firebase-ai-logic-basics",
+  "installs": 69806,
+  "weeklyInstalls": [
+   6787,
+   6353,
+   5952,
+   6381,
+   5708,
+   5600,
+   5373,
+   5388
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "lottie",
+  "name": "lottie",
+  "installs": 69589,
+  "weeklyInstalls": [
+   16188,
+   10993,
+   8666,
+   8909,
+   46,
+   44,
+   72,
+   179
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "waapi",
+  "name": "waapi",
+  "installs": 69229,
+  "weeklyInstalls": [
+   16136,
+   10937,
+   8614,
+   8846,
+   47,
+   38,
+   74,
+   179
+  ]
+ },
+ {
+  "source": "higgsfield-ai/skills",
+  "skillId": "higgsfield-marketplace-cards",
+  "name": "higgsfield-marketplace-cards",
+  "installs": 69097,
+  "weeklyInstalls": [
+   5550,
+   5260,
+   6879,
+   8226,
+   7595,
+   5963,
+   5491,
+   5176
+  ]
+ },
+ {
+  "source": "vercel-labs/agent-skills",
+  "skillId": "vercel-cli-with-tokens",
+  "name": "vercel-cli-with-tokens",
+  "installs": 68702,
+  "weeklyInstalls": [
+   4094,
+   4202,
+   3961,
+   4391,
+   4155,
+   4028,
+   3994,
+   3783
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "theme-factory",
+  "name": "theme-factory",
+  "installs": 68498,
+  "weeklyInstalls": [
+   4575,
+   4053,
+   3277,
+   2820,
+   2863,
+   2648,
+   2421,
+   2498
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "doc-coauthoring",
+  "name": "doc-coauthoring",
+  "installs": 68261,
+  "weeklyInstalls": [
+   4534,
+   3984,
+   3217,
+   2752,
+   2867,
+   2581,
+   2298,
+   2474
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "talking-head-recut",
+  "name": "talking-head-recut",
+  "installs": 67946,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   12168,
+   27372,
+   21468
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-firestore",
+  "name": "firebase-firestore",
+  "installs": 67492,
+  "weeklyInstalls": [
+   6878,
+   6415,
+   6011,
+   6433,
+   5857,
+   5663,
+   5440,
+   5470
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "social-content",
+  "name": "social-content",
+  "installs": 67486,
+  "weeklyInstalls": [
+   17,
+   71,
+   55,
+   46,
+   39,
+   35,
+   30,
+   33
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "to-spec",
+  "name": "to-spec",
+  "installs": 67229,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   41415
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "brand-guidelines",
+  "name": "brand-guidelines",
+  "installs": 66792,
+  "weeklyInstalls": [
+   4569,
+   3941,
+   3177,
+   2689,
+   2833,
+   2756,
+   2338,
+   2243
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "algorithmic-art",
+  "name": "algorithmic-art",
+  "installs": 66629,
+  "weeklyInstalls": [
+   4252,
+   3750,
+   2994,
+   2537,
+   2635,
+   2343,
+   2197,
+   2298
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "to-tickets",
+  "name": "to-tickets",
+  "installs": 66547,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   41155
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-crashlytics",
+  "name": "firebase-crashlytics",
+  "installs": 65889,
+  "weeklyInstalls": [
+   6745,
+   6318,
+   5918,
+   6325,
+   5630,
+   5559,
+   5339,
+   5345
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "typeset",
+  "name": "typeset",
+  "installs": 65679,
+  "weeklyInstalls": [
+   31,
+   150,
+   137,
+   101,
+   82,
+   80,
+   46,
+   86
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "xcode-project-setup",
+  "name": "xcode-project-setup",
+  "installs": 65456,
+  "weeklyInstalls": [
+   6680,
+   6289,
+   5869,
+   6308,
+   5606,
+   5523,
+   5300,
+   5313
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "nexscope-ai/amazon-skills",
+  "skillId": "amazon-product-research",
+  "name": "amazon-product-research",
+  "installs": 65347,
+  "weeklyInstalls": [
+   71,
+   57,
+   56,
+   8748,
+   12775,
+   14127,
+   13125,
+   10603
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "customer-research",
+  "name": "customer-research",
+  "installs": 64503,
+  "weeklyInstalls": [
+   4583,
+   4119,
+   3993,
+   4089,
+   3718,
+   3460,
+   3270,
+   3396
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "overdrive",
+  "name": "overdrive",
+  "installs": 63760,
+  "weeklyInstalls": [
+   28,
+   150,
+   138,
+   98,
+   81,
+   75,
+   44,
+   85
+  ]
+ },
+ {
+  "source": "getpaperclipai/paperclip",
+  "skillId": "design-guide",
+  "name": "design-guide",
+  "installs": 62719,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3727,
+   36702
+  ]
+ },
+ {
+  "source": "getpaperclipai/paperclip",
+  "skillId": "para-memory-files",
+  "name": "para-memory-files",
+  "installs": 62579,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3728,
+   36635
+  ]
+ },
+ {
+  "source": "getpaperclipai/paperclip",
+  "skillId": "paperclip-create-agent",
+  "name": "paperclip-create-agent",
+  "installs": 62576,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3727,
+   36633
+  ]
+ },
+ {
+  "source": "getpaperclipai/paperclip",
+  "skillId": "paperclip",
+  "name": "paperclip",
+  "installs": 62576,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3728,
+   36634
+  ]
+ },
+ {
+  "source": "getpaperclipai/paperclip",
+  "skillId": "paperclip-converting-plans-to-tasks",
+  "name": "paperclip-converting-plans-to-tasks",
+  "installs": 62576,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3728,
+   36634
+  ]
+ },
+ {
+  "source": "getpaperclipai/paperclip",
+  "skillId": "paperclip-board",
+  "name": "paperclip-board",
+  "installs": 62569,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3727,
+   36630
+  ]
+ },
+ {
+  "source": "squirrelscan/skills",
+  "skillId": "audit-website",
+  "name": "audit-website",
+  "installs": 62552,
+  "weeklyInstalls": [
+   1046,
+   743,
+   888,
+   1250,
+   1286,
+   1284,
+   1373,
+   1420
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "developing-genkit-js",
+  "name": "developing-genkit-js",
+  "installs": 62171,
+  "weeklyInstalls": [
+   6688,
+   3071,
+   13,
+   5,
+   3,
+   3,
+   1,
+   3
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "developing-genkit-dart",
+  "name": "developing-genkit-dart",
+  "installs": 61908,
+  "weeklyInstalls": [
+   6651,
+   3060,
+   8,
+   4,
+   2,
+   4,
+   2,
+   4
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "pricing-strategy",
+  "name": "pricing-strategy",
+  "installs": 61643,
+  "weeklyInstalls": [
+   19,
+   75,
+   59,
+   42,
+   39,
+   42,
+   25,
+   31
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "product-marketing-context",
+  "name": "product-marketing-context",
+  "installs": 61641,
+  "weeklyInstalls": [
+   21,
+   69,
+   55,
+   38,
+   38,
+   35,
+   26,
+   28
+  ]
+ },
+ {
+  "source": "get-convex/agent-skills",
+  "skillId": "convex",
+  "name": "convex",
+  "installs": 61280,
+  "weeklyInstalls": [
+   5005,
+   4580,
+   4209,
+   4446,
+   4591,
+   4768,
+   3754,
+   3676
+  ]
+ },
+ {
+  "source": "degausai/wonda",
+  "skillId": "wonda-cli",
+  "name": "wonda-cli",
+  "installs": 61118,
+  "weeklyInstalls": [
+   5156,
+   5142,
+   5169,
+   5138,
+   5149,
+   5150,
+   5128,
+   5156
+  ]
+ },
+ {
+  "source": "currents-dev/playwright-best-practices-skill",
+  "skillId": "playwright-best-practices",
+  "name": "playwright-best-practices",
+  "installs": 61098,
+  "weeklyInstalls": [
+   2653,
+   2411,
+   2422,
+   2740,
+   2536,
+   2510,
+   2350,
+   2393
+  ]
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "python-appservice-deploy",
+  "name": "python-appservice-deploy",
+  "installs": 60550,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   13119,
+   12132,
+   11094,
+   15295
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "internal-comms",
+  "name": "internal-comms",
+  "installs": 59304,
+  "weeklyInstalls": [
+   4160,
+   3676,
+   2910,
+   2439,
+   2581,
+   2298,
+   2065,
+   2173
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "hyperframes-keyframes",
+  "name": "hyperframes-keyframes",
+  "installs": 59011,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   15108,
+   29121
+  ]
+ },
+ {
+  "source": "kepano/obsidian-skills",
+  "skillId": "obsidian-markdown",
+  "name": "obsidian-markdown",
+  "installs": 58861,
+  "weeklyInstalls": [
+   3047,
+   2609,
+   2530,
+   3935,
+   2566,
+   2883,
+   2849,
+   4579
+  ]
+ },
+ {
+  "source": "expo/skills",
+  "skillId": "building-native-ui",
+  "name": "building-native-ui",
+  "installs": 58643,
+  "weeklyInstalls": [
+   3170,
+   2747,
+   2306,
+   2494,
+   2167,
+   2327,
+   2107,
+   591
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "analytics-tracking",
+  "name": "analytics-tracking",
+  "installs": 58275,
+  "weeklyInstalls": [
+   17,
+   72,
+   54,
+   44,
+   39,
+   35,
+   28,
+   28
+  ]
+ },
+ {
+  "source": "firecrawl/cli",
+  "skillId": "firecrawl-interact",
+  "name": "firecrawl-interact",
+  "installs": 58067,
+  "weeklyInstalls": [
+   3594,
+   4208,
+   3841,
+   3553,
+   4368,
+   3663,
+   4119,
+   4139
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "page-cro",
+  "name": "page-cro",
+  "installs": 57906,
+  "weeklyInstalls": [
+   18,
+   64,
+   53,
+   43,
+   36,
+   30,
+   26,
+   29
+  ]
+ },
+ {
+  "source": "stripe/ai",
+  "skillId": "stripe-best-practices",
+  "name": "stripe-best-practices",
+  "installs": 57587,
+  "weeklyInstalls": [
+   3923,
+   3196,
+   3225,
+   3483,
+   2917,
+   2742,
+   2786,
+   2951
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "launch-strategy",
+  "name": "launch-strategy",
+  "installs": 56485,
+  "weeklyInstalls": [
+   17,
+   72,
+   43,
+   41,
+   38,
+   35,
+   25,
+   30
+  ]
+ },
+ {
+  "source": "intellectronica/agent-skills",
+  "skillId": "notion-api",
+  "name": "notion-api",
+  "installs": 56090,
+  "weeklyInstalls": [
+   4069,
+   4632,
+   4466,
+   4234,
+   3203,
+   3167,
+   929,
+   998
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "slack-gif-creator",
+  "name": "slack-gif-creator",
+  "installs": 56040,
+  "weeklyInstalls": [
+   4066,
+   3572,
+   2865,
+   2328,
+   2472,
+   2205,
+   1901,
+   1757
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "schema-markup",
+  "name": "schema-markup",
+  "installs": 55913,
+  "weeklyInstalls": [
+   17,
+   67,
+   51,
+   38,
+   33,
+   32,
+   26,
+   26
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "contribute-catalog",
+  "name": "contribute-catalog",
+  "installs": 55815,
+  "weeklyInstalls": [
+   16039,
+   10818,
+   8495,
+   8706,
+   34,
+   25,
+   52,
+   108
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-remote-config-basics",
+  "name": "firebase-remote-config-basics",
+  "installs": 55724,
+  "weeklyInstalls": [
+   6732,
+   6309,
+   5908,
+   6303,
+   5628,
+   5531,
+   5332,
+   5342
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "email-sequence",
+  "name": "email-sequence",
+  "installs": 55542,
+  "weeklyInstalls": [
+   16,
+   59,
+   43,
+   37,
+   35,
+   31,
+   25,
+   24
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-gmail",
+  "name": "gws-gmail",
+  "installs": 55500,
+  "weeklyInstalls": [
+   1987,
+   1514,
+   2552,
+   1694,
+   1545,
+   1896,
+   3165,
+   1480
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "normalize",
+  "name": "normalize",
+  "installs": 55283,
+  "weeklyInstalls": [
+   19,
+   120,
+   123,
+   93,
+   78,
+   68,
+   38,
+   84
+  ]
+ },
+ {
+  "source": "firecrawl/skills",
+  "skillId": "firecrawl-build-search",
+  "name": "firecrawl-build-search",
+  "installs": 55113,
+  "weeklyInstalls": [
+   3411,
+   4057,
+   3684,
+   3451,
+   4260,
+   3535,
+   4005,
+   3995
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "paid-ads",
+  "name": "paid-ads",
+  "installs": 55098,
+  "weeklyInstalls": [
+   18,
+   65,
+   43,
+   37,
+   35,
+   34,
+   25,
+   26
+  ]
+ },
+ {
+  "source": "firecrawl/skills",
+  "skillId": "firecrawl-build-scrape",
+  "name": "firecrawl-build-scrape",
+  "installs": 55092,
+  "weeklyInstalls": [
+   3407,
+   4059,
+   3679,
+   3444,
+   4260,
+   3529,
+   4010,
+   3992
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/skills",
+  "skillId": "firecrawl-build-interact",
+  "name": "firecrawl-build-interact",
+  "installs": 54969,
+  "weeklyInstalls": [
+   3399,
+   4042,
+   3670,
+   3430,
+   4244,
+   3525,
+   4001,
+   3987
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/skills",
+  "skillId": "firecrawl-build-onboarding",
+  "name": "firecrawl-build-onboarding",
+  "installs": 54949,
+  "weeklyInstalls": [
+   3397,
+   4043,
+   3667,
+   3426,
+   4245,
+   3523,
+   4004,
+   3987
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "competitor-alternatives",
+  "name": "competitor-alternatives",
+  "installs": 54585,
+  "weeklyInstalls": [
+   19,
+   71,
+   45,
+   40,
+   36,
+   32,
+   25,
+   25
+  ]
+ },
+ {
+  "source": "google-labs-code/stitch-skills",
+  "skillId": "design-md",
+  "name": "design-md",
+  "installs": 54416,
+  "weeklyInstalls": [
+   1358,
+   1189,
+   780,
+   1329,
+   1296,
+   1199,
+   1319,
+   1100
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "wshobson/agents",
+  "skillId": "tailwind-design-system",
+  "name": "tailwind-design-system",
+  "installs": 54370,
+  "weeklyInstalls": [
+   1868,
+   1418,
+   1340,
+   1354,
+   1515,
+   1418,
+   1257,
+   1214
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "extract",
+  "name": "extract",
+  "installs": 54206,
+  "weeklyInstalls": [
+   20,
+   125,
+   125,
+   93,
+   80,
+   69,
+   40,
+   84
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "onboarding-cro",
+  "name": "onboarding-cro",
+  "installs": 54060,
+  "weeklyInstalls": [
+   16,
+   61,
+   45,
+   41,
+   34,
+   32,
+   24,
+   26
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "onboard",
+  "name": "onboard",
+  "installs": 54051,
+  "weeklyInstalls": [
+   19,
+   120,
+   125,
+   91,
+   79,
+   67,
+   38,
+   83
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "frontend-design",
+  "name": "frontend-design",
+  "installs": 54035,
+  "weeklyInstalls": [
+   14,
+   100,
+   107,
+   82,
+   75,
+   59,
+   39,
+   77
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "harden",
+  "name": "harden",
+  "installs": 53981,
+  "weeklyInstalls": [
+   20,
+   125,
+   122,
+   92,
+   76,
+   69,
+   41,
+   87
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "template-skill",
+  "name": "template-skill",
+  "installs": 53832,
+  "weeklyInstalls": [
+   3941,
+   3417,
+   2729,
+   2200,
+   2341,
+   2051,
+   1799,
+   1657
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "wshobson/agents",
+  "skillId": "typescript-advanced-types",
+  "name": "typescript-advanced-types",
+  "installs": 53529,
+  "weeklyInstalls": [
+   1562,
+   1331,
+   1321,
+   1387,
+   1548,
+   1448,
+   1384,
+   1310
+  ]
+ },
+ {
+  "source": "google/agents-cli",
+  "skillId": "google-agents-cli-adk-code",
+  "name": "google-agents-cli-adk-code",
+  "installs": 53391,
+  "weeklyInstalls": [
+   1908,
+   1428,
+   1888,
+   1916,
+   14932,
+   7959,
+   7924,
+   5647
+  ]
+ },
+ {
+  "source": "google/agents-cli",
+  "skillId": "google-agents-cli-workflow",
+  "name": "google-agents-cli-workflow",
+  "installs": 53171,
+  "weeklyInstalls": [
+   1878,
+   1418,
+   1876,
+   1901,
+   14903,
+   7938,
+   7900,
+   5627
+  ]
+ },
+ {
+  "source": "google/agents-cli",
+  "skillId": "google-agents-cli-eval",
+  "name": "google-agents-cli-eval",
+  "installs": 53140,
+  "weeklyInstalls": [
+   1875,
+   1412,
+   1869,
+   1898,
+   14904,
+   7937,
+   7904,
+   5624
+  ]
+ },
+ {
+  "source": "google/agents-cli",
+  "skillId": "google-agents-cli-scaffold",
+  "name": "google-agents-cli-scaffold",
+  "installs": 53117,
+  "weeklyInstalls": [
+   1872,
+   1415,
+   1879,
+   1898,
+   14890,
+   7935,
+   7895,
+   5618
+  ]
+ },
+ {
+  "source": "google/agents-cli",
+  "skillId": "google-agents-cli-observability",
+  "name": "google-agents-cli-observability",
+  "installs": 53108,
+  "weeklyInstalls": [
+   1869,
+   1414,
+   1872,
+   1893,
+   14894,
+   7934,
+   7902,
+   5616
+  ]
+ },
+ {
+  "source": "google/agents-cli",
+  "skillId": "google-agents-cli-deploy",
+  "name": "google-agents-cli-deploy",
+  "installs": 53104,
+  "weeklyInstalls": [
+   1871,
+   1413,
+   1876,
+   1898,
+   14886,
+   7938,
+   7897,
+   5619
+  ]
+ },
+ {
+  "source": "google/agents-cli",
+  "skillId": "google-agents-cli-publish",
+  "name": "google-agents-cli-publish",
+  "installs": 53030,
+  "weeklyInstalls": [
+   1868,
+   1407,
+   1870,
+   1890,
+   14881,
+   7931,
+   7889,
+   5607
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "form-cro",
+  "name": "form-cro",
+  "installs": 52988,
+  "weeklyInstalls": [
+   14,
+   57,
+   41,
+   37,
+   33,
+   28,
+   23,
+   23
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "free-tool-strategy",
+  "name": "free-tool-strategy",
+  "installs": 52748,
+  "weeklyInstalls": [
+   18,
+   65,
+   40,
+   38,
+   35,
+   31,
+   24,
+   24
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "referral-program",
+  "name": "referral-program",
+  "installs": 52688,
+  "weeklyInstalls": [
+   16,
+   59,
+   42,
+   35,
+   32,
+   28,
+   22,
+   26
+  ]
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "wizard",
+  "name": "wizard",
+  "installs": 52536,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   16880,
+   24720
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "ab-test-setup",
+  "name": "ab-test-setup",
+  "installs": 52520,
+  "weeklyInstalls": [
+   17,
+   61,
+   38,
+   38,
+   36,
+   31,
+   21,
+   20
+  ]
+ },
+ {
+  "source": "nexscope-ai/ecommerce-skills",
+  "skillId": "cross-border-ecommerce",
+  "name": "cross-border-ecommerce",
+  "installs": 52245,
+  "weeklyInstalls": [
+   33,
+   40,
+   51,
+   7000,
+   10314,
+   11284,
+   10467,
+   8506
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "signup-flow-cro",
+  "name": "signup-flow-cro",
+  "installs": 52240,
+  "weeklyInstalls": [
+   15,
+   58,
+   41,
+   34,
+   33,
+   31,
+   25,
+   24
+  ]
+ },
+ {
+  "source": "genkit-ai/skills",
+  "skillId": "developing-genkit-js",
+  "name": "developing-genkit-js",
+  "installs": 52212,
+  "weeklyInstalls": [
+   3387,
+   3746,
+   3786,
+   3472,
+   3330,
+   2754,
+   1289,
+   1179
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "paywall-upgrade-cro",
+  "name": "paywall-upgrade-cro",
+  "installs": 51840,
+  "weeklyInstalls": [
+   15,
+   58,
+   40,
+   36,
+   32,
+   33,
+   24,
+   25
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "popup-cro",
+  "name": "popup-cro",
+  "installs": 51509,
+  "weeklyInstalls": [
+   15,
+   59,
+   43,
+   33,
+   34,
+   29,
+   21,
+   24
+  ]
+ },
+ {
+  "source": "msmps/opentui-skill",
+  "skillId": "opentui",
+  "name": "opentui",
+  "installs": 51415,
+  "weeklyInstalls": [
+   5273,
+   7454,
+   6787,
+   5221,
+   3924,
+   2615,
+   5561,
+   1586
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-drive",
+  "name": "gws-drive",
+  "installs": 51286,
+  "weeklyInstalls": [
+   1931,
+   1451,
+   1453,
+   1416,
+   1040,
+   1216,
+   2384,
+   1485
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "typegpu",
+  "name": "typegpu",
+  "installs": 51275,
+  "weeklyInstalls": [
+   16052,
+   10896,
+   8560,
+   8755,
+   31,
+   28,
+   50,
+   99
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "teach-impeccable",
+  "name": "teach-impeccable",
+  "installs": 50969,
+  "weeklyInstalls": [
+   18,
+   108,
+   112,
+   92,
+   75,
+   66,
+   37,
+   82
+  ]
+ },
+ {
+  "source": "anthropics/claude-code",
+  "skillId": "frontend-design",
+  "name": "frontend-design",
+  "installs": 50880,
+  "weeklyInstalls": [
+   1758,
+   1907,
+   1532,
+   1914,
+   1978,
+   1308,
+   1267,
+   1157
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "vercel/turborepo",
+  "skillId": "turborepo",
+  "name": "turborepo",
+  "installs": 50550,
+  "weeklyInstalls": [
+   2383,
+   1682,
+   2216,
+   1983,
+   2802,
+   2923,
+   3155,
+   2758
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "nozomio-labs/nia-skill",
+  "skillId": "nia",
+  "name": "nia",
+  "installs": 50509,
+  "weeklyInstalls": [
+   5305,
+   7444,
+   6732,
+   5175,
+   3877,
+   2613,
+   5594,
+   1588
+  ]
+ },
+ {
+  "source": "google-labs-code/stitch-skills",
+  "skillId": "react:components",
+  "name": "react:components",
+  "installs": 50432,
+  "weeklyInstalls": [
+   1131,
+   1018,
+   617,
+   1132,
+   1083,
+   731,
+   0,
+   0
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "neondatabase/agent-skills",
+  "skillId": "neon-postgres",
+  "name": "neon-postgres",
+  "installs": 50218,
+  "weeklyInstalls": [
+   2019,
+   1782,
+   1696,
+   1664,
+   1492,
+   1444,
+   1465,
+   2479
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-gmail-send",
+  "name": "gws-gmail-send",
+  "installs": 49969,
+  "weeklyInstalls": [
+   1593,
+   1201,
+   1370,
+   1081,
+   869,
+   1470,
+   3073,
+   1168
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "kepano/obsidian-skills",
+  "skillId": "obsidian-cli",
+  "name": "obsidian-cli",
+  "installs": 49953,
+  "weeklyInstalls": [
+   2669,
+   2360,
+   2153,
+   2166,
+   1811,
+   2387,
+   2288,
+   4231
+  ]
+ },
+ {
+  "source": "anthropics/skills",
+  "skillId": "claude-api",
+  "name": "claude-api",
+  "installs": 49947,
+  "weeklyInstalls": [
+   4291,
+   3807,
+   3173,
+   2799,
+   3071,
+   2572,
+   2262,
+   2021
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "developing-genkit-go",
+  "name": "developing-genkit-go",
+  "installs": 49326,
+  "weeklyInstalls": [
+   6614,
+   3054,
+   8,
+   3,
+   3,
+   2,
+   1,
+   2
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "google-labs-code/stitch-skills",
+  "skillId": "enhance-prompt",
+  "name": "enhance-prompt",
+  "installs": 49316,
+  "weeklyInstalls": [
+   1188,
+   1147,
+   764,
+   1237,
+   1217,
+   1077,
+   1158,
+   973
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "kepano/obsidian-skills",
+  "skillId": "obsidian-bases",
+  "name": "obsidian-bases",
+  "installs": 49117,
+  "weeklyInstalls": [
+   2442,
+   2160,
+   2008,
+   2142,
+   1752,
+   2332,
+   2289,
+   4207
+  ]
+ },
+ {
+  "source": "stripe/ai",
+  "skillId": "upgrade-stripe",
+  "name": "upgrade-stripe",
+  "installs": 48086,
+  "weeklyInstalls": [
+   3213,
+   2586,
+   2667,
+   3043,
+   2586,
+   2404,
+   2392,
+   2450
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "google-labs-code/stitch-skills",
+  "skillId": "stitch-loop",
+  "name": "stitch-loop",
+  "installs": 47957,
+  "weeklyInstalls": [
+   1049,
+   1040,
+   634,
+   1112,
+   1059,
+   969,
+   1077,
+   895
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "expo/skills",
+  "skillId": "native-data-fetching",
+  "name": "native-data-fetching",
+  "installs": 46791,
+  "weeklyInstalls": [
+   2621,
+   2184,
+   1825,
+   2109,
+   1756,
+   1908,
+   1739,
+   491
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "claude-handoff",
+  "name": "claude-handoff",
+  "installs": 46705,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   8669,
+   26408
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "competitor-profiling",
+  "name": "competitor-profiling",
+  "installs": 46648,
+  "weeklyInstalls": [
+   4343,
+   3902,
+   3822,
+   3861,
+   3555,
+   3333,
+   3116,
+   3154
+  ]
+ },
+ {
+  "source": "juliusbrussee/caveman",
+  "skillId": "compress",
+  "name": "compress",
+  "installs": 46442,
+  "weeklyInstalls": [
+   40,
+   126,
+   96,
+   61,
+   52,
+   40,
+   43,
+   50
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "community-marketing",
+  "name": "community-marketing",
+  "installs": 45278,
+  "weeklyInstalls": [
+   4205,
+   3745,
+   3684,
+   3746,
+   3457,
+   3231,
+   3017,
+   3026
+  ]
+ },
+ {
+  "source": "kepano/obsidian-skills",
+  "skillId": "json-canvas",
+  "name": "json-canvas",
+  "installs": 45145,
+  "weeklyInstalls": [
+   2478,
+   2140,
+   2021,
+   3263,
+   2035,
+   2368,
+   2399,
+   4093
+  ]
+ },
+ {
+  "source": "stripe/ai",
+  "skillId": "stripe-projects",
+  "name": "stripe-projects",
+  "installs": 45070,
+  "weeklyInstalls": [
+   3196,
+   2639,
+   2830,
+   3209,
+   2700,
+   2546,
+   2483,
+   2532
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "google-labs-code/stitch-skills",
+  "skillId": "shadcn-ui",
+  "name": "shadcn-ui",
+  "installs": 44785,
+  "weeklyInstalls": [
+   1081,
+   1009,
+   688,
+   1165,
+   1145,
+   1051,
+   1127,
+   940
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "agentix-cloud/skills",
+  "skillId": "agentix-ceo",
+  "name": "agentix-ceo",
+  "installs": 44734,
+  "weeklyInstalls": [
+   3242,
+   3211,
+   3244,
+   3249,
+   3288,
+   3308,
+   3286,
+   3215
+  ]
+ },
+ {
+  "source": "solana-foundation/solana-dev-skill",
+  "skillId": "solana-dev",
+  "name": "solana-dev",
+  "installs": 44665,
+  "weeklyInstalls": [
+   3035,
+   2050,
+   2302,
+   2708,
+   2472,
+   2277,
+   2031,
+   2765
+  ]
+ },
+ {
+  "source": "agent.qq.com",
+  "skillId": "agently-mail",
+  "name": "agently-mail",
+  "installs": 44480,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   28719,
+   10561,
+   3590
+  ]
+ },
+ {
+  "source": "kepano/obsidian-skills",
+  "skillId": "defuddle",
+  "name": "defuddle",
+  "installs": 44196,
+  "weeklyInstalls": [
+   2501,
+   2164,
+   2022,
+   3245,
+   2072,
+   2364,
+   2412,
+   4130
+  ]
+ },
+ {
+  "source": "firecrawl/cli",
+  "skillId": "firecrawl-parse",
+  "name": "firecrawl-parse",
+  "installs": 44169,
+  "weeklyInstalls": [
+   3596,
+   4201,
+   3839,
+   3568,
+   4368,
+   3664,
+   4111,
+   4146
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "image",
+  "name": "image",
+  "installs": 43968,
+  "weeklyInstalls": [
+   4254,
+   3804,
+   3766,
+   3812,
+   3488,
+   3254,
+   3024,
+   3105
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "directory-submissions",
+  "name": "directory-submissions",
+  "installs": 43770,
+  "weeklyInstalls": [
+   4053,
+   3632,
+   3558,
+   3636,
+   3343,
+   3117,
+   2903,
+   2926
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "video",
+  "name": "video",
+  "installs": 43756,
+  "weeklyInstalls": [
+   4235,
+   3824,
+   3714,
+   3762,
+   3467,
+   3220,
+   3001,
+   3105
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-calendar",
+  "name": "gws-calendar",
+  "installs": 43696,
+  "weeklyInstalls": [
+   1899,
+   1440,
+   1507,
+   1305,
+   1132,
+   1111,
+   1796,
+   1355
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "expo/skills",
+  "skillId": "expo-tailwind-setup",
+  "name": "expo-tailwind-setup",
+  "installs": 43434,
+  "weeklyInstalls": [
+   2335,
+   1990,
+   1715,
+   1940,
+   1615,
+   1796,
+   1555,
+   1514
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "mattpocock/skills",
+  "skillId": "decision-mapping",
+  "name": "decision-mapping",
+  "installs": 43382,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   12442,
+   20314,
+   9873,
+   574
+  ]
+ },
+ {
+  "source": "jakubkrehel/make-interfaces-feel-better",
+  "skillId": "make-interfaces-feel-better",
+  "name": "make-interfaces-feel-better",
+  "installs": 42910,
+  "weeklyInstalls": [
+   6196,
+   2601,
+   680,
+   1028,
+   1482,
+   5203,
+   2425,
+   3076
+  ]
+ },
+ {
+  "source": "expo/skills",
+  "skillId": "upgrading-expo",
+  "name": "upgrading-expo",
+  "installs": 42613,
+  "weeklyInstalls": [
+   2665,
+   2290,
+   1854,
+   2038,
+   1714,
+   1831,
+   1686,
+   462
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-shared",
+  "name": "gws-shared",
+  "installs": 42568,
+  "weeklyInstalls": [
+   1554,
+   1222,
+   1345,
+   1136,
+   923,
+   1167,
+   2250,
+   1272
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "expo/skills",
+  "skillId": "expo-dev-client",
+  "name": "expo-dev-client",
+  "installs": 42373,
+  "weeklyInstalls": [
+   2536,
+   2155,
+   1815,
+   2008,
+   1695,
+   1780,
+   1638,
+   1622
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-docs",
+  "name": "gws-docs",
+  "installs": 41918,
+  "weeklyInstalls": [
+   1918,
+   1458,
+   1369,
+   1314,
+   1036,
+   1128,
+   1318,
+   1373
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "wind-information-co-ltd/wind-skills",
+  "skillId": "wind-mcp-skill",
+  "name": "wind-mcp-skill",
+  "installs": 41691,
+  "weeklyInstalls": [
+   1938,
+   1077,
+   3292,
+   4465,
+   5101,
+   6288,
+   7160,
+   7836
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-sheets",
+  "name": "gws-sheets",
+  "installs": 41633,
+  "weeklyInstalls": [
+   1893,
+   1440,
+   1473,
+   1293,
+   1032,
+   1119,
+   1458,
+   1470
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "vercel/ai",
+  "skillId": "ai-sdk",
+  "name": "ai-sdk",
+  "installs": 40943,
+  "weeklyInstalls": [
+   2063,
+   1182,
+   1315,
+   1231,
+   1245,
+   1495,
+   2113,
+   1732
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "expo/skills",
+  "skillId": "expo-deployment",
+  "name": "expo-deployment",
+  "installs": 40568,
+  "weeklyInstalls": [
+   2551,
+   2132,
+   1801,
+   2010,
+   1686,
+   1857,
+   1660,
+   471
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "arrange",
+  "name": "arrange",
+  "installs": 39800,
+  "weeklyInstalls": [
+   18,
+   89,
+   97,
+   69,
+   58,
+   50,
+   28,
+   58
+  ]
+ },
+ {
+  "source": "wshobson/agents",
+  "skillId": "nodejs-backend-patterns",
+  "name": "nodejs-backend-patterns",
+  "installs": 39779,
+  "weeklyInstalls": [
+   1100,
+   839,
+   924,
+   946,
+   1008,
+   773,
+   699,
+   635
+  ]
+ },
+ {
+  "source": "expo/skills",
+  "skillId": "expo-cicd-workflows",
+  "name": "expo-cicd-workflows",
+  "installs": 39594,
+  "weeklyInstalls": [
+   2366,
+   1930,
+   1613,
+   1814,
+   1554,
+   1644,
+   1461,
+   431
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "github/awesome-copilot",
+  "skillId": "git-commit",
+  "name": "git-commit",
+  "installs": 39051,
+  "weeklyInstalls": [
+   1328,
+   955,
+   948,
+   954,
+   853,
+   836,
+   796,
+   815
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "pexoai/pexo-skills",
+  "skillId": "pexo-agent",
+  "name": "pexo-agent",
+  "installs": 38920,
+  "weeklyInstalls": [
+   3851,
+   0,
+   5494,
+   4791,
+   1334,
+   99,
+   103,
+   109
+  ]
+ },
+ {
+  "source": "op7418/humanizer-zh",
+  "skillId": "humanizer-zh",
+  "name": "humanizer-zh",
+  "installs": 38260,
+  "weeklyInstalls": [
+   2371,
+   1925,
+   2305,
+   2310,
+   2392,
+   2389,
+   2052,
+   1825
+  ]
+ },
+ {
+  "source": "emilkowalski/skills",
+  "skillId": "review-animations",
+  "name": "review-animations",
+  "installs": 38025,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   3506,
+   6236,
+   7400,
+   14311
+  ]
+ },
+ {
+  "source": "alchaincyf/huashu-design",
+  "skillId": "huashu-design",
+  "name": "huashu-design",
+  "installs": 37939,
+  "weeklyInstalls": [
+   2317,
+   2221,
+   2531,
+   3427,
+   2107,
+   1799,
+   1789,
+   1610
+  ]
+ },
+ {
+  "source": "expo/skills",
+  "skillId": "expo-api-routes",
+  "name": "expo-api-routes",
+  "installs": 37559,
+  "weeklyInstalls": [
+   2183,
+   1862,
+   1564,
+   1787,
+   1478,
+   1569,
+   1403,
+   377
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "othmanadi/planning-with-files",
+  "skillId": "planning-with-files",
+  "name": "planning-with-files",
+  "installs": 37297,
+  "weeklyInstalls": [
+   2089,
+   1942,
+   1564,
+   1430,
+   1294,
+   1050,
+   1172,
+   1243
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "co-marketing",
+  "name": "co-marketing",
+  "installs": 36736,
+  "weeklyInstalls": [
+   4077,
+   3651,
+   3591,
+   3655,
+   3352,
+   3151,
+   2931,
+   2960
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-firestore-standard",
+  "name": "firebase-firestore-standard",
+  "installs": 36732,
+  "weeklyInstalls": [
+   0,
+   6,
+   9,
+   4,
+   2,
+   3,
+   0,
+   4
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "addyosmani/web-quality-skills",
+  "skillId": "accessibility",
+  "name": "accessibility",
+  "installs": 36624,
+  "weeklyInstalls": [
+   1112,
+   1177,
+   1403,
+   2184,
+   2089,
+   1830,
+   1770,
+   1769
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "cro",
+  "name": "cro",
+  "installs": 36197,
+  "weeklyInstalls": [
+   4549,
+   4099,
+   4077,
+   4198,
+   3853,
+   3554,
+   3427,
+   3473
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-sheets-read",
+  "name": "gws-sheets-read",
+  "installs": 35873,
+  "weeklyInstalls": [
+   1673,
+   1254,
+   1188,
+   1115,
+   882,
+   915,
+   1216,
+   1239
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "social",
+  "name": "social",
+  "installs": 35795,
+  "weeklyInstalls": [
+   4564,
+   4093,
+   3985,
+   4078,
+   3758,
+   3511,
+   3301,
+   3479
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-firestore-enterprise-native-mode",
+  "name": "firebase-firestore-enterprise-native-mode",
+  "installs": 35794,
+  "weeklyInstalls": [
+   0,
+   5,
+   6,
+   3,
+   2,
+   3,
+   0,
+   3
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-docs-write",
+  "name": "gws-docs-write",
+  "installs": 35553,
+  "weeklyInstalls": [
+   1682,
+   1248,
+   1185,
+   1126,
+   879,
+   932,
+   1153,
+   1209
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "hugmouse/skills",
+  "skillId": "value",
+  "name": "value",
+  "installs": 35503,
+  "weeklyInstalls": [
+   5,
+   6,
+   12,
+   7,
+   6,
+   6,
+   10,
+   2
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "product-marketing",
+  "name": "product-marketing",
+  "installs": 35491,
+  "weeklyInstalls": [
+   4526,
+   4031,
+   3974,
+   4020,
+   3778,
+   3496,
+   3340,
+   3391
+  ]
+ },
+ {
+  "source": "vercel-labs/agent-skills",
+  "skillId": "vercel-optimize",
+  "name": "vercel-optimize",
+  "installs": 35473,
+  "weeklyInstalls": [
+   2964,
+   4304,
+   4123,
+   4718,
+   4601,
+   4421,
+   4393,
+   4109
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "cloudflare/skills",
+  "skillId": "cloudflare",
+  "name": "cloudflare",
+  "installs": 35455,
+  "weeklyInstalls": [
+   1584,
+   1420,
+   2175,
+   2240,
+   2116,
+   2220,
+   2205,
+   3080
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-calendar-agenda",
+  "name": "gws-calendar-agenda",
+  "installs": 35309,
+  "weeklyInstalls": [
+   1629,
+   1205,
+   1139,
+   1068,
+   847,
+   902,
+   1222,
+   1153
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "greensock/gsap-skills",
+  "skillId": "gsap-core",
+  "name": "gsap-core",
+  "installs": 35185,
+  "weeklyInstalls": [
+   1868,
+   3841,
+   3541,
+   2817,
+   2295,
+   2763,
+   2401,
+   2442
+  ]
+ },
+ {
+  "source": "resciencelab/opc-skills",
+  "skillId": "seo-geo",
+  "name": "seo-geo",
+  "installs": 35149,
+  "weeklyInstalls": [
+   952,
+   896,
+   946,
+   963,
+   1008,
+   1032,
+   1136,
+   1246
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-drive-upload",
+  "name": "gws-drive-upload",
+  "installs": 35001,
+  "weeklyInstalls": [
+   1612,
+   1215,
+   1173,
+   1107,
+   866,
+   891,
+   1145,
+   1145
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "figma",
+  "name": "figma",
+  "installs": 34958,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   7107,
+   21721
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-code-style",
+  "name": "golang-code-style",
+  "installs": 34799,
+  "weeklyInstalls": [
+   506,
+   572,
+   393,
+   748,
+   21419,
+   5209,
+   1841,
+   820
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "analytics",
+  "name": "analytics",
+  "installs": 34573,
+  "weeklyInstalls": [
+   4434,
+   3970,
+   3900,
+   3951,
+   3667,
+   3427,
+   3209,
+   3233
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-error-handling",
+  "name": "golang-error-handling",
+  "installs": 34406,
+  "weeklyInstalls": [
+   501,
+   555,
+   382,
+   730,
+   21364,
+   5145,
+   1769,
+   742
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-calendar-insert",
+  "name": "gws-calendar-insert",
+  "installs": 34242,
+  "weeklyInstalls": [
+   1560,
+   1217,
+   1220,
+   1026,
+   824,
+   827,
+   1164,
+   1088
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-performance",
+  "name": "golang-performance",
+  "installs": 34167,
+  "weeklyInstalls": [
+   478,
+   544,
+   387,
+   718,
+   21359,
+   5110,
+   1700,
+   684
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "pricing",
+  "name": "pricing",
+  "installs": 34143,
+  "weeklyInstalls": [
+   4317,
+   3837,
+   3827,
+   3896,
+   3660,
+   3401,
+   3205,
+   3226
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-design-patterns",
+  "name": "golang-design-patterns",
+  "installs": 34096,
+  "weeklyInstalls": [
+   460,
+   534,
+   368,
+   718,
+   21355,
+   5132,
+   1753,
+   732
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "firebase-ai-logic",
+  "name": "firebase-ai-logic",
+  "installs": 34079,
+  "weeklyInstalls": [
+   0,
+   1,
+   1,
+   1,
+   1,
+   2,
+   0,
+   0
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-testing",
+  "name": "golang-testing",
+  "installs": 34069,
+  "weeklyInstalls": [
+   462,
+   523,
+   365,
+   743,
+   21353,
+   5143,
+   1756,
+   722
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "ads",
+  "name": "ads",
+  "installs": 33936,
+  "weeklyInstalls": [
+   4239,
+   3849,
+   3838,
+   3888,
+   3603,
+   3339,
+   3195,
+   3283
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-security",
+  "name": "golang-security",
+  "installs": 33859,
+  "weeklyInstalls": [
+   453,
+   505,
+   351,
+   699,
+   21326,
+   5140,
+   1724,
+   690
+  ]
+ },
+ {
+  "source": "replicas-group/skill",
+  "skillId": "replicas-agent",
+  "name": "replicas-agent",
+  "installs": 33715,
+  "weeklyInstalls": [
+   8691,
+   2707,
+   158,
+   78,
+   13,
+   36,
+   74,
+   482
+  ]
+ },
+ {
+  "source": "google-labs-code/stitch-skills",
+  "skillId": "remotion",
+  "name": "remotion",
+  "installs": 33695,
+  "weeklyInstalls": [
+   925,
+   889,
+   598,
+   1053,
+   1032,
+   915,
+   1028,
+   857
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "emails",
+  "name": "emails",
+  "installs": 33603,
+  "weeklyInstalls": [
+   4247,
+   3802,
+   3747,
+   3840,
+   3540,
+   3306,
+   3148,
+   3142
+  ]
+ },
+ {
+  "source": "greensock/gsap-skills",
+  "skillId": "gsap-scrolltrigger",
+  "name": "gsap-scrolltrigger",
+  "installs": 33603,
+  "weeklyInstalls": [
+   1823,
+   3759,
+   3413,
+   2696,
+   2192,
+   2615,
+   2304,
+   2342
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-concurrency",
+  "name": "golang-concurrency",
+  "installs": 33538,
+  "weeklyInstalls": [
+   441,
+   514,
+   339,
+   674,
+   21296,
+   5056,
+   1641,
+   645
+  ]
+ },
+ {
+  "source": "firebase/agent-skills",
+  "skillId": "developing-genkit-python",
+  "name": "developing-genkit-python",
+  "installs": 33467,
+  "weeklyInstalls": [
+   6640,
+   3062,
+   8,
+   2,
+   2,
+   1,
+   1,
+   2
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-naming",
+  "name": "golang-naming",
+  "installs": 33415,
+  "weeklyInstalls": [
+   430,
+   508,
+   339,
+   668,
+   21290,
+   5035,
+   1643,
+   638
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "launch",
+  "name": "launch",
+  "installs": 33371,
+  "weeklyInstalls": [
+   4232,
+   3807,
+   3732,
+   3784,
+   3567,
+   3324,
+   3135,
+   3148
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-data-structures",
+  "name": "golang-data-structures",
+  "installs": 33354,
+  "weeklyInstalls": [
+   432,
+   501,
+   335,
+   659,
+   21283,
+   5046,
+   1627,
+   642
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-documentation",
+  "name": "golang-documentation",
+  "installs": 33334,
+  "weeklyInstalls": [
+   434,
+   496,
+   321,
+   658,
+   21278,
+   5066,
+   1625,
+   638
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-context",
+  "name": "golang-context",
+  "installs": 33322,
+  "weeklyInstalls": [
+   441,
+   503,
+   328,
+   664,
+   21281,
+   5040,
+   1636,
+   604
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-database",
+  "name": "golang-database",
+  "installs": 33282,
+  "weeklyInstalls": [
+   422,
+   495,
+   328,
+   672,
+   21290,
+   5042,
+   1625,
+   602
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "competitors",
+  "name": "competitors",
+  "installs": 33263,
+  "weeklyInstalls": [
+   4220,
+   3797,
+   3747,
+   3788,
+   3541,
+   3266,
+   3073,
+   3140
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-safety",
+  "name": "golang-safety",
+  "installs": 33257,
+  "weeklyInstalls": [
+   441,
+   495,
+   325,
+   647,
+   21277,
+   5027,
+   1644,
+   592
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-modernize",
+  "name": "golang-modernize",
+  "installs": 33254,
+  "weeklyInstalls": [
+   427,
+   516,
+   337,
+   663,
+   21279,
+   5023,
+   1625,
+   632
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "schema",
+  "name": "schema",
+  "installs": 33186,
+  "weeklyInstalls": [
+   4229,
+   3803,
+   3724,
+   3792,
+   3538,
+   3263,
+   3092,
+   3154
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-project-layout",
+  "name": "golang-project-layout",
+  "installs": 33175,
+  "weeklyInstalls": [
+   431,
+   489,
+   338,
+   676,
+   21283,
+   5039,
+   1597,
+   600
+  ]
+ },
+ {
+  "source": "cloudflare/skills",
+  "skillId": "wrangler",
+  "name": "wrangler",
+  "installs": 33148,
+  "weeklyInstalls": [
+   1638,
+   1386,
+   2163,
+   2144,
+   2021,
+   2105,
+   2205,
+   3040
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "anysearch-ai/anysearch-skill",
+  "skillId": "anysearch",
+  "name": "anysearch",
+  "installs": 33139,
+  "weeklyInstalls": [
+   7748,
+   5307,
+   8515,
+   5479,
+   293,
+   212,
+   164,
+   147
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-troubleshooting",
+  "name": "golang-troubleshooting",
+  "installs": 33120,
+  "weeklyInstalls": [
+   422,
+   488,
+   321,
+   662,
+   21262,
+   5008,
+   1607,
+   604
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-lint",
+  "name": "golang-lint",
+  "installs": 33105,
+  "weeklyInstalls": [
+   423,
+   493,
+   326,
+   680,
+   21271,
+   5024,
+   1595,
+   605
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-popular-libraries",
+  "name": "golang-popular-libraries",
+  "installs": 33056,
+  "weeklyInstalls": [
+   419,
+   477,
+   315,
+   644,
+   21256,
+   5022,
+   1584,
+   578
+  ]
+ },
+ {
+  "source": "addyosmani/web-quality-skills",
+  "skillId": "seo",
+  "name": "seo",
+  "installs": 33021,
+  "weeklyInstalls": [
+   777,
+   922,
+   1146,
+   1769,
+   1690,
+   1480,
+   1539,
+   1464
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-structs-interfaces",
+  "name": "golang-structs-interfaces",
+  "installs": 33012,
+  "weeklyInstalls": [
+   415,
+   483,
+   310,
+   645,
+   21258,
+   5013,
+   1611,
+   585
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-observability",
+  "name": "golang-observability",
+  "installs": 33002,
+  "weeklyInstalls": [
+   422,
+   484,
+   318,
+   652,
+   21261,
+   5012,
+   1586,
+   582
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-dependency-management",
+  "name": "golang-dependency-management",
+  "installs": 32991,
+  "weeklyInstalls": [
+   408,
+   496,
+   318,
+   671,
+   21257,
+   5019,
+   1589,
+   562
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-dependency-injection",
+  "name": "golang-dependency-injection",
+  "installs": 32951,
+  "weeklyInstalls": [
+   412,
+   479,
+   316,
+   644,
+   21256,
+   5009,
+   1587,
+   579
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-sheets-append",
+  "name": "gws-sheets-append",
+  "installs": 32911,
+  "weeklyInstalls": [
+   1535,
+   1158,
+   1098,
+   1048,
+   812,
+   890,
+   1125,
+   1078
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-cli",
+  "name": "golang-cli",
+  "installs": 32910,
+  "weeklyInstalls": [
+   411,
+   482,
+   315,
+   654,
+   21260,
+   5000,
+   1573,
+   556
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-grpc",
+  "name": "golang-grpc",
+  "installs": 32902,
+  "weeklyInstalls": [
+   407,
+   483,
+   313,
+   646,
+   21241,
+   5006,
+   1574,
+   577
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-benchmark",
+  "name": "golang-benchmark",
+  "installs": 32881,
+  "weeklyInstalls": [
+   408,
+   471,
+   308,
+   645,
+   21265,
+   5002,
+   1583,
+   563
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-gmail-triage",
+  "name": "gws-gmail-triage",
+  "installs": 32811,
+  "weeklyInstalls": [
+   1532,
+   1123,
+   1279,
+   1022,
+   796,
+   860,
+   1123,
+   1048
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "skillId": "ckm:design-system",
+  "name": "ckm:design-system",
+  "installs": 32795,
+  "weeklyInstalls": [
+   2546,
+   3259,
+   2842,
+   2918,
+   2758,
+   1071,
+   1,
+   0
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-continuous-integration",
+  "name": "golang-continuous-integration",
+  "installs": 32794,
+  "weeklyInstalls": [
+   401,
+   469,
+   309,
+   651,
+   21247,
+   4997,
+   1567,
+   554
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-stretchr-testify",
+  "name": "golang-stretchr-testify",
+  "installs": 32772,
+  "weeklyInstalls": [
+   414,
+   473,
+   297,
+   617,
+   21245,
+   4994,
+   1576,
+   553
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-stay-updated",
+  "name": "golang-stay-updated",
+  "installs": 32604,
+  "weeklyInstalls": [
+   388,
+   459,
+   293,
+   614,
+   21243,
+   4984,
+   1556,
+   528
+  ]
+ },
+ {
+  "source": "momentic-ai/skills",
+  "skillId": "momentic-test",
+  "name": "momentic-test",
+  "installs": 32586,
+  "weeklyInstalls": [
+   2327,
+   3499,
+   2769,
+   3230,
+   2638,
+   2553,
+   2548,
+   1994
+  ]
+ },
+ {
+  "source": "momentic-ai/skills",
+  "skillId": "momentic-result-classification",
+  "name": "momentic-result-classification",
+  "installs": 32578,
+  "weeklyInstalls": [
+   2327,
+   3493,
+   2769,
+   3227,
+   2637,
+   2553,
+   2550,
+   1993
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-samber-lo",
+  "name": "golang-samber-lo",
+  "installs": 32567,
+  "weeklyInstalls": [
+   390,
+   467,
+   289,
+   616,
+   21227,
+   4984,
+   1551,
+   543
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "onboarding",
+  "name": "onboarding",
+  "installs": 32524,
+  "weeklyInstalls": [
+   4142,
+   3723,
+   3662,
+   3723,
+   3446,
+   3225,
+   2995,
+   3052
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-samber-do",
+  "name": "golang-samber-do",
+  "installs": 32505,
+  "weeklyInstalls": [
+   384,
+   461,
+   286,
+   612,
+   21221,
+   4974,
+   1539,
+   540
+  ]
+ },
+ {
+  "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "skillId": "ckm:design",
+  "name": "ckm:design",
+  "installs": 32495,
+  "weeklyInstalls": [
+   2514,
+   3346,
+   2790,
+   2863,
+   2714,
+   1067,
+   1,
+   0
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-samber-oops",
+  "name": "golang-samber-oops",
+  "installs": 32475,
+  "weeklyInstalls": [
+   387,
+   459,
+   281,
+   610,
+   21218,
+   4972,
+   1537,
+   529
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-samber-slog",
+  "name": "golang-samber-slog",
+  "installs": 32468,
+  "weeklyInstalls": [
+   386,
+   454,
+   284,
+   613,
+   21216,
+   4980,
+   1545,
+   530
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-samber-mo",
+  "name": "golang-samber-mo",
+  "installs": 32452,
+  "weeklyInstalls": [
+   384,
+   458,
+   287,
+   613,
+   21217,
+   4973,
+   1538,
+   537
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-samber-ro",
+  "name": "golang-samber-ro",
+  "installs": 32442,
+  "weeklyInstalls": [
+   381,
+   462,
+   287,
+   610,
+   21215,
+   4972,
+   1540,
+   529
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-samber-hot",
+  "name": "golang-samber-hot",
+  "installs": 32437,
+  "weeklyInstalls": [
+   384,
+   455,
+   278,
+   608,
+   21212,
+   4976,
+   1535,
+   536
+  ]
+ },
+ {
+  "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "skillId": "ckm:ui-styling",
+  "name": "ckm:ui-styling",
+  "installs": 32431,
+  "weeklyInstalls": [
+   2507,
+   3207,
+   2795,
+   2863,
+   2706,
+   1061,
+   1,
+   0
+  ]
+ },
+ {
+  "source": "greensock/gsap-skills",
+  "skillId": "gsap-performance",
+  "name": "gsap-performance",
+  "installs": 32391,
+  "weeklyInstalls": [
+   1732,
+   3666,
+   3339,
+   2621,
+   2116,
+   2550,
+   2188,
+   2235
+  ]
+ },
+ {
+  "source": "greensock/gsap-skills",
+  "skillId": "gsap-timeline",
+  "name": "gsap-timeline",
+  "installs": 32265,
+  "weeklyInstalls": [
+   1721,
+   3688,
+   3339,
+   2637,
+   2115,
+   2558,
+   2182,
+   2232
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "ab-testing",
+  "name": "ab-testing",
+  "installs": 32097,
+  "weeklyInstalls": [
+   4054,
+   3658,
+   3629,
+   3678,
+   3419,
+   3186,
+   2988,
+   3011
+  ]
+ },
+ {
+  "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "skillId": "ckm:brand",
+  "name": "ckm:brand",
+  "installs": 31996,
+  "weeklyInstalls": [
+   2478,
+   3179,
+   2747,
+   2836,
+   2681,
+   1056,
+   1,
+   0
+  ]
+ },
+ {
+  "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "skillId": "ckm:banner-design",
+  "name": "ckm:banner-design",
+  "installs": 31969,
+  "weeklyInstalls": [
+   2475,
+   3171,
+   2753,
+   2826,
+   2683,
+   1052,
+   1,
+   0
+  ]
+ },
+ {
+  "source": "charon-fan/agent-playbook",
+  "skillId": "self-improving-agent",
+  "name": "self-improving-agent",
+  "installs": 31915,
+  "weeklyInstalls": [
+   628,
+   616,
+   667,
+   465,
+   430,
+   343,
+   265,
+   233
+  ]
+ },
+ {
+  "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "skillId": "ckm:slides",
+  "name": "ckm:slides",
+  "installs": 31879,
+  "weeklyInstalls": [
+   2470,
+   3181,
+   2745,
+   2803,
+   2674,
+   1044,
+   1,
+   0
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "signup",
+  "name": "signup",
+  "installs": 31807,
+  "weeklyInstalls": [
+   4051,
+   3642,
+   3595,
+   3641,
+   3378,
+   3144,
+   2931,
+   2962
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "free-tools",
+  "name": "free-tools",
+  "installs": 31791,
+  "weeklyInstalls": [
+   4030,
+   3635,
+   3620,
+   3659,
+   3397,
+   3146,
+   2940,
+   2958
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "referrals",
+  "name": "referrals",
+  "installs": 31685,
+  "weeklyInstalls": [
+   4006,
+   3617,
+   3594,
+   3649,
+   3355,
+   3150,
+   2941,
+   2945
+  ]
+ },
+ {
+  "source": "greensock/gsap-skills",
+  "skillId": "gsap-plugins",
+  "name": "gsap-plugins",
+  "installs": 31667,
+  "weeklyInstalls": [
+   1695,
+   3616,
+   3292,
+   2565,
+   2080,
+   2512,
+   2131,
+   2163
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "popups",
+  "name": "popups",
+  "installs": 31537,
+  "weeklyInstalls": [
+   3982,
+   3592,
+   3580,
+   3619,
+   3355,
+   3142,
+   2922,
+   2949
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "paywalls",
+  "name": "paywalls",
+  "installs": 31474,
+  "weeklyInstalls": [
+   3986,
+   3605,
+   3544,
+   3609,
+   3350,
+   3131,
+   2915,
+   2949
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "aso",
+  "name": "aso",
+  "installs": 31334,
+  "weeklyInstalls": [
+   3955,
+   3589,
+   3557,
+   3582,
+   3320,
+   3114,
+   2906,
+   2935
+  ]
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-post-to-wechat",
+  "name": "baoyu-post-to-wechat",
+  "installs": 31324,
+  "weeklyInstalls": [
+   1179,
+   1071,
+   1060,
+   944,
+   717,
+   635,
+   529,
+   489
+  ]
+ },
+ {
+  "source": "greensock/gsap-skills",
+  "skillId": "gsap-utils",
+  "name": "gsap-utils",
+  "installs": 31097,
+  "weeklyInstalls": [
+   1673,
+   3564,
+   3225,
+   2507,
+   2023,
+   2457,
+   2067,
+   2120
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-tasks",
+  "name": "gws-tasks",
+  "installs": 31094,
+  "weeklyInstalls": [
+   1536,
+   1152,
+   1052,
+   1021,
+   813,
+   829,
+   1108,
+   1097
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-swagger",
+  "name": "golang-swagger",
+  "installs": 31091,
+  "weeklyInstalls": [
+   396,
+   471,
+   294,
+   628,
+   21247,
+   4995,
+   1565,
+   548
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-graphql",
+  "name": "golang-graphql",
+  "installs": 31068,
+  "weeklyInstalls": [
+   378,
+   449,
+   289,
+   614,
+   21217,
+   4977,
+   1556,
+   552
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-spf13-cobra",
+  "name": "golang-spf13-cobra",
+  "installs": 31042,
+  "weeklyInstalls": [
+   399,
+   469,
+   299,
+   623,
+   21230,
+   4980,
+   1571,
+   546
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-spf13-viper",
+  "name": "golang-spf13-viper",
+  "installs": 30972,
+  "weeklyInstalls": [
+   403,
+   453,
+   285,
+   615,
+   21231,
+   4974,
+   1558,
+   543
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-uber-fx",
+  "name": "golang-uber-fx",
+  "installs": 30930,
+  "weeklyInstalls": [
+   379,
+   455,
+   275,
+   597,
+   21208,
+   4962,
+   1536,
+   520
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-google-wire",
+  "name": "golang-google-wire",
+  "installs": 30904,
+  "weeklyInstalls": [
+   381,
+   450,
+   289,
+   610,
+   21213,
+   4974,
+   1544,
+   543
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-uber-dig",
+  "name": "golang-uber-dig",
+  "installs": 30901,
+  "weeklyInstalls": [
+   377,
+   447,
+   276,
+   594,
+   21209,
+   4955,
+   1534,
+   517
+  ]
+ },
+ {
+  "source": "expo/skills",
+  "skillId": "use-dom",
+  "name": "use-dom",
+  "installs": 30651,
+  "weeklyInstalls": [
+   1861,
+   1562,
+   1324,
+   1537,
+   1285,
+   1395,
+   1197,
+   343
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "greensock/gsap-skills",
+  "skillId": "gsap-react",
+  "name": "gsap-react",
+  "installs": 30637,
+  "weeklyInstalls": [
+   1646,
+   3536,
+   3195,
+   2506,
+   2030,
+   2424,
+   2054,
+   2127
+  ]
+ },
+ {
+  "source": "101-skills/skills",
+  "skillId": "agent-browser",
+  "name": "agent-browser",
+  "installs": 30584,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   20337
+  ]
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "shape",
+  "name": "shape",
+  "installs": 30561,
+  "weeklyInstalls": [
+   13,
+   89,
+   74,
+   54,
+   41,
+   39,
+   26,
+   44
+  ]
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-deep-research",
+  "name": "firecrawl-deep-research",
+  "installs": 30337,
+  "weeklyInstalls": [
+   3075,
+   3740,
+   3448,
+   3300,
+   4206,
+   3507,
+   3897,
+   3838
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-slides",
+  "name": "gws-slides",
+  "installs": 30140,
+  "weeklyInstalls": [
+   1448,
+   911,
+   919,
+   888,
+   721,
+   886,
+   1044,
+   893
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-research-papers",
+  "name": "firecrawl-research-papers",
+  "installs": 29929,
+  "weeklyInstalls": [
+   3112,
+   3805,
+   3424,
+   3186,
+   4086,
+   3457,
+   3770,
+   3771
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "antfu/skills",
+  "skillId": "vite",
+  "name": "vite",
+  "installs": 29858,
+  "weeklyInstalls": [
+   955,
+   956,
+   957,
+   958,
+   778,
+   707,
+   717,
+   883
+  ]
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-how-to",
+  "name": "golang-how-to",
+  "installs": 29758,
+  "weeklyInstalls": [
+   0,
+   144,
+   295,
+   630,
+   21247,
+   5002,
+   1579,
+   586
+  ]
+ },
+ {
+  "source": "better-auth/skills",
+  "skillId": "create-auth-skill",
+  "name": "create-auth-skill",
+  "installs": 29721,
+  "weeklyInstalls": [
+   1230,
+   1178,
+   1087,
+   1128,
+   1014,
+   960,
+   1055,
+   882
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "skills.volces.com",
+  "skillId": "byted-web-search",
+  "name": "byted-web-search",
+  "installs": 29705,
+  "weeklyInstalls": [
+   2505,
+   647,
+   621,
+   492,
+   374,
+   821,
+   1419,
+   1553
+  ]
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-image-gen",
+  "name": "baoyu-image-gen",
+  "installs": 29704,
+  "weeklyInstalls": [
+   1089,
+   1218,
+   1222,
+   1118,
+   875,
+   783,
+   619,
+   609
+  ]
+ },
+ {
+  "source": "antibrow/anti-detect-browser-skills",
+  "skillId": "anti-detect-browser",
+  "name": "anti-detect-browser",
+  "installs": 29629,
+  "weeklyInstalls": [
+   1709,
+   1717,
+   2007,
+   2018,
+   2029,
+   2024,
+   2029,
+   1504
+  ]
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-website-design-clone",
+  "name": "firecrawl-website-design-clone",
+  "installs": 29570,
+  "weeklyInstalls": [
+   3114,
+   3744,
+   3394,
+   3190,
+   4033,
+   3341,
+   3720,
+   3736
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "greensock/gsap-skills",
+  "skillId": "gsap-frameworks",
+  "name": "gsap-frameworks",
+  "installs": 29483,
+  "weeklyInstalls": [
+   1581,
+   3486,
+   3154,
+   2415,
+   1934,
+   2327,
+   1985,
+   2023
+  ]
+ },
+ {
+  "source": "antfu/skills",
+  "skillId": "vue",
+  "name": "vue",
+  "installs": 29362,
+  "weeklyInstalls": [
+   874,
+   1001,
+   932,
+   919,
+   718,
+   721,
+   680,
+   735
+  ]
+ },
+ {
+  "source": "heygen-com/hyperframes",
+  "skillId": "graphic-overlays",
+  "name": "graphic-overlays",
+  "installs": 29320,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   1182,
+   9608,
+   18366,
+   32,
+   78
+  ]
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-market-research",
+  "name": "firecrawl-market-research",
+  "installs": 29314,
+  "weeklyInstalls": [
+   3078,
+   3717,
+   3328,
+   3139,
+   4025,
+   3330,
+   3711,
+   3713
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "wshobson/agents",
+  "skillId": "brand-landingpage",
+  "name": "brand-landingpage",
+  "installs": 29144,
+  "weeklyInstalls": [
+   1175,
+   2643,
+   236,
+   218,
+   218,
+   190,
+   1052,
+   1307
+  ]
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-knowledge-base",
+  "name": "firecrawl-knowledge-base",
+  "installs": 29084,
+  "weeklyInstalls": [
+   3083,
+   3712,
+   3319,
+   3114,
+   3985,
+   3304,
+   3646,
+   3658
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-seo-audit",
+  "name": "firecrawl-seo-audit",
+  "installs": 29065,
+  "weeklyInstalls": [
+   3061,
+   3700,
+   3326,
+   3121,
+   3986,
+   3308,
+   3643,
+   3664
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-dashboard-reporting",
+  "name": "firecrawl-dashboard-reporting",
+  "installs": 29025,
+  "weeklyInstalls": [
+   3062,
+   3704,
+   3332,
+   3124,
+   3984,
+   3290,
+   3635,
+   3640
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "wshobson/agents",
+  "skillId": "python-performance-optimization",
+  "name": "python-performance-optimization",
+  "installs": 29022,
+  "weeklyInstalls": [
+   1071,
+   805,
+   838,
+   831,
+   703,
+   627,
+   592,
+   551
+  ]
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-markdown-to-html",
+  "name": "baoyu-markdown-to-html",
+  "installs": 29004,
+  "weeklyInstalls": [
+   1249,
+   1110,
+   1119,
+   1023,
+   759,
+   686,
+   559,
+   509
+  ]
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-lead-gen",
+  "name": "firecrawl-lead-gen",
+  "installs": 28989,
+  "weeklyInstalls": [
+   3092,
+   3718,
+   3312,
+   3115,
+   3977,
+   3289,
+   3614,
+   3624
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-workflows",
+  "name": "firecrawl-workflows",
+  "installs": 28951,
+  "weeklyInstalls": [
+   3057,
+   3694,
+   3310,
+   3107,
+   3970,
+   3295,
+   3630,
+   3636
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-lead-research",
+  "name": "firecrawl-lead-research",
+  "installs": 28950,
+  "weeklyInstalls": [
+   3066,
+   3699,
+   3315,
+   3115,
+   3978,
+   3287,
+   3614,
+   3628
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-shop",
+  "name": "firecrawl-shop",
+  "installs": 28949,
+  "weeklyInstalls": [
+   3072,
+   3706,
+   3326,
+   3102,
+   3978,
+   3281,
+   3612,
+   3620
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-qa",
+  "name": "firecrawl-qa",
+  "installs": 28924,
+  "weeklyInstalls": [
+   3061,
+   3706,
+   3317,
+   3104,
+   3977,
+   3280,
+   3609,
+   3623
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-competitive-intel",
+  "name": "firecrawl-competitive-intel",
+  "installs": 28912,
+  "weeklyInstalls": [
+   3057,
+   3694,
+   3311,
+   3109,
+   3971,
+   3280,
+   3614,
+   3627
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-knowledge-ingest",
+  "name": "firecrawl-knowledge-ingest",
+  "installs": 28908,
+  "weeklyInstalls": [
+   3058,
+   3696,
+   3311,
+   3101,
+   3975,
+   3280,
+   3614,
+   3624
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-company-directories",
+  "name": "firecrawl-company-directories",
+  "installs": 28882,
+  "weeklyInstalls": [
+   3058,
+   3694,
+   3305,
+   3103,
+   3970,
+   3279,
+   3608,
+   3619
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "firecrawl/firecrawl-workflows",
+  "skillId": "firecrawl-demo-walkthrough",
+  "name": "firecrawl-demo-walkthrough",
+  "installs": 28878,
+  "weeklyInstalls": [
+   3058,
+   3695,
+   3305,
+   3101,
+   3967,
+   3280,
+   3609,
+   3619
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "vercel-labs/agent-skills",
+  "skillId": "writing-guidelines",
+  "name": "writing-guidelines",
+  "installs": 28795,
+  "weeklyInstalls": [
+   0,
+   0,
+   3838,
+   4949,
+   4548,
+   4604,
+   4627,
+   4331
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-infographic",
+  "name": "baoyu-infographic",
+  "installs": 28792,
+  "weeklyInstalls": [
+   1309,
+   1156,
+   1194,
+   1101,
+   859,
+   765,
+   630,
+   588
+  ]
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-cover-image",
+  "name": "baoyu-cover-image",
+  "installs": 28631,
+  "weeklyInstalls": [
+   1222,
+   1070,
+   1066,
+   988,
+   757,
+   686,
+   559,
+   531
+  ]
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-article-illustrator",
+  "name": "baoyu-article-illustrator",
+  "installs": 28443,
+  "weeklyInstalls": [
+   1193,
+   1053,
+   1036,
+   987,
+   768,
+   688,
+   549,
+   510
+  ]
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-xhs-images",
+  "name": "baoyu-xhs-images",
+  "installs": 28059,
+  "weeklyInstalls": [
+   1070,
+   1056,
+   1055,
+   988,
+   742,
+   671,
+   549,
+   493
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-meet",
+  "name": "gws-meet",
+  "installs": 28053,
+  "weeklyInstalls": [
+   1349,
+   984,
+   960,
+   883,
+   686,
+   767,
+   1006,
+   959
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-forms",
+  "name": "gws-forms",
+  "installs": 27908,
+  "weeklyInstalls": [
+   1376,
+   1004,
+   957,
+   894,
+   709,
+   764,
+   1063,
+   1099
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "microsoft/azure-skills",
+  "skillId": "azure-postgres",
+  "name": "azure-postgres",
+  "installs": 27828,
+  "weeklyInstalls": [
+   0,
+   2,
+   3,
+   5,
+   1,
+   1,
+   5,
+   4
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-slide-deck",
+  "name": "baoyu-slide-deck",
+  "installs": 27750,
+  "weeklyInstalls": [
+   1180,
+   1016,
+   1020,
+   973,
+   725,
+   650,
+   546,
+   506
+  ]
+ },
+ {
+  "source": "antfu/skills",
+  "skillId": "vitest",
+  "name": "vitest",
+  "installs": 27358,
+  "weeklyInstalls": [
+   997,
+   1009,
+   1000,
+   1061,
+   1047,
+   1000,
+   911,
+   974
+  ]
+ },
+ {
+  "source": "wshobson/agents",
+  "skillId": "python-testing-patterns",
+  "name": "python-testing-patterns",
+  "installs": 27333,
+  "weeklyInstalls": [
+   1058,
+   924,
+   930,
+   896,
+   802,
+   662,
+   711,
+   675
+  ]
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-url-to-markdown",
+  "name": "baoyu-url-to-markdown",
+  "installs": 27258,
+  "weeklyInstalls": [
+   1196,
+   1043,
+   1082,
+   992,
+   718,
+   653,
+   536,
+   479
+  ]
+ },
+ {
+  "source": "emilkowalski/skills",
+  "skillId": "animation-vocabulary",
+  "name": "animation-vocabulary",
+  "installs": 27167,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   6808,
+   14001
+  ]
+ },
+ {
+  "source": "stablyai/orca",
+  "skillId": "orchestration",
+  "name": "orchestration",
+  "installs": 27149,
+  "weeklyInstalls": [
+   666,
+   736,
+   1112,
+   942,
+   1562,
+   3127,
+   4472,
+   7405
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-gmail-watch",
+  "name": "gws-gmail-watch",
+  "installs": 27061,
+  "weeklyInstalls": [
+   1280,
+   754,
+   807,
+   683,
+   601,
+   685,
+   879,
+   744
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "pbakaus/impeccable",
+  "skillId": "layout",
+  "name": "layout",
+  "installs": 26801,
+  "weeklyInstalls": [
+   13,
+   76,
+   55,
+   41,
+   33,
+   33,
+   20,
+   41
+  ]
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-comic",
+  "name": "baoyu-comic",
+  "installs": 26659,
+  "weeklyInstalls": [
+   1178,
+   1031,
+   995,
+   944,
+   723,
+   658,
+   534,
+   499
+  ]
+ },
+ {
+  "source": "cloudflare/skills",
+  "skillId": "workers-best-practices",
+  "name": "workers-best-practices",
+  "installs": 26631,
+  "weeklyInstalls": [
+   1243,
+   1074,
+   1675,
+   1857,
+   1690,
+   1746,
+   1802,
+   2915
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "samber/cc-skills-golang",
+  "skillId": "golang-linter",
+  "name": "golang-linter",
+  "installs": 26543,
+  "weeklyInstalls": [
+   0,
+   0,
+   0,
+   276,
+   20784,
+   4426,
+   1041,
+   0
+  ]
+ },
+ {
+  "source": "avdlee/swiftui-agent-skill",
+  "skillId": "swiftui-expert-skill",
+  "name": "swiftui-expert-skill",
+  "installs": 26476,
+  "weeklyInstalls": [
+   696,
+   671,
+   626,
+   584,
+   862,
+   608,
+   550,
+   579
+  ]
+ },
+ {
+  "source": "firecrawl/cli",
+  "skillId": "firecrawl-monitor",
+  "name": "firecrawl-monitor",
+  "installs": 26465,
+  "weeklyInstalls": [
+   0,
+   2244,
+   3813,
+   3527,
+   4352,
+   3671,
+   4177,
+   4171
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "github/awesome-copilot",
+  "skillId": "excalidraw-diagram-generator",
+  "name": "excalidraw-diagram-generator",
+  "installs": 26402,
+  "weeklyInstalls": [
+   885,
+   2827,
+   1636,
+   1141,
+   1052,
+   734,
+   532,
+   391
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-gmail-read",
+  "name": "gws-gmail-read",
+  "installs": 26391,
+  "weeklyInstalls": [
+   1443,
+   887,
+   929,
+   830,
+   708,
+   774,
+   1010,
+   947
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-keep",
+  "name": "gws-keep",
+  "installs": 26350,
+  "weeklyInstalls": [
+   1304,
+   955,
+   900,
+   807,
+   649,
+   679,
+   926,
+   854
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "aaron-he-zhu/seo-geo-claude-skills",
+  "skillId": "backlink-analyzer",
+  "name": "backlink-analyzer",
+  "installs": 26074,
+  "weeklyInstalls": [
+   950,
+   953,
+   899,
+   986,
+   952,
+   1023,
+   887,
+   5
+  ]
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-post-to-x",
+  "name": "baoyu-post-to-x",
+  "installs": 26065,
+  "weeklyInstalls": [
+   1103,
+   980,
+   1009,
+   900,
+   648,
+   612,
+   523,
+   473
+  ]
+ },
+ {
+  "source": "stablyai/orca",
+  "skillId": "orca-cli",
+  "name": "orca-cli",
+  "installs": 25633,
+  "weeklyInstalls": [
+   607,
+   722,
+   1026,
+   862,
+   1496,
+   2939,
+   4084,
+   6511
+  ]
+ },
+ {
+  "source": "coreyhaines31/marketingskills",
+  "skillId": "sms",
+  "name": "sms",
+  "installs": 25593,
+  "weeklyInstalls": [
+   1279,
+   3523,
+   3476,
+   3514,
+   3269,
+   3047,
+   2833,
+   2844
+  ]
+ },
+ {
+  "source": "google-labs-code/stitch-skills",
+  "skillId": "stitch-design",
+  "name": "stitch-design",
+  "installs": 25359,
+  "weeklyInstalls": [
+   138,
+   33,
+   39,
+   35,
+   18,
+   20,
+   18,
+   18
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-danger-x-to-markdown",
+  "name": "baoyu-danger-x-to-markdown",
+  "installs": 25311,
+  "weeklyInstalls": [
+   1093,
+   939,
+   973,
+   888,
+   645,
+   606,
+   486,
+   449
+  ]
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-compress-image",
+  "name": "baoyu-compress-image",
+  "installs": 25284,
+  "weeklyInstalls": [
+   1126,
+   954,
+   965,
+   906,
+   654,
+   617,
+   489,
+   463
+  ]
+ },
+ {
+  "source": "clerk/skills",
+  "skillId": "clerk-nextjs-patterns",
+  "name": "clerk-nextjs-patterns",
+  "installs": 25241,
+  "weeklyInstalls": [
+   1066,
+   1576,
+   1449,
+   1580,
+   1442,
+   1596,
+   1804,
+   1980
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "tavily-ai/skills",
+  "skillId": "tavily-search",
+  "name": "tavily-search",
+  "installs": 25208,
+  "weeklyInstalls": [
+   919,
+   2467,
+   1225,
+   849,
+   623,
+   588,
+   510,
+   528
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-danger-gemini-web",
+  "name": "baoyu-danger-gemini-web",
+  "installs": 25192,
+  "weeklyInstalls": [
+   1106,
+   947,
+   974,
+   892,
+   654,
+   640,
+   498,
+   460
+  ]
+ },
+ {
+  "source": "mcollina/skills",
+  "skillId": "fastify-best-practices",
+  "name": "fastify-best-practices",
+  "installs": 25186,
+  "weeklyInstalls": [
+   684,
+   2920,
+   1130,
+   1705,
+   2754,
+   5462,
+   2869,
+   4113
+  ]
+ },
+ {
+  "source": "tencent/wechatreading",
+  "skillId": "weread-skills",
+  "name": "weread-skills",
+  "installs": 25107,
+  "weeklyInstalls": [
+   2282,
+   5567,
+   3575,
+   2529,
+   2412,
+   2763,
+   2732,
+   2249
+  ]
+ },
+ {
+  "source": "better-auth/skills",
+  "skillId": "email-and-password-best-practices",
+  "name": "email-and-password-best-practices",
+  "installs": 25087,
+  "weeklyInstalls": [
+   1211,
+   1108,
+   1093,
+   1045,
+   913,
+   869,
+   973,
+   1104
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "jimliu/baoyu-skills",
+  "skillId": "baoyu-format-markdown",
+  "name": "baoyu-format-markdown",
+  "installs": 25042,
+  "weeklyInstalls": [
+   1186,
+   1017,
+   1060,
+   973,
+   713,
+   664,
+   536,
+   499
+  ]
+ },
+ {
+  "source": "wshobson/agents",
+  "skillId": "code-review-excellence",
+  "name": "code-review-excellence",
+  "installs": 24835,
+  "weeklyInstalls": [
+   1487,
+   986,
+   708,
+   670,
+   684,
+   522,
+   688,
+   466
+  ]
+ },
+ {
+  "source": "wshobson/agents",
+  "skillId": "api-design-principles",
+  "name": "api-design-principles",
+  "installs": 24656,
+  "weeklyInstalls": [
+   680,
+   552,
+   441,
+   446,
+   407,
+   386,
+   404,
+   387
+  ]
+ },
+ {
+  "source": "hyf0/vue-skills",
+  "skillId": "vue-best-practices",
+  "name": "vue-best-practices",
+  "installs": 24630,
+  "weeklyInstalls": [
+   475,
+   360,
+   347,
+   349,
+   333,
+   342,
+   282,
+   275
+  ]
+ },
+ {
+  "source": "googleworkspace/cli",
+  "skillId": "gws-gmail-reply",
+  "name": "gws-gmail-reply",
+  "installs": 24600,
+  "weeklyInstalls": [
+   1250,
+   760,
+   817,
+   671,
+   590,
+   682,
+   910,
+   719
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "mastra-ai/skills",
+  "skillId": "mastra",
+  "name": "mastra",
+  "installs": 24494,
+  "weeklyInstalls": [
+   1077,
+   902,
+   1098,
+   985,
+   972,
+   899,
+   834,
+   924
+  ],
+  "isOfficial": true
+ },
+ {
+  "source": "wshobson/agents",
+  "skillId": "nextjs-app-router-patterns",
+  "name": "nextjs-app-router-patterns",
+  "installs": 24467,
+  "weeklyInstalls": [
+   939,
+   752,
+   830,
+   817,
+   718,
+   726,
+   828,
+   796
+  ]
+ }
+]

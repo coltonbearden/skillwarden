@@ -1,0 +1,58 @@
+{
+ "data": [
+  {
+   "id": "juliusbrussee/caveman/caveman-review",
+   "slug": "caveman-review",
+   "name": "caveman-review",
+   "source": "juliusbrussee/caveman",
+   "installs": 240673,
+   "sourceType": "github",
+   "installUrl": "https://github.com/juliusbrussee/caveman",
+   "url": "https://skills.sh/juliusbrussee/caveman/caveman-review"
+  },
+  {
+   "id": "obra/superpowers/systematic-debugging",
+   "slug": "systematic-debugging",
+   "name": "systematic-debugging",
+   "source": "obra/superpowers",
+   "installs": 188029,
+   "sourceType": "github",
+   "installUrl": "https://github.com/obra/superpowers",
+   "url": "https://skills.sh/obra/superpowers/systematic-debugging"
+  },
+  {
+   "id": "obra/superpowers/requesting-code-review",
+   "slug": "requesting-code-review",
+   "name": "requesting-code-review",
+   "source": "obra/superpowers",
+   "installs": 168473,
+   "sourceType": "github",
+   "installUrl": "https://github.com/obra/superpowers",
+   "url": "https://skills.sh/obra/superpowers/requesting-code-review"
+  },
+  {
+   "id": "obra/superpowers/test-driven-development",
+   "slug": "test-driven-development",
+   "name": "test-driven-development",
+   "source": "obra/superpowers",
+   "installs": 166985,
+   "sourceType": "github",
+   "installUrl": "https://github.com/obra/superpowers",
+   "url": "https://skills.sh/obra/superpowers/test-driven-development"
+  },
+  {
+   "id": "obra/superpowers/receiving-code-review",
+   "slug": "receiving-code-review",
+   "name": "receiving-code-review",
+   "source": "obra/superpowers",
+   "installs": 139362,
+   "sourceType": "github",
+   "installUrl": "https://github.com/obra/superpowers",
+   "url": "https://skills.sh/obra/superpowers/receiving-code-review"
+  }
+ ],
+ "query": "find and fix bugs",
+ "searchType": "semantic",
+ "count": 5,
+ "durationMs": 87
+}

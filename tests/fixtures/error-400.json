@@ -1,0 +1,4 @@
+{
+ "error": "invalid_parameters",
+ "message": "Parameter 'q' must be at least 2 characters."
+}

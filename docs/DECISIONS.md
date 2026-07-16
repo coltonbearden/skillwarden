@@ -1,0 +1,12 @@
+# Decision log
+
+Format: `D-## | decision | alternatives considered | rationale`
+
+D-01 is reserved by the build brief for the implementation language choice (Phase 1); Phase 0 decisions therefore start at D-02.
+
+| ID | Decision | Alternatives considered | Rationale |
+|---|---|---|---|
+| D-02 | Proceed without live authenticated captures; fixtures are documented-schema reconstructions populated with real values harvested from the server-rendered site payload, plus the one real 401 capture. | (a) Stop and ask the user for a Vercel OIDC token; (b) scrape undocumented site-internal endpoints and build on those; (c) fully invented fixtures. | The brief's hard-blocker list excludes auth problems ("build against the documented contract plus captured fixtures, and record the assumption"). (a) violates the autonomy mandate — and a credential probe was explicitly denied by policy. (b) builds on an unstable, undocumented surface. (c) wastes the real data that was legally obtainable: 600 real leaderboard entries and the real find-skills SKILL.md make reconstructions faithful. |
+| D-03 | Auth model: token is a prerequisite for network features, read from `SKILLS_SH_API_KEY` (holding a Vercel OIDC token); cache/local-disk features are first-class and fully functional without it. | (a) Anonymous-first per the brief's stale ground truth; (b) require `VERCEL_OIDC_TOKEN` env var name to match Vercel convention. | Live API returns 401 to all unauthenticated requests (verified both hosts), so anonymous-first is impossible. The brief mandates the `SKILLS_SH_API_KEY` env var name as the only secret channel; the value it holds is whatever bearer the API accepts (today: a Vercel OIDC token). Documented in README so the name/value distinction is clear. |
+| D-04 | Error handling keys off HTTP status codes only; `error` code strings in the envelope are treated as opaque display text. | Match on documented code strings (e.g. `authentication_required`). | Only the 401 code string was verifiable; all others are assumptions. Status codes are the documented, stable contract. |
+| D-05 | Keep `site-leaderboard-raw.json` (600 real entries, 8-week install series) in the repo as a real-data fixture. | Discard after generating derived fixtures. | It is the only genuinely captured bulk data; tests exercising trend math and reconciliation logic run against real distributions instead of invented ones. ToS explicitly permits caching results. |

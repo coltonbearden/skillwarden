@@ -1,0 +1,1857 @@
+{
+ "data": [
+  {
+   "owner": "microsoft",
+   "totalInstalls": 10910360,
+   "featuredRepo": "microsoft/azure-skills",
+   "featuredSkill": "microsoft-foundry",
+   "skills": [
+    {
+     "id": "microsoft/azure-skills/microsoft-foundry",
+     "slug": "microsoft-foundry",
+     "name": "microsoft-foundry",
+     "source": "microsoft/azure-skills",
+     "installs": 457686,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/microsoft-foundry"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-ai",
+     "slug": "azure-ai",
+     "name": "azure-ai",
+     "source": "microsoft/azure-skills",
+     "installs": 454303,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-ai"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-deploy",
+     "slug": "azure-deploy",
+     "name": "azure-deploy",
+     "source": "microsoft/azure-skills",
+     "installs": 453998,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-deploy"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-diagnostics",
+     "slug": "azure-diagnostics",
+     "name": "azure-diagnostics",
+     "source": "microsoft/azure-skills",
+     "installs": 453859,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-diagnostics"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-prepare",
+     "slug": "azure-prepare",
+     "name": "azure-prepare",
+     "source": "microsoft/azure-skills",
+     "installs": 453714,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-prepare"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-storage",
+     "slug": "azure-storage",
+     "name": "azure-storage",
+     "source": "microsoft/azure-skills",
+     "installs": 453398,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-storage"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-validate",
+     "slug": "azure-validate",
+     "name": "azure-validate",
+     "source": "microsoft/azure-skills",
+     "installs": 453069,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-validate"
+    },
+    {
+     "id": "microsoft/azure-skills/entra-app-registration",
+     "slug": "entra-app-registration",
+     "name": "entra-app-registration",
+     "source": "microsoft/azure-skills",
+     "installs": 452956,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/entra-app-registration"
+    },
+    {
+     "id": "microsoft/azure-skills/appinsights-instrumentation",
+     "slug": "appinsights-instrumentation",
+     "name": "appinsights-instrumentation",
+     "source": "microsoft/azure-skills",
+     "installs": 452872,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/appinsights-instrumentation"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-compliance",
+     "slug": "azure-compliance",
+     "name": "azure-compliance",
+     "source": "microsoft/azure-skills",
+     "installs": 452797,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-compliance"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-resource-lookup",
+     "slug": "azure-resource-lookup",
+     "name": "azure-resource-lookup",
+     "source": "microsoft/azure-skills",
+     "installs": 452786,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-resource-lookup"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-rbac",
+     "slug": "azure-rbac",
+     "name": "azure-rbac",
+     "source": "microsoft/azure-skills",
+     "installs": 452785,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-rbac"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-aigateway",
+     "slug": "azure-aigateway",
+     "name": "azure-aigateway",
+     "source": "microsoft/azure-skills",
+     "installs": 452698,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-aigateway"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-kusto",
+     "slug": "azure-kusto",
+     "name": "azure-kusto",
+     "source": "microsoft/azure-skills",
+     "installs": 452633,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-kusto"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-resource-visualizer",
+     "slug": "azure-resource-visualizer",
+     "name": "azure-resource-visualizer",
+     "source": "microsoft/azure-skills",
+     "installs": 452622,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-resource-visualizer"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-messaging",
+     "slug": "azure-messaging",
+     "name": "azure-messaging",
+     "source": "microsoft/azure-skills",
+     "installs": 442378,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-messaging"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-hosted-copilot-sdk",
+     "slug": "azure-hosted-copilot-sdk",
+     "name": "azure-hosted-copilot-sdk",
+     "source": "microsoft/azure-skills",
+     "installs": 418403,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-hosted-copilot-sdk"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-compute",
+     "slug": "azure-compute",
+     "name": "azure-compute",
+     "source": "microsoft/azure-skills",
+     "installs": 396356,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-compute"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-cloud-migrate",
+     "slug": "azure-cloud-migrate",
+     "name": "azure-cloud-migrate",
+     "source": "microsoft/azure-skills",
+     "installs": 386289,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-cloud-migrate"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-quotas",
+     "slug": "azure-quotas",
+     "name": "azure-quotas",
+     "source": "microsoft/azure-skills",
+     "installs": 322806,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-quotas"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-upgrade",
+     "slug": "azure-upgrade",
+     "name": "azure-upgrade",
+     "source": "microsoft/azure-skills",
+     "installs": 315297,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-upgrade"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-enterprise-infra-planner",
+     "slug": "azure-enterprise-infra-planner",
+     "name": "azure-enterprise-infra-planner",
+     "source": "microsoft/azure-skills",
+     "installs": 289355,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-enterprise-infra-planner"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-kubernetes",
+     "slug": "azure-kubernetes",
+     "name": "azure-kubernetes",
+     "source": "microsoft/azure-skills",
+     "installs": 282240,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-kubernetes"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-cost",
+     "slug": "azure-cost",
+     "name": "azure-cost",
+     "source": "microsoft/azure-skills",
+     "installs": 257685,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-cost"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-cost-optimization",
+     "slug": "azure-cost-optimization",
+     "name": "azure-cost-optimization",
+     "source": "microsoft/azure-skills",
+     "installs": 208450,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-cost-optimization"
+    },
+    {
+     "id": "microsoft/azure-skills/airunway-aks-setup",
+     "slug": "airunway-aks-setup",
+     "name": "airunway-aks-setup",
+     "source": "microsoft/azure-skills",
+     "installs": 202279,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/airunway-aks-setup"
+    },
+    {
+     "id": "microsoft/azure-skills/entra-agent-id",
+     "slug": "entra-agent-id",
+     "name": "entra-agent-id",
+     "source": "microsoft/azure-skills",
+     "installs": 176455,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/entra-agent-id"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-reliability",
+     "slug": "azure-reliability",
+     "name": "azure-reliability",
+     "source": "microsoft/azure-skills",
+     "installs": 135994,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-reliability"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-observability",
+     "slug": "azure-observability",
+     "name": "azure-observability",
+     "source": "microsoft/azure-skills",
+     "installs": 98235,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-observability"
+    },
+    {
+     "id": "microsoft/playwright-cli/playwright-cli",
+     "slug": "playwright-cli",
+     "name": "playwright-cli",
+     "source": "microsoft/playwright-cli",
+     "installs": 87584,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/playwright-cli",
+     "url": "https://skills.sh/microsoft/playwright-cli/playwright-cli"
+    },
+    {
+     "id": "microsoft/azure-skills/python-appservice-deploy",
+     "slug": "python-appservice-deploy",
+     "name": "python-appservice-deploy",
+     "source": "microsoft/azure-skills",
+     "installs": 60550,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/python-appservice-deploy"
+    },
+    {
+     "id": "microsoft/azure-skills/azure-postgres",
+     "slug": "azure-postgres",
+     "name": "azure-postgres",
+     "source": "microsoft/azure-skills",
+     "installs": 27828,
+     "sourceType": "github",
+     "installUrl": "https://github.com/microsoft/azure-skills",
+     "url": "https://skills.sh/microsoft/azure-skills/azure-postgres"
+    }
+   ]
+  },
+  {
+   "owner": "vercel-labs",
+   "totalInstalls": 4809246,
+   "featuredRepo": "vercel-labs/skills",
+   "featuredSkill": "find-skills",
+   "skills": [
+    {
+     "id": "vercel-labs/skills/find-skills",
+     "slug": "find-skills",
+     "name": "find-skills",
+     "source": "vercel-labs/skills",
+     "installs": 2517916,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel-labs/skills",
+     "url": "https://skills.sh/vercel-labs/skills/find-skills"
+    },
+    {
+     "id": "vercel-labs/agent-skills/vercel-react-best-practices",
+     "slug": "vercel-react-best-practices",
+     "name": "vercel-react-best-practices",
+     "source": "vercel-labs/agent-skills",
+     "installs": 554569,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel-labs/agent-skills",
+     "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices"
+    },
+    {
+     "id": "vercel-labs/agent-browser/agent-browser",
+     "slug": "agent-browser",
+     "name": "agent-browser",
+     "source": "vercel-labs/agent-browser",
+     "installs": 548331,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel-labs/agent-browser",
+     "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser"
+    },
+    {
+     "id": "vercel-labs/agent-skills/web-design-guidelines",
+     "slug": "web-design-guidelines",
+     "name": "web-design-guidelines",
+     "source": "vercel-labs/agent-skills",
+     "installs": 466362,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel-labs/agent-skills",
+     "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines"
+    },
+    {
+     "id": "vercel-labs/agent-skills/vercel-composition-patterns",
+     "slug": "vercel-composition-patterns",
+     "name": "vercel-composition-patterns",
+     "source": "vercel-labs/agent-skills",
+     "installs": 250455,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel-labs/agent-skills",
+     "url": "https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns"
+    },
+    {
+     "id": "vercel-labs/agent-skills/vercel-react-native-skills",
+     "slug": "vercel-react-native-skills",
+     "name": "vercel-react-native-skills",
+     "source": "vercel-labs/agent-skills",
+     "installs": 166660,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel-labs/agent-skills",
+     "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills"
+    },
+    {
+     "id": "vercel-labs/agent-skills/deploy-to-vercel",
+     "slug": "deploy-to-vercel",
+     "name": "deploy-to-vercel",
+     "source": "vercel-labs/agent-skills",
+     "installs": 92174,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel-labs/agent-skills",
+     "url": "https://skills.sh/vercel-labs/agent-skills/deploy-to-vercel"
+    },
+    {
+     "id": "vercel-labs/agent-skills/vercel-react-view-transitions",
+     "slug": "vercel-react-view-transitions",
+     "name": "vercel-react-view-transitions",
+     "source": "vercel-labs/agent-skills",
+     "installs": 79809,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel-labs/agent-skills",
+     "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-view-transitions"
+    },
+    {
+     "id": "vercel-labs/agent-skills/vercel-cli-with-tokens",
+     "slug": "vercel-cli-with-tokens",
+     "name": "vercel-cli-with-tokens",
+     "source": "vercel-labs/agent-skills",
+     "installs": 68702,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel-labs/agent-skills",
+     "url": "https://skills.sh/vercel-labs/agent-skills/vercel-cli-with-tokens"
+    },
+    {
+     "id": "vercel-labs/agent-skills/vercel-optimize",
+     "slug": "vercel-optimize",
+     "name": "vercel-optimize",
+     "source": "vercel-labs/agent-skills",
+     "installs": 35473,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel-labs/agent-skills",
+     "url": "https://skills.sh/vercel-labs/agent-skills/vercel-optimize"
+    },
+    {
+     "id": "vercel-labs/agent-skills/writing-guidelines",
+     "slug": "writing-guidelines",
+     "name": "writing-guidelines",
+     "source": "vercel-labs/agent-skills",
+     "installs": 28795,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel-labs/agent-skills",
+     "url": "https://skills.sh/vercel-labs/agent-skills/writing-guidelines"
+    }
+   ]
+  },
+  {
+   "owner": "anthropics",
+   "totalInstalls": 2518515,
+   "featuredRepo": "anthropics/skills",
+   "featuredSkill": "frontend-design",
+   "skills": [
+    {
+     "id": "anthropics/skills/frontend-design",
+     "slug": "frontend-design",
+     "name": "frontend-design",
+     "source": "anthropics/skills",
+     "installs": 668333,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/frontend-design"
+    },
+    {
+     "id": "anthropics/skills/skill-creator",
+     "slug": "skill-creator",
+     "name": "skill-creator",
+     "source": "anthropics/skills",
+     "installs": 315611,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/skill-creator"
+    },
+    {
+     "id": "anthropics/skills/pptx",
+     "slug": "pptx",
+     "name": "pptx",
+     "source": "anthropics/skills",
+     "installs": 176906,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/pptx"
+    },
+    {
+     "id": "anthropics/skills/pdf",
+     "slug": "pdf",
+     "name": "pdf",
+     "source": "anthropics/skills",
+     "installs": 157941,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/pdf"
+    },
+    {
+     "id": "anthropics/skills/docx",
+     "slug": "docx",
+     "name": "docx",
+     "source": "anthropics/skills",
+     "installs": 151621,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/docx"
+    },
+    {
+     "id": "anthropics/skills/xlsx",
+     "slug": "xlsx",
+     "name": "xlsx",
+     "source": "anthropics/skills",
+     "installs": 134126,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/xlsx"
+    },
+    {
+     "id": "anthropics/skills/webapp-testing",
+     "slug": "webapp-testing",
+     "name": "webapp-testing",
+     "source": "anthropics/skills",
+     "installs": 115793,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/webapp-testing"
+    },
+    {
+     "id": "anthropics/skills/mcp-builder",
+     "slug": "mcp-builder",
+     "name": "mcp-builder",
+     "source": "anthropics/skills",
+     "installs": 89944,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/mcp-builder"
+    },
+    {
+     "id": "anthropics/skills/canvas-design",
+     "slug": "canvas-design",
+     "name": "canvas-design",
+     "source": "anthropics/skills",
+     "installs": 86981,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/canvas-design"
+    },
+    {
+     "id": "anthropics/skills/web-artifacts-builder",
+     "slug": "web-artifacts-builder",
+     "name": "web-artifacts-builder",
+     "source": "anthropics/skills",
+     "installs": 81076,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/web-artifacts-builder"
+    },
+    {
+     "id": "anthropics/skills/theme-factory",
+     "slug": "theme-factory",
+     "name": "theme-factory",
+     "source": "anthropics/skills",
+     "installs": 68498,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/theme-factory"
+    },
+    {
+     "id": "anthropics/skills/doc-coauthoring",
+     "slug": "doc-coauthoring",
+     "name": "doc-coauthoring",
+     "source": "anthropics/skills",
+     "installs": 68261,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/doc-coauthoring"
+    },
+    {
+     "id": "anthropics/skills/brand-guidelines",
+     "slug": "brand-guidelines",
+     "name": "brand-guidelines",
+     "source": "anthropics/skills",
+     "installs": 66792,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/brand-guidelines"
+    },
+    {
+     "id": "anthropics/skills/algorithmic-art",
+     "slug": "algorithmic-art",
+     "name": "algorithmic-art",
+     "source": "anthropics/skills",
+     "installs": 66629,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/algorithmic-art"
+    },
+    {
+     "id": "anthropics/skills/internal-comms",
+     "slug": "internal-comms",
+     "name": "internal-comms",
+     "source": "anthropics/skills",
+     "installs": 59304,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/internal-comms"
+    },
+    {
+     "id": "anthropics/skills/slack-gif-creator",
+     "slug": "slack-gif-creator",
+     "name": "slack-gif-creator",
+     "source": "anthropics/skills",
+     "installs": 56040,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/slack-gif-creator"
+    },
+    {
+     "id": "anthropics/skills/template-skill",
+     "slug": "template-skill",
+     "name": "template-skill",
+     "source": "anthropics/skills",
+     "installs": 53832,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/template-skill"
+    },
+    {
+     "id": "anthropics/claude-code/frontend-design",
+     "slug": "frontend-design",
+     "name": "frontend-design",
+     "source": "anthropics/claude-code",
+     "installs": 50880,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/claude-code",
+     "url": "https://skills.sh/anthropics/claude-code/frontend-design"
+    },
+    {
+     "id": "anthropics/skills/claude-api",
+     "slug": "claude-api",
+     "name": "claude-api",
+     "source": "anthropics/skills",
+     "installs": 49947,
+     "sourceType": "github",
+     "installUrl": "https://github.com/anthropics/skills",
+     "url": "https://skills.sh/anthropics/skills/claude-api"
+    }
+   ]
+  },
+  {
+   "owner": "firecrawl",
+   "totalInstalls": 1349561,
+   "featuredRepo": "firecrawl/cli",
+   "featuredSkill": "firecrawl",
+   "skills": [
+    {
+     "id": "firecrawl/cli/firecrawl",
+     "slug": "firecrawl",
+     "name": "firecrawl",
+     "source": "firecrawl/cli",
+     "installs": 92402,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/cli",
+     "url": "https://skills.sh/firecrawl/cli/firecrawl"
+    },
+    {
+     "id": "firecrawl/cli/firecrawl-scrape",
+     "slug": "firecrawl-scrape",
+     "name": "firecrawl-scrape",
+     "source": "firecrawl/cli",
+     "installs": 74892,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/cli",
+     "url": "https://skills.sh/firecrawl/cli/firecrawl-scrape"
+    },
+    {
+     "id": "firecrawl/cli/firecrawl-search",
+     "slug": "firecrawl-search",
+     "name": "firecrawl-search",
+     "source": "firecrawl/cli",
+     "installs": 74804,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/cli",
+     "url": "https://skills.sh/firecrawl/cli/firecrawl-search"
+    },
+    {
+     "id": "firecrawl/cli/firecrawl-crawl",
+     "slug": "firecrawl-crawl",
+     "name": "firecrawl-crawl",
+     "source": "firecrawl/cli",
+     "installs": 73221,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/cli",
+     "url": "https://skills.sh/firecrawl/cli/firecrawl-crawl"
+    },
+    {
+     "id": "firecrawl/cli/firecrawl-agent",
+     "slug": "firecrawl-agent",
+     "name": "firecrawl-agent",
+     "source": "firecrawl/cli",
+     "installs": 73201,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/cli",
+     "url": "https://skills.sh/firecrawl/cli/firecrawl-agent"
+    },
+    {
+     "id": "firecrawl/cli/firecrawl-map",
+     "slug": "firecrawl-map",
+     "name": "firecrawl-map",
+     "source": "firecrawl/cli",
+     "installs": 72895,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/cli",
+     "url": "https://skills.sh/firecrawl/cli/firecrawl-map"
+    },
+    {
+     "id": "firecrawl/cli/firecrawl-download",
+     "slug": "firecrawl-download",
+     "name": "firecrawl-download",
+     "source": "firecrawl/cli",
+     "installs": 72655,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/cli",
+     "url": "https://skills.sh/firecrawl/cli/firecrawl-download"
+    },
+    {
+     "id": "firecrawl/cli/firecrawl-interact",
+     "slug": "firecrawl-interact",
+     "name": "firecrawl-interact",
+     "source": "firecrawl/cli",
+     "installs": 58067,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/cli",
+     "url": "https://skills.sh/firecrawl/cli/firecrawl-interact"
+    },
+    {
+     "id": "firecrawl/skills/firecrawl-build-search",
+     "slug": "firecrawl-build-search",
+     "name": "firecrawl-build-search",
+     "source": "firecrawl/skills",
+     "installs": 55113,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/skills",
+     "url": "https://skills.sh/firecrawl/skills/firecrawl-build-search"
+    },
+    {
+     "id": "firecrawl/skills/firecrawl-build-scrape",
+     "slug": "firecrawl-build-scrape",
+     "name": "firecrawl-build-scrape",
+     "source": "firecrawl/skills",
+     "installs": 55092,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/skills",
+     "url": "https://skills.sh/firecrawl/skills/firecrawl-build-scrape"
+    },
+    {
+     "id": "firecrawl/skills/firecrawl-build-interact",
+     "slug": "firecrawl-build-interact",
+     "name": "firecrawl-build-interact",
+     "source": "firecrawl/skills",
+     "installs": 54969,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/skills",
+     "url": "https://skills.sh/firecrawl/skills/firecrawl-build-interact"
+    },
+    {
+     "id": "firecrawl/skills/firecrawl-build-onboarding",
+     "slug": "firecrawl-build-onboarding",
+     "name": "firecrawl-build-onboarding",
+     "source": "firecrawl/skills",
+     "installs": 54949,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/skills",
+     "url": "https://skills.sh/firecrawl/skills/firecrawl-build-onboarding"
+    },
+    {
+     "id": "firecrawl/cli/firecrawl-parse",
+     "slug": "firecrawl-parse",
+     "name": "firecrawl-parse",
+     "source": "firecrawl/cli",
+     "installs": 44169,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/cli",
+     "url": "https://skills.sh/firecrawl/cli/firecrawl-parse"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-deep-research",
+     "slug": "firecrawl-deep-research",
+     "name": "firecrawl-deep-research",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 30337,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-deep-research"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-research-papers",
+     "slug": "firecrawl-research-papers",
+     "name": "firecrawl-research-papers",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 29929,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-research-papers"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-website-design-clone",
+     "slug": "firecrawl-website-design-clone",
+     "name": "firecrawl-website-design-clone",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 29570,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-website-design-clone"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-market-research",
+     "slug": "firecrawl-market-research",
+     "name": "firecrawl-market-research",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 29314,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-market-research"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-knowledge-base",
+     "slug": "firecrawl-knowledge-base",
+     "name": "firecrawl-knowledge-base",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 29084,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-knowledge-base"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-seo-audit",
+     "slug": "firecrawl-seo-audit",
+     "name": "firecrawl-seo-audit",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 29065,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-seo-audit"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-dashboard-reporting",
+     "slug": "firecrawl-dashboard-reporting",
+     "name": "firecrawl-dashboard-reporting",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 29025,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-dashboard-reporting"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-lead-gen",
+     "slug": "firecrawl-lead-gen",
+     "name": "firecrawl-lead-gen",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 28989,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-lead-gen"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-workflows",
+     "slug": "firecrawl-workflows",
+     "name": "firecrawl-workflows",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 28951,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-workflows"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-lead-research",
+     "slug": "firecrawl-lead-research",
+     "name": "firecrawl-lead-research",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 28950,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-lead-research"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-shop",
+     "slug": "firecrawl-shop",
+     "name": "firecrawl-shop",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 28949,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-shop"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-qa",
+     "slug": "firecrawl-qa",
+     "name": "firecrawl-qa",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 28924,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-qa"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-competitive-intel",
+     "slug": "firecrawl-competitive-intel",
+     "name": "firecrawl-competitive-intel",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 28912,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-competitive-intel"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-knowledge-ingest",
+     "slug": "firecrawl-knowledge-ingest",
+     "name": "firecrawl-knowledge-ingest",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 28908,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-knowledge-ingest"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-company-directories",
+     "slug": "firecrawl-company-directories",
+     "name": "firecrawl-company-directories",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 28882,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-company-directories"
+    },
+    {
+     "id": "firecrawl/firecrawl-workflows/firecrawl-demo-walkthrough",
+     "slug": "firecrawl-demo-walkthrough",
+     "name": "firecrawl-demo-walkthrough",
+     "source": "firecrawl/firecrawl-workflows",
+     "installs": 28878,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/firecrawl-workflows",
+     "url": "https://skills.sh/firecrawl/firecrawl-workflows/firecrawl-demo-walkthrough"
+    },
+    {
+     "id": "firecrawl/cli/firecrawl-monitor",
+     "slug": "firecrawl-monitor",
+     "name": "firecrawl-monitor",
+     "source": "firecrawl/cli",
+     "installs": 26465,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firecrawl/cli",
+     "url": "https://skills.sh/firecrawl/cli/firecrawl-monitor"
+    }
+   ]
+  },
+  {
+   "owner": "firebase",
+   "totalInstalls": 1232494,
+   "featuredRepo": "firebase/agent-skills",
+   "featuredSkill": "firebase-basics",
+   "skills": [
+    {
+     "id": "firebase/agent-skills/firebase-basics",
+     "slug": "firebase-basics",
+     "name": "firebase-basics",
+     "source": "firebase/agent-skills",
+     "installs": 107172,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-basics"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-auth-basics",
+     "slug": "firebase-auth-basics",
+     "name": "firebase-auth-basics",
+     "source": "firebase/agent-skills",
+     "installs": 106329,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-auth-basics"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-hosting-basics",
+     "slug": "firebase-hosting-basics",
+     "name": "firebase-hosting-basics",
+     "source": "firebase/agent-skills",
+     "installs": 103844,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-hosting-basics"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-app-hosting-basics",
+     "slug": "firebase-app-hosting-basics",
+     "name": "firebase-app-hosting-basics",
+     "source": "firebase/agent-skills",
+     "installs": 103459,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-app-hosting-basics"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-data-connect",
+     "slug": "firebase-data-connect",
+     "name": "firebase-data-connect",
+     "source": "firebase/agent-skills",
+     "installs": 102956,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-data-connect"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-security-rules-auditor",
+     "slug": "firebase-security-rules-auditor",
+     "name": "firebase-security-rules-auditor",
+     "source": "firebase/agent-skills",
+     "installs": 70890,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-security-rules-auditor"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-ai-logic-basics",
+     "slug": "firebase-ai-logic-basics",
+     "name": "firebase-ai-logic-basics",
+     "source": "firebase/agent-skills",
+     "installs": 69806,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-ai-logic-basics"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-firestore",
+     "slug": "firebase-firestore",
+     "name": "firebase-firestore",
+     "source": "firebase/agent-skills",
+     "installs": 67492,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-firestore"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-crashlytics",
+     "slug": "firebase-crashlytics",
+     "name": "firebase-crashlytics",
+     "source": "firebase/agent-skills",
+     "installs": 65889,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-crashlytics"
+    },
+    {
+     "id": "firebase/agent-skills/xcode-project-setup",
+     "slug": "xcode-project-setup",
+     "name": "xcode-project-setup",
+     "source": "firebase/agent-skills",
+     "installs": 65456,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/xcode-project-setup"
+    },
+    {
+     "id": "firebase/agent-skills/developing-genkit-js",
+     "slug": "developing-genkit-js",
+     "name": "developing-genkit-js",
+     "source": "firebase/agent-skills",
+     "installs": 62171,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/developing-genkit-js"
+    },
+    {
+     "id": "firebase/agent-skills/developing-genkit-dart",
+     "slug": "developing-genkit-dart",
+     "name": "developing-genkit-dart",
+     "source": "firebase/agent-skills",
+     "installs": 61908,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/developing-genkit-dart"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-remote-config-basics",
+     "slug": "firebase-remote-config-basics",
+     "name": "firebase-remote-config-basics",
+     "source": "firebase/agent-skills",
+     "installs": 55724,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-remote-config-basics"
+    },
+    {
+     "id": "firebase/agent-skills/developing-genkit-go",
+     "slug": "developing-genkit-go",
+     "name": "developing-genkit-go",
+     "source": "firebase/agent-skills",
+     "installs": 49326,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/developing-genkit-go"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-firestore-standard",
+     "slug": "firebase-firestore-standard",
+     "name": "firebase-firestore-standard",
+     "source": "firebase/agent-skills",
+     "installs": 36732,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-firestore-standard"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-firestore-enterprise-native-mode",
+     "slug": "firebase-firestore-enterprise-native-mode",
+     "name": "firebase-firestore-enterprise-native-mode",
+     "source": "firebase/agent-skills",
+     "installs": 35794,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-firestore-enterprise-native-mode"
+    },
+    {
+     "id": "firebase/agent-skills/firebase-ai-logic",
+     "slug": "firebase-ai-logic",
+     "name": "firebase-ai-logic",
+     "source": "firebase/agent-skills",
+     "installs": 34079,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/firebase-ai-logic"
+    },
+    {
+     "id": "firebase/agent-skills/developing-genkit-python",
+     "slug": "developing-genkit-python",
+     "name": "developing-genkit-python",
+     "source": "firebase/agent-skills",
+     "installs": 33467,
+     "sourceType": "github",
+     "installUrl": "https://github.com/firebase/agent-skills",
+     "url": "https://skills.sh/firebase/agent-skills/developing-genkit-python"
+    }
+   ]
+  },
+  {
+   "owner": "googleworkspace",
+   "totalInstalls": 789867,
+   "featuredRepo": "googleworkspace/cli",
+   "featuredSkill": "gws-gmail",
+   "skills": [
+    {
+     "id": "googleworkspace/cli/gws-gmail",
+     "slug": "gws-gmail",
+     "name": "gws-gmail",
+     "source": "googleworkspace/cli",
+     "installs": 55500,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-gmail"
+    },
+    {
+     "id": "googleworkspace/cli/gws-drive",
+     "slug": "gws-drive",
+     "name": "gws-drive",
+     "source": "googleworkspace/cli",
+     "installs": 51286,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-drive"
+    },
+    {
+     "id": "googleworkspace/cli/gws-gmail-send",
+     "slug": "gws-gmail-send",
+     "name": "gws-gmail-send",
+     "source": "googleworkspace/cli",
+     "installs": 49969,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-gmail-send"
+    },
+    {
+     "id": "googleworkspace/cli/gws-calendar",
+     "slug": "gws-calendar",
+     "name": "gws-calendar",
+     "source": "googleworkspace/cli",
+     "installs": 43696,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-calendar"
+    },
+    {
+     "id": "googleworkspace/cli/gws-shared",
+     "slug": "gws-shared",
+     "name": "gws-shared",
+     "source": "googleworkspace/cli",
+     "installs": 42568,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-shared"
+    },
+    {
+     "id": "googleworkspace/cli/gws-docs",
+     "slug": "gws-docs",
+     "name": "gws-docs",
+     "source": "googleworkspace/cli",
+     "installs": 41918,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-docs"
+    },
+    {
+     "id": "googleworkspace/cli/gws-sheets",
+     "slug": "gws-sheets",
+     "name": "gws-sheets",
+     "source": "googleworkspace/cli",
+     "installs": 41633,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-sheets"
+    },
+    {
+     "id": "googleworkspace/cli/gws-sheets-read",
+     "slug": "gws-sheets-read",
+     "name": "gws-sheets-read",
+     "source": "googleworkspace/cli",
+     "installs": 35873,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-sheets-read"
+    },
+    {
+     "id": "googleworkspace/cli/gws-docs-write",
+     "slug": "gws-docs-write",
+     "name": "gws-docs-write",
+     "source": "googleworkspace/cli",
+     "installs": 35553,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-docs-write"
+    },
+    {
+     "id": "googleworkspace/cli/gws-calendar-agenda",
+     "slug": "gws-calendar-agenda",
+     "name": "gws-calendar-agenda",
+     "source": "googleworkspace/cli",
+     "installs": 35309,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-calendar-agenda"
+    },
+    {
+     "id": "googleworkspace/cli/gws-drive-upload",
+     "slug": "gws-drive-upload",
+     "name": "gws-drive-upload",
+     "source": "googleworkspace/cli",
+     "installs": 35001,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-drive-upload"
+    },
+    {
+     "id": "googleworkspace/cli/gws-calendar-insert",
+     "slug": "gws-calendar-insert",
+     "name": "gws-calendar-insert",
+     "source": "googleworkspace/cli",
+     "installs": 34242,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-calendar-insert"
+    },
+    {
+     "id": "googleworkspace/cli/gws-sheets-append",
+     "slug": "gws-sheets-append",
+     "name": "gws-sheets-append",
+     "source": "googleworkspace/cli",
+     "installs": 32911,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-sheets-append"
+    },
+    {
+     "id": "googleworkspace/cli/gws-gmail-triage",
+     "slug": "gws-gmail-triage",
+     "name": "gws-gmail-triage",
+     "source": "googleworkspace/cli",
+     "installs": 32811,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-gmail-triage"
+    },
+    {
+     "id": "googleworkspace/cli/gws-tasks",
+     "slug": "gws-tasks",
+     "name": "gws-tasks",
+     "source": "googleworkspace/cli",
+     "installs": 31094,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-tasks"
+    },
+    {
+     "id": "googleworkspace/cli/gws-slides",
+     "slug": "gws-slides",
+     "name": "gws-slides",
+     "source": "googleworkspace/cli",
+     "installs": 30140,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-slides"
+    },
+    {
+     "id": "googleworkspace/cli/gws-meet",
+     "slug": "gws-meet",
+     "name": "gws-meet",
+     "source": "googleworkspace/cli",
+     "installs": 28053,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-meet"
+    },
+    {
+     "id": "googleworkspace/cli/gws-forms",
+     "slug": "gws-forms",
+     "name": "gws-forms",
+     "source": "googleworkspace/cli",
+     "installs": 27908,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-forms"
+    },
+    {
+     "id": "googleworkspace/cli/gws-gmail-watch",
+     "slug": "gws-gmail-watch",
+     "name": "gws-gmail-watch",
+     "source": "googleworkspace/cli",
+     "installs": 27061,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-gmail-watch"
+    },
+    {
+     "id": "googleworkspace/cli/gws-gmail-read",
+     "slug": "gws-gmail-read",
+     "name": "gws-gmail-read",
+     "source": "googleworkspace/cli",
+     "installs": 26391,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-gmail-read"
+    },
+    {
+     "id": "googleworkspace/cli/gws-keep",
+     "slug": "gws-keep",
+     "name": "gws-keep",
+     "source": "googleworkspace/cli",
+     "installs": 26350,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-keep"
+    },
+    {
+     "id": "googleworkspace/cli/gws-gmail-reply",
+     "slug": "gws-gmail-reply",
+     "name": "gws-gmail-reply",
+     "source": "googleworkspace/cli",
+     "installs": 24600,
+     "sourceType": "github",
+     "installUrl": "https://github.com/googleworkspace/cli",
+     "url": "https://skills.sh/googleworkspace/cli/gws-gmail-reply"
+    }
+   ]
+  },
+  {
+   "owner": "supabase",
+   "totalInstalls": 457904,
+   "featuredRepo": "supabase/agent-skills",
+   "featuredSkill": "supabase-postgres-best-practices",
+   "skills": [
+    {
+     "id": "supabase/agent-skills/supabase-postgres-best-practices",
+     "slug": "supabase-postgres-best-practices",
+     "name": "supabase-postgres-best-practices",
+     "source": "supabase/agent-skills",
+     "installs": 289385,
+     "sourceType": "github",
+     "installUrl": "https://github.com/supabase/agent-skills",
+     "url": "https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices"
+    },
+    {
+     "id": "supabase/agent-skills/supabase",
+     "slug": "supabase",
+     "name": "supabase",
+     "source": "supabase/agent-skills",
+     "installs": 168519,
+     "sourceType": "github",
+     "installUrl": "https://github.com/supabase/agent-skills",
+     "url": "https://skills.sh/supabase/agent-skills/supabase"
+    }
+   ]
+  },
+  {
+   "owner": "remotion-dev",
+   "totalInstalls": 427673,
+   "featuredRepo": "remotion-dev/skills",
+   "featuredSkill": "remotion-best-practices",
+   "skills": [
+    {
+     "id": "remotion-dev/skills/remotion-best-practices",
+     "slug": "remotion-best-practices",
+     "name": "remotion-best-practices",
+     "source": "remotion-dev/skills",
+     "installs": 427673,
+     "sourceType": "github",
+     "installUrl": "https://github.com/remotion-dev/skills",
+     "url": "https://skills.sh/remotion-dev/skills/remotion-best-practices"
+    }
+   ]
+  },
+  {
+   "owner": "expo",
+   "totalInstalls": 382226,
+   "featuredRepo": "expo/skills",
+   "featuredSkill": "building-native-ui",
+   "skills": [
+    {
+     "id": "expo/skills/building-native-ui",
+     "slug": "building-native-ui",
+     "name": "building-native-ui",
+     "source": "expo/skills",
+     "installs": 58643,
+     "sourceType": "github",
+     "installUrl": "https://github.com/expo/skills",
+     "url": "https://skills.sh/expo/skills/building-native-ui"
+    },
+    {
+     "id": "expo/skills/native-data-fetching",
+     "slug": "native-data-fetching",
+     "name": "native-data-fetching",
+     "source": "expo/skills",
+     "installs": 46791,
+     "sourceType": "github",
+     "installUrl": "https://github.com/expo/skills",
+     "url": "https://skills.sh/expo/skills/native-data-fetching"
+    },
+    {
+     "id": "expo/skills/expo-tailwind-setup",
+     "slug": "expo-tailwind-setup",
+     "name": "expo-tailwind-setup",
+     "source": "expo/skills",
+     "installs": 43434,
+     "sourceType": "github",
+     "installUrl": "https://github.com/expo/skills",
+     "url": "https://skills.sh/expo/skills/expo-tailwind-setup"
+    },
+    {
+     "id": "expo/skills/upgrading-expo",
+     "slug": "upgrading-expo",
+     "name": "upgrading-expo",
+     "source": "expo/skills",
+     "installs": 42613,
+     "sourceType": "github",
+     "installUrl": "https://github.com/expo/skills",
+     "url": "https://skills.sh/expo/skills/upgrading-expo"
+    },
+    {
+     "id": "expo/skills/expo-dev-client",
+     "slug": "expo-dev-client",
+     "name": "expo-dev-client",
+     "source": "expo/skills",
+     "installs": 42373,
+     "sourceType": "github",
+     "installUrl": "https://github.com/expo/skills",
+     "url": "https://skills.sh/expo/skills/expo-dev-client"
+    },
+    {
+     "id": "expo/skills/expo-deployment",
+     "slug": "expo-deployment",
+     "name": "expo-deployment",
+     "source": "expo/skills",
+     "installs": 40568,
+     "sourceType": "github",
+     "installUrl": "https://github.com/expo/skills",
+     "url": "https://skills.sh/expo/skills/expo-deployment"
+    },
+    {
+     "id": "expo/skills/expo-cicd-workflows",
+     "slug": "expo-cicd-workflows",
+     "name": "expo-cicd-workflows",
+     "source": "expo/skills",
+     "installs": 39594,
+     "sourceType": "github",
+     "installUrl": "https://github.com/expo/skills",
+     "url": "https://skills.sh/expo/skills/expo-cicd-workflows"
+    },
+    {
+     "id": "expo/skills/expo-api-routes",
+     "slug": "expo-api-routes",
+     "name": "expo-api-routes",
+     "source": "expo/skills",
+     "installs": 37559,
+     "sourceType": "github",
+     "installUrl": "https://github.com/expo/skills",
+     "url": "https://skills.sh/expo/skills/expo-api-routes"
+    },
+    {
+     "id": "expo/skills/use-dom",
+     "slug": "use-dom",
+     "name": "use-dom",
+     "source": "expo/skills",
+     "installs": 30651,
+     "sourceType": "github",
+     "installUrl": "https://github.com/expo/skills",
+     "url": "https://skills.sh/expo/skills/use-dom"
+    }
+   ]
+  },
+  {
+   "owner": "google-labs-code",
+   "totalInstalls": 305960,
+   "featuredRepo": "google-labs-code/stitch-skills",
+   "featuredSkill": "design-md",
+   "skills": [
+    {
+     "id": "google-labs-code/stitch-skills/design-md",
+     "slug": "design-md",
+     "name": "design-md",
+     "source": "google-labs-code/stitch-skills",
+     "installs": 54416,
+     "sourceType": "github",
+     "installUrl": "https://github.com/google-labs-code/stitch-skills",
+     "url": "https://skills.sh/google-labs-code/stitch-skills/design-md"
+    },
+    {
+     "id": "google-labs-code/stitch-skills/react:components",
+     "slug": "react:components",
+     "name": "react:components",
+     "source": "google-labs-code/stitch-skills",
+     "installs": 50432,
+     "sourceType": "github",
+     "installUrl": "https://github.com/google-labs-code/stitch-skills",
+     "url": "https://skills.sh/google-labs-code/stitch-skills/react:components"
+    },
+    {
+     "id": "google-labs-code/stitch-skills/enhance-prompt",
+     "slug": "enhance-prompt",
+     "name": "enhance-prompt",
+     "source": "google-labs-code/stitch-skills",
+     "installs": 49316,
+     "sourceType": "github",
+     "installUrl": "https://github.com/google-labs-code/stitch-skills",
+     "url": "https://skills.sh/google-labs-code/stitch-skills/enhance-prompt"
+    },
+    {
+     "id": "google-labs-code/stitch-skills/stitch-loop",
+     "slug": "stitch-loop",
+     "name": "stitch-loop",
+     "source": "google-labs-code/stitch-skills",
+     "installs": 47957,
+     "sourceType": "github",
+     "installUrl": "https://github.com/google-labs-code/stitch-skills",
+     "url": "https://skills.sh/google-labs-code/stitch-skills/stitch-loop"
+    },
+    {
+     "id": "google-labs-code/stitch-skills/shadcn-ui",
+     "slug": "shadcn-ui",
+     "name": "shadcn-ui",
+     "source": "google-labs-code/stitch-skills",
+     "installs": 44785,
+     "sourceType": "github",
+     "installUrl": "https://github.com/google-labs-code/stitch-skills",
+     "url": "https://skills.sh/google-labs-code/stitch-skills/shadcn-ui"
+    },
+    {
+     "id": "google-labs-code/stitch-skills/remotion",
+     "slug": "remotion",
+     "name": "remotion",
+     "source": "google-labs-code/stitch-skills",
+     "installs": 33695,
+     "sourceType": "github",
+     "installUrl": "https://github.com/google-labs-code/stitch-skills",
+     "url": "https://skills.sh/google-labs-code/stitch-skills/remotion"
+    },
+    {
+     "id": "google-labs-code/stitch-skills/stitch-design",
+     "slug": "stitch-design",
+     "name": "stitch-design",
+     "source": "google-labs-code/stitch-skills",
+     "installs": 25359,
+     "sourceType": "github",
+     "installUrl": "https://github.com/google-labs-code/stitch-skills",
+     "url": "https://skills.sh/google-labs-code/stitch-skills/stitch-design"
+    }
+   ]
+  },
+  {
+   "owner": "stripe",
+   "totalInstalls": 150743,
+   "featuredRepo": "stripe/ai",
+   "featuredSkill": "stripe-best-practices",
+   "skills": [
+    {
+     "id": "stripe/ai/stripe-best-practices",
+     "slug": "stripe-best-practices",
+     "name": "stripe-best-practices",
+     "source": "stripe/ai",
+     "installs": 57587,
+     "sourceType": "github",
+     "installUrl": "https://github.com/stripe/ai",
+     "url": "https://skills.sh/stripe/ai/stripe-best-practices"
+    },
+    {
+     "id": "stripe/ai/upgrade-stripe",
+     "slug": "upgrade-stripe",
+     "name": "upgrade-stripe",
+     "source": "stripe/ai",
+     "installs": 48086,
+     "sourceType": "github",
+     "installUrl": "https://github.com/stripe/ai",
+     "url": "https://skills.sh/stripe/ai/upgrade-stripe"
+    },
+    {
+     "id": "stripe/ai/stripe-projects",
+     "slug": "stripe-projects",
+     "name": "stripe-projects",
+     "source": "stripe/ai",
+     "installs": 45070,
+     "sourceType": "github",
+     "installUrl": "https://github.com/stripe/ai",
+     "url": "https://skills.sh/stripe/ai/stripe-projects"
+    }
+   ]
+  },
+  {
+   "owner": "better-auth",
+   "totalInstalls": 129571,
+   "featuredRepo": "better-auth/skills",
+   "featuredSkill": "better-auth-best-practices",
+   "skills": [
+    {
+     "id": "better-auth/skills/better-auth-best-practices",
+     "slug": "better-auth-best-practices",
+     "name": "better-auth-best-practices",
+     "source": "better-auth/skills",
+     "installs": 74763,
+     "sourceType": "github",
+     "installUrl": "https://github.com/better-auth/skills",
+     "url": "https://skills.sh/better-auth/skills/better-auth-best-practices"
+    },
+    {
+     "id": "better-auth/skills/create-auth-skill",
+     "slug": "create-auth-skill",
+     "name": "create-auth-skill",
+     "source": "better-auth/skills",
+     "installs": 29721,
+     "sourceType": "github",
+     "installUrl": "https://github.com/better-auth/skills",
+     "url": "https://skills.sh/better-auth/skills/create-auth-skill"
+    },
+    {
+     "id": "better-auth/skills/email-and-password-best-practices",
+     "slug": "email-and-password-best-practices",
+     "name": "email-and-password-best-practices",
+     "source": "better-auth/skills",
+     "installs": 25087,
+     "sourceType": "github",
+     "installUrl": "https://github.com/better-auth/skills",
+     "url": "https://skills.sh/better-auth/skills/email-and-password-best-practices"
+    }
+   ]
+  },
+  {
+   "owner": "cloudflare",
+   "totalInstalls": 95234,
+   "featuredRepo": "cloudflare/skills",
+   "featuredSkill": "cloudflare",
+   "skills": [
+    {
+     "id": "cloudflare/skills/cloudflare",
+     "slug": "cloudflare",
+     "name": "cloudflare",
+     "source": "cloudflare/skills",
+     "installs": 35455,
+     "sourceType": "github",
+     "installUrl": "https://github.com/cloudflare/skills",
+     "url": "https://skills.sh/cloudflare/skills/cloudflare"
+    },
+    {
+     "id": "cloudflare/skills/wrangler",
+     "slug": "wrangler",
+     "name": "wrangler",
+     "source": "cloudflare/skills",
+     "installs": 33148,
+     "sourceType": "github",
+     "installUrl": "https://github.com/cloudflare/skills",
+     "url": "https://skills.sh/cloudflare/skills/wrangler"
+    },
+    {
+     "id": "cloudflare/skills/workers-best-practices",
+     "slug": "workers-best-practices",
+     "name": "workers-best-practices",
+     "source": "cloudflare/skills",
+     "installs": 26631,
+     "sourceType": "github",
+     "installUrl": "https://github.com/cloudflare/skills",
+     "url": "https://skills.sh/cloudflare/skills/workers-best-practices"
+    }
+   ]
+  },
+  {
+   "owner": "vercel",
+   "totalInstalls": 91493,
+   "featuredRepo": "vercel/turborepo",
+   "featuredSkill": "turborepo",
+   "skills": [
+    {
+     "id": "vercel/turborepo/turborepo",
+     "slug": "turborepo",
+     "name": "turborepo",
+     "source": "vercel/turborepo",
+     "installs": 50550,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel/turborepo",
+     "url": "https://skills.sh/vercel/turborepo/turborepo"
+    },
+    {
+     "id": "vercel/ai/ai-sdk",
+     "slug": "ai-sdk",
+     "name": "ai-sdk",
+     "source": "vercel/ai",
+     "installs": 40943,
+     "sourceType": "github",
+     "installUrl": "https://github.com/vercel/ai",
+     "url": "https://skills.sh/vercel/ai/ai-sdk"
+    }
+   ]
+  },
+  {
+   "owner": "browser-use",
+   "totalInstalls": 84786,
+   "featuredRepo": "browser-use/browser-use",
+   "featuredSkill": "browser-use",
+   "skills": [
+    {
+     "id": "browser-use/browser-use/browser-use",
+     "slug": "browser-use",
+     "name": "browser-use",
+     "source": "browser-use/browser-use",
+     "installs": 84786,
+     "sourceType": "github",
+     "installUrl": "https://github.com/browser-use/browser-use",
+     "url": "https://skills.sh/browser-use/browser-use/browser-use"
+    }
+   ]
+  },
+  {
+   "owner": "github",
+   "totalInstalls": 65453,
+   "featuredRepo": "github/awesome-copilot",
+   "featuredSkill": "git-commit",
+   "skills": [
+    {
+     "id": "github/awesome-copilot/git-commit",
+     "slug": "git-commit",
+     "name": "git-commit",
+     "source": "github/awesome-copilot",
+     "installs": 39051,
+     "sourceType": "github",
+     "installUrl": "https://github.com/github/awesome-copilot",
+     "url": "https://skills.sh/github/awesome-copilot/git-commit"
+    },
+    {
+     "id": "github/awesome-copilot/excalidraw-diagram-generator",
+     "slug": "excalidraw-diagram-generator",
+     "name": "excalidraw-diagram-generator",
+     "source": "github/awesome-copilot",
+     "installs": 26402,
+     "sourceType": "github",
+     "installUrl": "https://github.com/github/awesome-copilot",
+     "url": "https://skills.sh/github/awesome-copilot/excalidraw-diagram-generator"
+    }
+   ]
+  },
+  {
+   "owner": "neondatabase",
+   "totalInstalls": 50218,
+   "featuredRepo": "neondatabase/agent-skills",
+   "featuredSkill": "neon-postgres",
+   "skills": [
+    {
+     "id": "neondatabase/agent-skills/neon-postgres",
+     "slug": "neon-postgres",
+     "name": "neon-postgres",
+     "source": "neondatabase/agent-skills",
+     "installs": 50218,
+     "sourceType": "github",
+     "installUrl": "https://github.com/neondatabase/agent-skills",
+     "url": "https://skills.sh/neondatabase/agent-skills/neon-postgres"
+    }
+   ]
+  },
+  {
+   "owner": "clerk",
+   "totalInstalls": 25241,
+   "featuredRepo": "clerk/skills",
+   "featuredSkill": "clerk-nextjs-patterns",
+   "skills": [
+    {
+     "id": "clerk/skills/clerk-nextjs-patterns",
+     "slug": "clerk-nextjs-patterns",
+     "name": "clerk-nextjs-patterns",
+     "source": "clerk/skills",
+     "installs": 25241,
+     "sourceType": "github",
+     "installUrl": "https://github.com/clerk/skills",
+     "url": "https://skills.sh/clerk/skills/clerk-nextjs-patterns"
+    }
+   ]
+  },
+  {
+   "owner": "tavily-ai",
+   "totalInstalls": 25208,
+   "featuredRepo": "tavily-ai/skills",
+   "featuredSkill": "tavily-search",
+   "skills": [
+    {
+     "id": "tavily-ai/skills/tavily-search",
+     "slug": "tavily-search",
+     "name": "tavily-search",
+     "source": "tavily-ai/skills",
+     "installs": 25208,
+     "sourceType": "github",
+     "installUrl": "https://github.com/tavily-ai/skills",
+     "url": "https://skills.sh/tavily-ai/skills/tavily-search"
+    }
+   ]
+  },
+  {
+   "owner": "mastra-ai",
+   "totalInstalls": 24494,
+   "featuredRepo": "mastra-ai/skills",
+   "featuredSkill": "mastra",
+   "skills": [
+    {
+     "id": "mastra-ai/skills/mastra",
+     "slug": "mastra",
+     "name": "mastra",
+     "source": "mastra-ai/skills",
+     "installs": 24494,
+     "sourceType": "github",
+     "installUrl": "https://github.com/mastra-ai/skills",
+     "url": "https://skills.sh/mastra-ai/skills/mastra"
+    }
+   ]
+  }
+ ],
+ "totalOwners": 20,
+ "totalSkills": 169,
+ "generatedAt": "2026-07-15T12:00:00.000Z"
+}

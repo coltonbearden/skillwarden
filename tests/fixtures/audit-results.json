@@ -1,0 +1,52 @@
+{
+ "id": "vercel-labs/skills/find-skills",
+ "source": "vercel-labs/skills",
+ "slug": "find-skills",
+ "audits": [
+  {
+   "provider": "Gen Agent Trust Hub",
+   "slug": "gen-agent-trust-hub",
+   "status": "pass",
+   "summary": "No malicious behavior detected. Skill instructs agents to run documented CLI commands only.",
+   "auditedAt": "2026-07-14T08:12:00.000Z",
+   "riskLevel": "NONE",
+   "categories": [
+    "prompt-injection",
+    "data-exfiltration",
+    "tool-abuse"
+   ]
+  },
+  {
+   "provider": "Socket",
+   "slug": "socket",
+   "status": "pass",
+   "summary": "No supply chain risk indicators found.",
+   "auditedAt": "2026-07-14T08:15:00.000Z",
+   "riskLevel": "NONE"
+  },
+  {
+   "provider": "Snyk",
+   "slug": "snyk",
+   "status": "pass",
+   "summary": "No known vulnerabilities.",
+   "auditedAt": "2026-07-14T09:01:00.000Z",
+   "riskLevel": "NONE"
+  },
+  {
+   "provider": "Runlayer",
+   "slug": "runlayer",
+   "status": "pass",
+   "summary": "Runtime behavior within declared scope.",
+   "auditedAt": "2026-07-14T10:44:00.000Z",
+   "riskLevel": "NONE"
+  },
+  {
+   "provider": "ZeroLeaks",
+   "slug": "zeroleaks",
+   "status": "pass",
+   "summary": "No secret exfiltration patterns detected.",
+   "auditedAt": "2026-07-14T11:30:00.000Z",
+   "riskLevel": "NONE"
+  }
+ ]
+}

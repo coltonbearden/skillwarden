@@ -1,0 +1,38 @@
+{
+ "data": [
+  {
+   "id": "juliusbrussee/caveman/caveman-commit",
+   "slug": "caveman-commit",
+   "name": "caveman-commit",
+   "source": "juliusbrussee/caveman",
+   "installs": 242480,
+   "sourceType": "github",
+   "installUrl": "https://github.com/juliusbrussee/caveman",
+   "url": "https://skills.sh/juliusbrussee/caveman/caveman-commit"
+  },
+  {
+   "id": "mattpocock/skills/setup-pre-commit",
+   "slug": "setup-pre-commit",
+   "name": "setup-pre-commit",
+   "source": "mattpocock/skills",
+   "installs": 129517,
+   "sourceType": "github",
+   "installUrl": "https://github.com/mattpocock/skills",
+   "url": "https://skills.sh/mattpocock/skills/setup-pre-commit"
+  },
+  {
+   "id": "github/awesome-copilot/git-commit",
+   "slug": "git-commit",
+   "name": "git-commit",
+   "source": "github/awesome-copilot",
+   "installs": 39051,
+   "sourceType": "github",
+   "installUrl": "https://github.com/github/awesome-copilot",
+   "url": "https://skills.sh/github/awesome-copilot/git-commit"
+  }
+ ],
+ "query": "commit",
+ "searchType": "fuzzy",
+ "count": 3,
+ "durationMs": 12
+}
