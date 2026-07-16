@@ -242,7 +242,8 @@ test('rejected token (401 with key set) aborts check with exit 4', async () => {
       })) as typeof fetch;
     await assert.rejects(
       runCheck(checkFlags({ refresh: true }), ws.ctx),
-      (e: unknown) => e instanceof CliError && e.exitCode === 4 && /rejected the token/.test(e.message),
+      (e: unknown) =>
+        e instanceof CliError && e.exitCode === 4 && /rejected the token/.test(e.message),
     );
   } finally {
     rmTemp(t);

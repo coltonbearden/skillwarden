@@ -92,11 +92,11 @@ assumption: popular skills have full 5-partner coverage; long-tail skills partia
 
 The auth wall is **per-route**, not global:
 
-| Route | Unauthenticated result |
-| --- | --- |
-| `GET /skills` (all views), `/skills/search`, `/skills/curated` | 401 |
-| `GET /skills/{source}/{slug}` (detail) | 401 (`real-skill-detail.json`) |
-| `GET /skills/audit/{source}/{slug}` | **200 — anonymously readable** (`real-audit.json`) |
+| Route                                                          | Unauthenticated result                             |
+| -------------------------------------------------------------- | -------------------------------------------------- |
+| `GET /skills` (all views), `/skills/search`, `/skills/curated` | 401                                                |
+| `GET /skills/{source}/{slug}` (detail)                         | 401 (`real-skill-detail.json`)                     |
+| `GET /skills/audit/{source}/{slug}`                            | **200 — anonymously readable** (`real-audit.json`) |
 
 Additional observations from the real audit responses:
 

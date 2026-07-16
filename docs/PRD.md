@@ -232,3 +232,17 @@ Dev (exact-pinned, lockfile committed): `typescript` 5.9.3 (compiler), `@types/n
 24.x (Node typings), `eslint` 9.x + `typescript-eslint` 8.x (lint), `prettier` 3.x
 (format), `@eslint/js` (base config). Tests use built-in `node:test` — no framework dep.
 Each dev dep justified by being the standard tool for its single job; nothing else.
+
+## Phase 5 amendment (D-10)
+
+Live verification showed the API's auth wall is per-route: the audit endpoint is
+anonymously readable while listing/search/curated/detail return 401. Amendments to the
+behavior specified above, logged as D-10:
+
+- `check` without a token no longer skips network work; it attempts every fetch and
+  reports only auth-walled planes as `unknown` (one stderr notice). The registry plane is
+  currently the only walled one, so anonymous users still get live audit gating.
+- The "401, no key" row of the error table applies to commands that cannot proceed at all
+  without the gated route (`pin`); within `check` the same condition becomes per-plane
+  degradation instead of an abort. A 401 **with** a key set aborts everywhere (exit 4).
+- `riskLevel` is an open string set (live: `SAFE`), not strictly NONE→CRITICAL.

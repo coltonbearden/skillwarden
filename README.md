@@ -75,10 +75,12 @@ $env:SKILLS_SH_API_KEY = (Select-String -Path .env.local -Pattern '^VERCEL_OIDC_
 export SKILLS_SH_API_KEY="$(grep -oP '^VERCEL_OIDC_TOKEN="?\K[^"]*' .env.local)"
 ```
 
-**Everything except live registry/audit lookups works without a token:** `scan` is fully
-offline, `check` still verifies local integrity (registry/audit planes report `unknown`),
-and `check --offline` / `audit --offline` run from previously cached responses. The token
-is never written to disk or logged.
+**What works without a token** (verified live 2026-07-15): `scan` is fully offline;
+`audit` works anonymously (the audit endpoint is not auth-gated today); `check` verifies
+local integrity and its audit plane, degrading only the auth-gated registry plane to
+`unknown` with a notice; `--offline` runs everything from previously cached responses.
+The token is only needed for `pin` and `check`'s registry-drift plane, is never written
+to disk, and is never logged.
 
 ## Commands
 
@@ -154,8 +156,9 @@ is unreachable.
 
 ## Limitations
 
-- The skills.sh API requires a token for all live reads (verified 2026-07-15); without
-  one you keep local integrity checking and cached data only.
+- The skills.sh API gates listing/search/detail routes behind a token (verified
+  2026-07-15); anonymously you keep local integrity checking, live security audits,
+  and cached data. The gating is per-route and undocumented, so it may change.
 - Audit coverage varies by skill; a long-tail skill may legitimately be `unaudited`.
 - The registry's `hash` input is undocumented, so skillwarden never recomputes it —
   drift is detected by comparing registry values across time, tampering by comparing
