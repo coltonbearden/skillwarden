@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+      - run: npm ci
+      - run: npm run build
+      - run: npm run lint
+      - run: npm run format:check
+
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node: [20, 22, 24]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm ci
+      - run: npm run build
+      - name: Unit tests (.ts via type stripping, Node 22+ only — see D-12)
+        if: matrix.node != 20
+        run: npm run test:unit
+      - name: Integration smoke (built binary, plain JS, all Node versions)
+        run: npm run test:integration
