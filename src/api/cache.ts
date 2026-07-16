@@ -20,6 +20,8 @@ export interface CacheEntry {
 export interface Cache {
   get(url: string): CacheEntry | null;
   put(url: string, entry: CacheEntry): void;
+  /** Every readable entry (corrupt files skipped). Used for opportunistic lookups. */
+  list(): CacheEntry[];
   /** Age of an entry in whole seconds relative to `now`. */
   ageSeconds(entry: CacheEntry, now: Date): number;
 }
@@ -78,6 +80,24 @@ export function openCache(dir: string, warn: (msg: string) => void): Cache {
           /* best effort */
         }
       }
+    },
+    list() {
+      let names: string[];
+      try {
+        names = fs.readdirSync(dir).filter((n) => n.endsWith('.json'));
+      } catch {
+        return [];
+      }
+      const out: CacheEntry[] = [];
+      for (const n of names) {
+        try {
+          const parsed: unknown = JSON.parse(fs.readFileSync(path.join(dir, n), 'utf-8'));
+          if (isCacheEntry(parsed)) out.push(parsed);
+        } catch {
+          // corrupt entry: skip
+        }
+      }
+      return out;
     },
     ageSeconds(entry, now) {
       const fetched = Date.parse(entry.fetchedAt);

@@ -1,5 +1,5 @@
 import os from 'node:os';
-import { openCache } from './api/cache.ts';
+import { openCache, type Cache } from './api/cache.ts';
 import { createClient, DEFAULT_BASE_URL, type Client, type ClientMode } from './api/client.ts';
 import { colorEnabled, colorizer, type Colors } from './output/format.ts';
 import { cacheDir } from './util/paths.ts';
@@ -42,13 +42,19 @@ export function colorsFor(ctx: CommandContext, flags: GlobalFlags): Colors {
   return colorizer(colorEnabled(flags.noColor || flags.json, ctx.env, ctx.isTTY));
 }
 
-export function buildClient(ctx: CommandContext, flags: GlobalFlags): Client {
+export interface Api {
+  client: Client;
+  cache: Cache;
+}
+
+export function buildApi(ctx: CommandContext, flags: GlobalFlags): Api {
   const mode: ClientMode = flags.offline ? 'offline' : flags.refresh ? 'refresh' : 'online';
   const token = ctx.env['SKILLS_SH_API_KEY'];
-  return createClient({
+  const cache = openCache(cacheDir(ctx.env, os.platform(), ctx.home), ctx.stderr);
+  const client = createClient({
     baseUrl: ctx.env['SKILLWARDEN_API_BASE'] ?? DEFAULT_BASE_URL,
     token: token !== undefined && token !== '' ? token : undefined,
-    cache: openCache(cacheDir(ctx.env, os.platform(), ctx.home), ctx.stderr),
+    cache,
     fetchImpl: ctx.fetchImpl,
     sleep: ctx.sleep,
     now: ctx.now,
@@ -56,6 +62,7 @@ export function buildClient(ctx: CommandContext, flags: GlobalFlags): Client {
     verbose: flags.verbose,
     stderr: ctx.stderr,
   });
+  return { client, cache };
 }
 
 export function hasToken(ctx: CommandContext): boolean {
