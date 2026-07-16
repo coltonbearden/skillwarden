@@ -105,3 +105,24 @@ Additional observations from the real audit responses:
 - Trust Hub's partner `slug` is `agent-trust-hub`; `categories` are UPPER_SNAKE (`COMMAND_EXECUTION`, `EXTERNAL_DOWNLOADS`).
 - Audit responses carry `Cache-Control: public` with **no max-age** (client falls back to its 60 s default) and **no `X-RateLimit-*` headers**.
 - A modestly popular long-tail skill (24 k installs) had full 5-partner coverage — audit coverage is deeper than assumed.
+
+## WP-2 addendum (authenticated verification, 2026-07-16, 6 live calls)
+
+First authenticated pass (fresh Vercel OIDC token; full method and ledger in
+`docs/VERIFICATION.md`):
+
+- **Auth confirmed:** a plain Vercel OIDC token authenticates the gated routes
+  (detail + listing returned 200) — open question "does any OIDC token work" is closed.
+- **Detail shape confirmed structurally exact** vs the reconstruction: top-level
+  `id/source/slug/installs/hash/files`, `files[]` = `{path, contents}`.
+- **The `hash` field is not sha256 of file contents** (single-file case tested):
+  sha256 of the live SKILL.md is `deddc03b…` while `hash` is `781bd6d3…`. Its input
+  remains undocumented — D-07 (never recompute) validated by direct evidence.
+- **Pagination envelope confirmed:** `{page (0-based), perPage, total, hasMore}`;
+  live total 9,591 skills. Listing entries omitted `isDuplicate` on the top-5 page.
+- **`Cache-Control: private, no-store`** on authenticated detail and listing responses
+  (audit route sent `public`, no max-age, on 2026-07-15). Client stores anyway with the
+  60 s fallback TTL — documented deviation, D-15.
+- **No `X-RateLimit-*` headers** on authenticated 200s either.
+- Raw captures: `tests/fixtures/real-skill-detail-200.{json,headers.txt}`,
+  `tests/fixtures/real-listing-page.{json,headers.txt}` (response headers only).

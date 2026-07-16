@@ -11,6 +11,8 @@ Fixtures fall into three provenance classes:
 |---|---|
 | `error-401.json` + `error-401.headers.txt` | `GET https://skills.sh/api/v1/skills?view=all-time&per_page=5`, unauthenticated, 2026-07-15 |
 | `site-leaderboard-raw.json` | `initialSkills` array from the server-rendered `https://www.skills.sh/` payload, 2026-07-15 — 600 real entries with `source`, `skillId`, `name`, `installs`, `weeklyInstalls[8]`, `isOfficial` |
+| `real-skill-detail-200.json` + `real-skill-detail-200.headers.txt` | `GET https://skills.sh/api/v1/skills/vercel-labs/skills/find-skills`, authenticated (Vercel OIDC), 2026-07-16 — first authenticated capture; note the `hash` field is NOT sha256 of `files[0].contents` (see `docs/VERIFICATION.md` finding 4) |
+| `real-listing-page.json` + `real-listing-page.headers.txt` | `GET https://skills.sh/api/v1/skills?view=all-time&per_page=5`, authenticated, 2026-07-16 — confirms the `pagination` envelope shape |
 
 ## Reconstructions (documented schema × real values)
 
@@ -25,7 +27,10 @@ on the rendered site; other audit entries are plausible reconstructions.
 - `leaderboard-hot.json` — real entries; `installsYesterday`/`change` derived from real weekly series (÷7)
 - `search-fuzzy.json`, `search-semantic.json`, `search-empty.json` — real matching entries; `durationMs` invented
 - `curated.json` — real official owners/skills grouped per documented shape; `generatedAt` is a fixed synthetic timestamp
-- `skill-detail.json` — real content + real hash-of-content
+- `skill-detail.json` — real content (2026-07-15 capture) + synthetic hash
+  (sha256-of-content — live verification 2026-07-16 showed the real registry hash uses a
+  different, opaque input; shape confirmed structurally exact against
+  `real-skill-detail-200.json`)
 - `skill-detail-nosnapshot.json` — documented `hash: null` / `files: null` state
 - `audit-results.json` — all five documented partners, all pass
 - `audit-mixed.json` — pass/warn/fail mix with partial partner coverage, for state modeling

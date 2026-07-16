@@ -65,11 +65,14 @@ live data; tokenless `pin` produced the documented exit-4 guidance).
 
 1. Error envelope codes treated as opaque; behavior keys off HTTP status only —
    **confirmed** for 401 (`authentication_required`) and 404 (`not_found`), live.
-2. Any valid Vercel OIDC token authenticates (unverifiable without a Vercel account).
+2. Any valid Vercel OIDC token authenticates — **confirmed live 2026-07-16** (WP-2,
+   `docs/VERIFICATION.md`): plain OIDC token returned 200 on detail and listing routes;
+   real `pin` + `check --refresh` ran clean end-to-end.
 3. `installUrl` format never parsed, passed through verbatim.
 4. `trending`/`hot` ranking is opaque; returned order preserved.
-5. `X-RateLimit-*` headers optional everywhere — **confirmed**: absent on 401 and on
-   anonymous audit responses.
+5. `X-RateLimit-*` headers optional everywhere — **confirmed**: absent on 401, on
+   anonymous audit responses, and (2026-07-16) on authenticated 200s; never yet observed
+   on any response.
 6. `pagination.hasMore` authoritative for iteration.
 7. `files[]` treated as an unordered set keyed by path.
 8. Anonymous tier: originally assumed fully removed; **revised** by live evidence to
