@@ -6,7 +6,7 @@ feasibility; network enrichment layers on top. Every idea exploits ≥2 of the s
 (install telemetry, security audits, `files[]`+`hash` content, curated set, local
 install-base reconciliation, duplicate detection) and none reimplements `npx skills find/add`.
 
-## Idea 1 — `skillguard`: audit-gated install-base guard (M)
+## Idea 1 — `skillwarden`: audit-gated install-base guard (M)
 
 "`npm audit` for agent skills." Scans the machine's installed skills (Claude Code and
 generic skill directories), pins each one's registry snapshot (`files[]`, `hash`, audits)
@@ -61,13 +61,13 @@ episodic (only at install time) rather than daily, and stateless — no local le
 
 | Idea | Daily utility | Data-axis leverage | Feasibility this session | Differentiation | Total |
 |---|---|---|---|---|---|
-| 1 skillguard | 5 | 5 (4 axes) | 4 | 5 | **19** |
+| 1 skillwarden | 5 | 5 (4 axes) | 4 | 5 | **19** |
 | 2 skillscope | 3 | 3 (2 axes) | 3 | 4 | 13 |
 | 3 skillsnap | 4 | 4 (3 axes) | 4 | 5 | 17 |
 | 4 skillbrief | 4 | 5 (4 axes) | 2 | 4 | 15 |
 | 5 skillvet | 3 | 4 (3 axes) | 5 | 4 | 16 |
 
-## Selection: idea 1 — `skillguard`
+## Selection: idea 1 — `skillwarden`
 
 Highest total, and the profile fits the constraints unusually well:
 
