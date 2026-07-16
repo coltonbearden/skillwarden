@@ -46,15 +46,27 @@ function makeCtx(base: string, route: Router) {
 }
 
 const defaultRoute: Router = (url) => {
-  if (url.includes('/skills/audit/')) return { status: 200, body: loadFixtureRaw('audit-results.json') };
+  if (url.includes('/skills/audit/'))
+    return { status: 200, body: loadFixtureRaw('audit-results.json') };
   return { status: 200, body: loadFixtureRaw('skill-detail.json') };
 };
 
 const pinFlags = (over: Partial<PinFlags> = {}): PinFlags => ({
-  json: false, noColor: true, verbose: false, offline: false, refresh: false, all: false, ...over,
+  json: false,
+  noColor: true,
+  verbose: false,
+  offline: false,
+  refresh: false,
+  all: false,
+  ...over,
 });
 const checkFlags = (over: Partial<CheckFlags> = {}): CheckFlags => ({
-  json: false, noColor: true, verbose: false, offline: false, refresh: false, ...over,
+  json: false,
+  noColor: true,
+  verbose: false,
+  offline: false,
+  refresh: false,
+  ...over,
 });
 
 async function pinnedWorkspace(base: string, route: Router = defaultRoute) {
@@ -255,7 +267,8 @@ test('mid-check API failure aborts rather than reporting half-clean', async () =
       })) as typeof fetch;
     await assert.rejects(
       runCheck(checkFlags({ refresh: true }), ws.ctx),
-      (e: unknown) => e instanceof CliError && e.exitCode === 3 && /Try again in 7s/.test(e.message),
+      (e: unknown) =>
+        e instanceof CliError && e.exitCode === 3 && /Try again in 7s/.test(e.message),
     );
   } finally {
     rmTemp(t);

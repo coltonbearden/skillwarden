@@ -5,12 +5,7 @@ import type { Lockfile } from './lockfile.ts';
 import { usage } from '../output/errors.ts';
 
 export type IntegrityState =
-  | 'ok'
-  | 'modified'
-  | 'missing-file'
-  | 'extra-file'
-  | 'dir-missing'
-  | 'unknown';
+  'ok' | 'modified' | 'missing-file' | 'extra-file' | 'dir-missing' | 'unknown';
 
 export type RegistryState = 'current' | 'update-available' | 'gone' | 'unknown';
 

@@ -16,7 +16,13 @@ import { parseSkillId } from '../api/client.ts';
 import { CliError, NotFoundError } from '../output/errors.ts';
 import { renderTable, toJsonString, type Colors } from '../output/format.ts';
 import { samePath } from '../util/paths.ts';
-import { buildApi, colorsFor, hasToken, type CommandContext, type GlobalFlags } from '../context.ts';
+import {
+  buildApi,
+  colorsFor,
+  hasToken,
+  type CommandContext,
+  type GlobalFlags,
+} from '../context.ts';
 import { VERSION } from '../version.ts';
 
 export interface CheckFlags extends GlobalFlags {
@@ -174,13 +180,16 @@ function renderHuman(
     }
     ctx.stdout('');
   }
-  const findings = report.skills.flatMap((s) =>
-    conditionsFor(s).map((cond) => `${s.id}: ${cond}`),
-  );
+  const findings = report.skills.flatMap((s) => conditionsFor(s).map((cond) => `${s.id}: ${cond}`));
   const summary =
     findings.length === 0
       ? c.green('no findings')
       : `${findings.length} finding${findings.length === 1 ? '' : 's'} (${findings.join('; ')})`;
-  const gate = matched.length > 0 ? c.red(`FAIL on [${policy.join(',')}]`) : c.green(`OK under [${policy.join(',') || 'none'}]`);
-  ctx.stdout(`${report.skills.length} pinned skill${report.skills.length === 1 ? '' : 's'} checked: ${summary}. Policy: ${gate}.`);
+  const gate =
+    matched.length > 0
+      ? c.red(`FAIL on [${policy.join(',')}]`)
+      : c.green(`OK under [${policy.join(',') || 'none'}]`);
+  ctx.stdout(
+    `${report.skills.length} pinned skill${report.skills.length === 1 ? '' : 's'} checked: ${summary}. Policy: ${gate}.`,
+  );
 }

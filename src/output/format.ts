@@ -9,8 +9,7 @@ export interface Colors {
 
 const ESC = String.fromCharCode(27);
 
-const wrap = (open: number, close: number) => (s: string) =>
-  `${ESC}[${open}m${s}${ESC}[${close}m`;
+const wrap = (open: number, close: number) => (s: string) => `${ESC}[${open}m${s}${ESC}[${close}m`;
 
 const identity = (s: string) => s;
 

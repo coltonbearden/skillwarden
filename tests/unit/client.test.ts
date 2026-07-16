@@ -109,14 +109,19 @@ test('offline mode serves stale entries and reports age; misses throw exit 3', a
   const dir = makeTemp('cl-off');
   try {
     const body = loadFixtureRaw('skill-detail.json');
-    const seed = makeClient(dir, [{ status: 200, body, headers: { 'cache-control': 'max-age=1' } }]);
+    const seed = makeClient(dir, [
+      { status: 200, body, headers: { 'cache-control': 'max-age=1' } },
+    ]);
     await seed.client.skillDetail(ID);
 
     const later = new Date('2026-07-15T13:00:00Z');
     const off = makeClient(dir, [], { mode: 'offline', now: () => later });
     const d = await off.client.skillDetail(ID);
     assert.equal(d.slug, 'find-skills');
-    assert.equal(off.client.servedAge(off.client.urlFor('/skills/vercel-labs/skills/find-skills')), 3600);
+    assert.equal(
+      off.client.servedAge(off.client.urlFor('/skills/vercel-labs/skills/find-skills')),
+      3600,
+    );
 
     await assert.rejects(
       off.client.curated(),
@@ -163,7 +168,10 @@ test('429 without Retry-After uses 30s default; huge values cap at 60s', async (
 
   const huge = makeClient(
     makeTemp('cl-ra2'),
-    [{ status: 429, body: loadFixtureRaw('error-429.json'), headers: { 'retry-after': '9999' } }, ok],
+    [
+      { status: 429, body: loadFixtureRaw('error-429.json'), headers: { 'retry-after': '9999' } },
+      ok,
+    ],
     { now: tickingNow() },
   );
   await huge.client.curated();
@@ -196,12 +204,14 @@ test('401 maps to authRejected with token, authMissing without', async () => {
   const withTok = makeClient(makeTemp('cl-401a'), [{ status: 401, body }]);
   await assert.rejects(
     withTok.client.curated(),
-    (e: unknown) => e instanceof CliError && e.exitCode === 4 && /rejected the token/.test(e.message),
+    (e: unknown) =>
+      e instanceof CliError && e.exitCode === 4 && /rejected the token/.test(e.message),
   );
   const noTok = makeClient(makeTemp('cl-401b'), [{ status: 401, body }], { token: undefined });
   await assert.rejects(
     noTok.client.curated(),
-    (e: unknown) => e instanceof CliError && e.exitCode === 4 && /Set SKILLS_SH_API_KEY/.test(e.message),
+    (e: unknown) =>
+      e instanceof CliError && e.exitCode === 4 && /Set SKILLS_SH_API_KEY/.test(e.message),
   );
 });
 
@@ -209,7 +219,10 @@ test('audit 404 returns the unaudited data state; detail 404 raises NotFound', a
   const nf = { status: 404, body: loadFixtureRaw('error-404-audit.json') };
   const { client } = makeClient(makeTemp('cl-404'), () => nf);
   assert.equal(await client.skillAudits(ID), 'unaudited');
-  await assert.rejects(client.skillDetail(ID), (e: unknown) => (e as Error).name === 'NotFoundError');
+  await assert.rejects(
+    client.skillDetail(ID),
+    (e: unknown) => (e as Error).name === 'NotFoundError',
+  );
 });
 
 test('400 maps to usage error exit 2 with API message', async () => {
@@ -227,7 +240,9 @@ test('network failure falls back to stale cache with warning, else exit 3', asyn
   const dir = makeTemp('cl-net');
   try {
     const body = loadFixtureRaw('curated.json');
-    const seed = makeClient(dir, [{ status: 200, body, headers: { 'cache-control': 'max-age=1' } }]);
+    const seed = makeClient(dir, [
+      { status: 200, body, headers: { 'cache-control': 'max-age=1' } },
+    ]);
     await seed.client.curated();
 
     const boom = (async () => {
@@ -258,7 +273,8 @@ test('network failure falls back to stale cache with warning, else exit 3', asyn
     });
     await assert.rejects(
       cold.curated(),
-      (e: unknown) => e instanceof CliError && e.exitCode === 3 && /Could not reach/.test(e.message),
+      (e: unknown) =>
+        e instanceof CliError && e.exitCode === 3 && /Could not reach/.test(e.message),
     );
   } finally {
     rmTemp(dir);

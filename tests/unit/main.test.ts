@@ -45,7 +45,8 @@ test('root help lists all four commands; bare invocation matches', async () => {
     const { ctx, out } = makeCtx(t);
     assert.equal(await main(['--help'], ctx), 0);
     const text = out.join('\n');
-    for (const cmd of ['scan', 'pin', 'check', 'audit']) assert.match(text, new RegExp(`\\b${cmd}\\b`));
+    for (const cmd of ['scan', 'pin', 'check', 'audit'])
+      assert.match(text, new RegExp(`\\b${cmd}\\b`));
     out.length = 0;
     assert.equal(await main([], ctx), 0);
     assert.equal(out.join('\n'), text);

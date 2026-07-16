@@ -73,7 +73,9 @@ export function openCache(dir: string, warn: (msg: string) => void): Cache {
         fs.renameSync(tmp, file);
       } catch (e) {
         writable = false;
-        warn(`skillwarden: response cache is not writable (${(e as Error).message}); continuing without caching.`);
+        warn(
+          `skillwarden: response cache is not writable (${(e as Error).message}); continuing without caching.`,
+        );
         try {
           fs.rmSync(tmp, { force: true });
         } catch {

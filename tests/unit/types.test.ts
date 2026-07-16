@@ -59,10 +59,7 @@ test('audit fixtures parse: full pass and mixed', () => {
   const full = parseAudits(loadFixture('audit-results.json'));
   assert.equal(full.audits.length, 5);
   const mixed = parseAudits(loadFixture('audit-mixed.json'));
-  assert.deepEqual(
-    mixed.audits.map((a) => a.status).sort(),
-    ['fail', 'pass', 'warn'],
-  );
+  assert.deepEqual(mixed.audits.map((a) => a.status).sort(), ['fail', 'pass', 'warn']);
   assert.equal(mixed.audits[0]!.categories!.length, 1);
 });
 

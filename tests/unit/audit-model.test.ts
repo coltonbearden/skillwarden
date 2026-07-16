@@ -37,7 +37,14 @@ test('unknown provider and riskLevel strings pass through', () => {
       source: 'a/b',
       slug: 'c',
       audits: [
-        { provider: 'NewPartner', slug: 'new-partner', status: 'warn', summary: '', auditedAt: '', riskLevel: 'ELEVATED' },
+        {
+          provider: 'NewPartner',
+          slug: 'new-partner',
+          status: 'warn',
+          summary: '',
+          auditedAt: '',
+          riskLevel: 'ELEVATED',
+        },
       ],
     }),
   );
@@ -62,17 +69,13 @@ test('regression: risk level rising is flagged; unknown levels are not', () => {
   const pinned = toPinnedAudits(full());
   const riskier: AuditModel = {
     overall: 'pass',
-    partners: full().partners.map((p) =>
-      p.slug === 'snyk' ? { ...p, riskLevel: 'HIGH' } : p,
-    ),
+    partners: full().partners.map((p) => (p.slug === 'snyk' ? { ...p, riskLevel: 'HIGH' } : p)),
   };
   assert.equal(compareAudits(pinned, riskier).regressed, true);
 
   const weird: AuditModel = {
     overall: 'pass',
-    partners: full().partners.map((p) =>
-      p.slug === 'snyk' ? { ...p, riskLevel: 'MYSTERY' } : p,
-    ),
+    partners: full().partners.map((p) => (p.slug === 'snyk' ? { ...p, riskLevel: 'MYSTERY' } : p)),
   };
   assert.equal(compareAudits(pinned, weird).regressed, false);
 });
@@ -83,7 +86,15 @@ test('new warn/fail partner regresses; new pass partner does not', () => {
     overall: 'fail',
     partners: [
       ...mixed().partners,
-      { provider: 'Fresh', slug: 'fresh', status: 'pass', summary: '', auditedAt: '', riskLevel: null, categories: [] },
+      {
+        provider: 'Fresh',
+        slug: 'fresh',
+        status: 'pass',
+        summary: '',
+        auditedAt: '',
+        riskLevel: null,
+        categories: [],
+      },
     ],
   };
   assert.equal(compareAudits(pinned, withNewPass).regressed, false);
@@ -92,7 +103,15 @@ test('new warn/fail partner regresses; new pass partner does not', () => {
     overall: 'fail',
     partners: [
       ...mixed().partners,
-      { provider: 'Fresh', slug: 'fresh', status: 'fail', summary: '', auditedAt: '', riskLevel: null, categories: [] },
+      {
+        provider: 'Fresh',
+        slug: 'fresh',
+        status: 'fail',
+        summary: '',
+        auditedAt: '',
+        riskLevel: null,
+        categories: [],
+      },
     ],
   };
   assert.equal(compareAudits(pinned, withNewFail).regressed, true);

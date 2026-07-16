@@ -5,7 +5,7 @@
 Agent skills are instruction packages that tools like Claude Code run with your credentials
 and filesystem. After `npx skills add`, nothing on your machine notices when an installed
 skill's files change locally (tampering), when upstream content drifts, when a security
-auditor flips it to *fail*, or when what you installed is a fork of the canonical skill.
+auditor flips it to _fail_, or when what you installed is a fork of the canonical skill.
 skillwarden gives you the lock-verify-gate loop you already use for npm packages, built on
 the [skills.sh](https://skills.sh) directory API.
 
@@ -49,11 +49,11 @@ npx skillwarden audit mattpocock/skills/grill-me
 
 `check` reports three planes per pinned skill:
 
-| Plane | Compares | States |
-|---|---|---|
-| integrity | local files vs pinned digests | `ok`, `modified`, `missing-file`, `extra-file`, `dir-missing`, `unknown` |
-| registry | pinned `hash` vs current registry `hash` | `current`, `update-available`, `gone`, `unknown` |
-| audits | current partner audits vs pin | `pass`, `warn`, `fail`, `unaudited`, `unknown` (+ *regressed since pin*) |
+| Plane     | Compares                                 | States                                                                   |
+| --------- | ---------------------------------------- | ------------------------------------------------------------------------ |
+| integrity | local files vs pinned digests            | `ok`, `modified`, `missing-file`, `extra-file`, `dir-missing`, `unknown` |
+| registry  | pinned `hash` vs current registry `hash` | `current`, `update-available`, `gone`, `unknown`                         |
+| audits    | current partner audits vs pin            | `pass`, `warn`, `fail`, `unaudited`, `unknown` (+ _regressed since pin_) |
 
 ## Authentication
 
@@ -116,12 +116,12 @@ worst-of overall verdict. A skill with no audits yet is a normal data state (exi
 
 ## Configuration reference
 
-| Environment variable | Purpose |
-|---|---|
-| `SKILLS_SH_API_KEY` | Optional bearer token for the skills.sh API (see Authentication). Required only for live registry/audit data. |
+| Environment variable    | Purpose                                                                                                                                                                                                |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `SKILLS_SH_API_KEY`     | Optional bearer token for the skills.sh API (see Authentication). Required only for live registry/audit data.                                                                                          |
 | `SKILLWARDEN_CACHE_DIR` | Override the response cache location. Defaults: `%LOCALAPPDATA%\skillwarden\cache` (Windows), `~/Library/Caches/skillwarden` (macOS), `$XDG_CACHE_HOME/skillwarden` or `~/.cache/skillwarden` (Linux). |
-| `SKILLWARDEN_API_BASE` | Override the API base URL (testing). Default `https://skills.sh/api/v1`. |
-| `NO_COLOR` | Disable ANSI color (also: `--no-color`, or non-TTY output). |
+| `SKILLWARDEN_API_BASE`  | Override the API base URL (testing). Default `https://skills.sh/api/v1`.                                                                                                                               |
+| `NO_COLOR`              | Disable ANSI color (also: `--no-color`, or non-TTY output).                                                                                                                                            |
 
 Files: `./skillwarden.lock.json` — the committable pin state (`lockfileVersion: 1`,
 deterministic key order, forward-slash relative paths). The response cache honors the
@@ -135,13 +135,13 @@ is unreachable.
 
 ## Exit codes
 
-| Code | Meaning |
-|---|---|
-| 0 | Success — including benign data states (clean check, unaudited skill) |
-| 1 | `check` findings at/above `--fail-on`; or the requested skill does not exist |
-| 2 | Usage error: unknown command/flag, malformed id, invalid `--fail-on`, API 400 |
-| 3 | Unavailable: network failure, persistent 429/503, malformed response, `--offline` cache miss |
-| 4 | Auth: token missing or rejected for an operation that needs the registry |
+| Code | Meaning                                                                                      |
+| ---- | -------------------------------------------------------------------------------------------- |
+| 0    | Success — including benign data states (clean check, unaudited skill)                        |
+| 1    | `check` findings at/above `--fail-on`; or the requested skill does not exist                 |
+| 2    | Usage error: unknown command/flag, malformed id, invalid `--fail-on`, API 400                |
+| 3    | Unavailable: network failure, persistent 429/503, malformed response, `--offline` cache miss |
+| 4    | Auth: token missing or rejected for an operation that needs the registry                     |
 
 ## CI recipe (GitHub Actions)
 

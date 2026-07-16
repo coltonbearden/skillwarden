@@ -76,7 +76,8 @@ test('future lockfileVersion is refused with upgrade guidance', () => {
     );
     assert.throws(
       () => readLockfile(t),
-      (e: unknown) => e instanceof CliError && e.exitCode === 2 && /newer skillwarden/.test(e.message),
+      (e: unknown) =>
+        e instanceof CliError && e.exitCode === 2 && /newer skillwarden/.test(e.message),
     );
   } finally {
     rmTemp(t);

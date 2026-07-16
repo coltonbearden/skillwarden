@@ -154,9 +154,7 @@ test('smoke: full workflow against fixture server, no real network, no real key'
   assert.equal(rateLimitHits, 2, '429 must be followed by exactly one retry');
 
   // 9. offline check runs from cache after the server dies
-  await new Promise<void>((resolve, reject) =>
-    server.close((e) => (e ? reject(e) : resolve())),
-  );
+  await new Promise<void>((resolve, reject) => server.close((e) => (e ? reject(e) : resolve())));
   const offline = await run('check', '--offline');
   assert.equal(offline.code, 0, offline.stderr);
   assert.match(offline.stdout, /registry: {2}current \(cached \d+s ago\)/);

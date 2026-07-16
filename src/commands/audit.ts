@@ -65,13 +65,17 @@ export async function runAudit(
     statusColor(c, p.status),
     p.riskLevel ?? c.dim('-'),
     p.auditedAt === '' ? c.dim('-') : p.auditedAt.slice(0, 10),
-    truncate(p.summary, SUMMARY_WIDTH) + (p.categories.length > 0 ? c.dim(` [${p.categories.join(', ')}]`) : ''),
+    truncate(p.summary, SUMMARY_WIDTH) +
+      (p.categories.length > 0 ? c.dim(` [${p.categories.join(', ')}]`) : ''),
   ]);
   for (const line of renderTable(['partner', 'status', 'risk', 'audited', 'summary'], rows)) {
     ctx.stdout(line);
   }
   ctx.stdout('');
-  const stale = staleSeconds !== null && staleSeconds > 0 ? c.dim(` (cached ${staleSeconds}s ago)`) : '';
-  ctx.stdout(`overall: ${statusColor(c, model.overall)} (worst of ${model.partners.length} partner${model.partners.length === 1 ? '' : 's'})${stale}`);
+  const stale =
+    staleSeconds !== null && staleSeconds > 0 ? c.dim(` (cached ${staleSeconds}s ago)`) : '';
+  ctx.stdout(
+    `overall: ${statusColor(c, model.overall)} (worst of ${model.partners.length} partner${model.partners.length === 1 ? '' : 's'})${stale}`,
+  );
   return 0;
 }

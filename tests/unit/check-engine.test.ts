@@ -84,7 +84,10 @@ test('integrity: modified, missing, extra, dir-missing, unreadable', () => {
   const cases: [Record<string, string> | undefined, string, boolean?][] = [
     [{ 'SKILL.md': 'ff'.repeat(32), 'ref.md': '22'.repeat(32) }, 'modified'],
     [{ 'ref.md': '22'.repeat(32) }, 'missing-file'],
-    [{ 'SKILL.md': '11'.repeat(32), 'ref.md': '22'.repeat(32), 'new.md': '33'.repeat(32) }, 'extra-file'],
+    [
+      { 'SKILL.md': '11'.repeat(32), 'ref.md': '22'.repeat(32), 'new.md': '33'.repeat(32) },
+      'extra-file',
+    ],
     [undefined, 'dir-missing'],
     [{ 'SKILL.md': '11'.repeat(32), 'ref.md': '22'.repeat(32) }, 'unknown', true],
   ];
@@ -163,11 +166,14 @@ test('unaudited and duplicate conditions fire only under matching policy', () =>
 });
 
 test('notPinned lists unclaimed local skills', () => {
-  const extraLocal = local({ 'SKILL.md': 'ab'.repeat(32) }, {
-    slug: 'stray',
-    dir: '/abs/.claude/skills/stray',
-    realDir: '/abs/.claude/skills/stray',
-  });
+  const extraLocal = local(
+    { 'SKILL.md': 'ab'.repeat(32) },
+    {
+      slug: 'stray',
+      dir: '/abs/.claude/skills/stray',
+      realDir: '/abs/.claude/skills/stray',
+    },
+  );
   const base = inputs();
   const report = evaluate(inputs({ local: [...base.local, extraLocal] }));
   assert.deepEqual(report.notPinned, [{ slug: 'stray', dir: '/abs/.claude/skills/stray' }]);

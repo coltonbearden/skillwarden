@@ -105,7 +105,9 @@ export async function runPin(ids: string[], flags: PinFlags, ctx: CommandContext
   if (flags.all && ids.length > 0) throw usage('Pass either skill ids or --all, not both.');
   if (flags.all) {
     if (existing === null || Object.keys(existing.skills).length === 0) {
-      throw usage(`--all found nothing to re-pin: no pinned skills here. Run 'skillwarden pin <id>' first.`);
+      throw usage(
+        `--all found nothing to re-pin: no pinned skills here. Run 'skillwarden pin <id>' first.`,
+      );
     }
     ids = Object.keys(existing.skills);
   }
@@ -182,7 +184,8 @@ export async function runPin(ids: string[], flags: PinFlags, ctx: CommandContext
   for (const r of results) {
     if (r.status === 'pinned') {
       const dup = r.isDuplicate === true ? `, ${c.yellow('duplicate of another skill')}` : '';
-      const hash = r.registryHash === null ? 'no registry snapshot' : `hash ${r.registryHash!.slice(0, 12)}`;
+      const hash =
+        r.registryHash === null ? 'no registry snapshot' : `hash ${r.registryHash!.slice(0, 12)}`;
       ctx.stdout(
         `${c.green('pinned')} ${c.bold(r.id)} (${r.fileCount} file${r.fileCount === 1 ? '' : 's'}, ${hash}, audits: ${r.auditOverall}${dup})`,
       );
