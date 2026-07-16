@@ -1,0 +1,8 @@
+# Normalize all text files to LF in both the repo and the working tree.
+# CRLF->LF normalization is load-bearing for skillwarden's tamper detection
+# (src/core/discovery.ts); the repo must not depend on contributor autocrlf.
+* text=auto eol=lf
+
+# Fixtures are raw API captures - their byte-exactness is their provenance.
+# -text opts them out of ALL eol conversion. Must come after the global rule.
+tests/fixtures/** -text
