@@ -7,11 +7,10 @@
     "claude-code",
     "supply-chain-security",
     "skills",
-    "cli",
     "cli"
   ],
   "license": "MIT",
-  "author": "Colton Bearden",
+  "author": "Colton Bearden <inbox@coltonbearden.com> (https://coltonbearden.com)",
   "type": "module",
   "bin": {
     "skillwarden": "dist/cli.js"
