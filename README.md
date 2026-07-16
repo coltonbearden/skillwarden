@@ -72,7 +72,7 @@ Give the value to skillwarden via the `SKILLS_SH_API_KEY` environment variable:
 $env:SKILLS_SH_API_KEY = (Select-String -Path .env.local -Pattern '^VERCEL_OIDC_TOKEN="?([^"]*)"?$').Matches.Groups[1].Value
 
 # bash/zsh
-export SKILLS_SH_API_KEY="$(grep -oP '^VERCEL_OIDC_TOKEN="?\K[^"]*' .env.local)"
+export SKILLS_SH_API_KEY="$(sed -n 's/^VERCEL_OIDC_TOKEN="\{0,1\}\([^"]*\)"\{0,1\}$/\1/p' .env.local)"
 ```
 
 **What works without a token** (verified live 2026-07-15): `scan` is fully offline;
