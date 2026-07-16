@@ -29,6 +29,12 @@ that file degrades to a digest-level status with an explicit reason. Never guess
 needs no schema change, no new storage, and gives full content diffs in the common case
 (clean checkout + upstream drift).
 
+## Requirements
+
+| ID   | Requirement                                                                                                                                                                                                                                                                                                                                                                                  |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| R-17 | `skillwarden diff <id>` renders upstream content changes for a pinned skill per the CLI surface, semantics (D-13 before side, CRLF→LF-normalized comparison, per-file states), degenerate cases, error-contract additions, and exit-code rules specified below. Rendering is stdlib-only unified diff (Myers line diff, 3 context lines); `--json` emits the documented deterministic shape. |
+
 ## CLI surface
 
 ```

@@ -7,6 +7,13 @@ or how stale it is, and the only way to reset it is to find the platform-specifi
 directory by hand. A tool that tells users to trust its cached answers owes them
 `info` and `clear`.
 
+## Requirements
+
+| ID   | Requirement                                                                                                                                                                                                                                                 |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| R-18 | `skillwarden cache info` reports location, entry count, corrupt count, total size, freshness breakdown, and `oldest`/`newest` per the semantics below — offline, exit 0 on missing/empty dir, with the documented deterministic `--json` shape.             |
+| R-19 | `skillwarden cache clear` deletes only cache entry files (`^[0-9a-f]{64}\.json$` plus orphaned `*.json.tmp`), refuses without `--yes` via the exact contract row below (exit 2, live count/size), reports what it cleared, and never prompts interactively. |
+
 ## CLI surface
 
 ```

@@ -88,10 +88,15 @@ flipping to trusted publishing.
 5. (After I confirm CI green and WP-2 done) run `git tag v0.1.0 && git push --tags`.
 6. After v0.1.0 lands: on npmjs.com → package `skillwarden` → Settings → Trusted
    publishing: GitHub, repository `FirstCastSolutions423/skillwarden`, workflow
-   `release.yml`, environment blank; allow **npm publish**.
+   `release.yml`, environment blank. Explicitly select the allowed action **npm
+   publish** (configurations created after May 20, 2026 require at least one allowed
+   action to be selected; do not enable stage publish).
 7. Delete the granular token on npmjs.com and the `NPM_TOKEN` GitHub secret:
    `gh secret delete NPM_TOKEN --repo FirstCastSolutions423/skillwarden`.
 8. Tell me it's done — I flip `release.yml` to OIDC (pre-marked lines) in the v0.2.0 cycle.
+9. End state, after the flip: npmjs.com → package `skillwarden` → Settings → Publishing
+   access → **Require two-factor authentication and disallow tokens** — the trusted
+   publisher is then the only publish path.
 
 ## Error contract additions
 
