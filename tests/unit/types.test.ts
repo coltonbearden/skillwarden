@@ -90,6 +90,18 @@ test('malformed inputs throw CliError exit 3', () => {
   );
 });
 
+test('real live audit captures (2026-07-15) parse, including SAFE riskLevel', () => {
+  const real = parseAudits(loadFixture('real-audit.json'));
+  assert.equal(real.audits.length, 5);
+  const trustHub = real.audits.find((a) => a.slug === 'agent-trust-hub')!;
+  assert.equal(trustHub.riskLevel, 'SAFE');
+  assert.ok(trustHub.categories!.includes('COMMAND_EXECUTION'));
+  const obscure = parseAudits(loadFixture('real-audit-404.json'));
+  assert.equal(obscure.audits.length, 5);
+  const nf = parseErrorBody(loadFixture('real-audit-notfound.json'));
+  assert.equal(nf!.error, 'not_found');
+});
+
 test('real 401 envelope parses as error body', () => {
   const e = parseErrorBody(loadFixture('error-401.json'));
   assert.equal(e!.error, 'authentication_required');

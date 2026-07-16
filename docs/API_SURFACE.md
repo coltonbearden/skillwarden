@@ -87,3 +87,21 @@ assumption: popular skills have full 5-partner coverage; long-tail skills partia
 | 6   | `pagination.total` semantics (total skills vs total pages)         | Total item count across pages; `hasMore` is authoritative for iteration.                                                                               |
 | 7   | Are multi-file skills' `files[]` ordered?                          | No order guarantee; treat as a set keyed by `path`; hash the set canonically when comparing.                                                           |
 | 8   | 60 req/min anonymous tier                                          | Removed (or never shipped); design assumes 0 req/min unauthenticated, 600/min authenticated.                                                           |
+
+## Phase 5 addendum (live verification, 2026-07-15, ~13 total live calls)
+
+The auth wall is **per-route**, not global:
+
+| Route | Unauthenticated result |
+| --- | --- |
+| `GET /skills` (all views), `/skills/search`, `/skills/curated` | 401 |
+| `GET /skills/{source}/{slug}` (detail) | 401 (`real-skill-detail.json`) |
+| `GET /skills/audit/{source}/{slug}` | **200 — anonymously readable** (`real-audit.json`) |
+
+Additional observations from the real audit responses:
+
+- Audit 404 envelope confirmed: `{"error":"not_found","message":"No security audits found for this skill. Audits are generated automatically after a skill is installed for the first time."}` — the assumed code string was correct.
+- `riskLevel` values exceed the documented NONE→CRITICAL scale: Gen Agent Trust Hub returns `SAFE`. Treat the field as an open string set.
+- Trust Hub's partner `slug` is `agent-trust-hub`; `categories` are UPPER_SNAKE (`COMMAND_EXECUTION`, `EXTERNAL_DOWNLOADS`).
+- Audit responses carry `Cache-Control: public` with **no max-age** (client falls back to its 60 s default) and **no `X-RateLimit-*` headers**.
+- A modestly popular long-tail skill (24 k installs) had full 5-partner coverage — audit coverage is deeper than assumed.

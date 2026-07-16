@@ -180,18 +180,70 @@ test('audit regression to fail gates under default policy', async () => {
   }
 });
 
-test('tokenless check runs integrity only, planes unknown, exit 0 under default policy', async () => {
+test('tokenless check degrades auth-gated planes to unknown, keeps anonymous ones', async () => {
   const t = makeTemp('chk-notok');
   try {
     const ws = await pinnedWorkspace(t);
     delete ws.ctx.env['SKILLS_SH_API_KEY'];
-    const code = await runCheck(checkFlags(), ws.ctx);
+    // Live behavior 2026-07-15: detail is auth-gated (401), audit is anonymous.
+    ws.ctx.fetchImpl = (async (input: string | URL | Request) => {
+      const url = String(input);
+      if (url.includes('/skills/audit/')) {
+        return new Response(loadFixtureRaw('audit-results.json'), {
+          status: 200,
+          headers: { 'content-type': 'application/json', 'cache-control': 'max-age=0' },
+        });
+      }
+      return new Response(loadFixtureRaw('error-401.json'), {
+        status: 401,
+        headers: { 'content-type': 'application/json' },
+      });
+    }) as typeof fetch;
+    const code = await runCheck(checkFlags({ refresh: true }), ws.ctx);
     assert.equal(code, 0);
     assert.match(ws.err.join('\n'), /no SKILLS_SH_API_KEY/);
     const text = ws.out.join('\n');
     assert.match(text, /registry: {2}unknown/);
-    assert.match(text, /audits: {4}unknown/);
+    assert.match(text, /audits: {4}pass/);
     assert.match(text, /integrity: ok/);
+  } finally {
+    rmTemp(t);
+  }
+});
+
+test('tokenless check with fully-401 API still completes with unknown planes', async () => {
+  const t = makeTemp('chk-notok2');
+  try {
+    const ws = await pinnedWorkspace(t);
+    delete ws.ctx.env['SKILLS_SH_API_KEY'];
+    ws.ctx.fetchImpl = (async () =>
+      new Response(loadFixtureRaw('error-401.json'), {
+        status: 401,
+        headers: { 'content-type': 'application/json' },
+      })) as typeof fetch;
+    const code = await runCheck(checkFlags({ refresh: true }), ws.ctx);
+    assert.equal(code, 0);
+    const text = ws.out.join('\n');
+    assert.match(text, /registry: {2}unknown/);
+    assert.match(text, /audits: {4}unknown/);
+  } finally {
+    rmTemp(t);
+  }
+});
+
+test('rejected token (401 with key set) aborts check with exit 4', async () => {
+  const t = makeTemp('chk-badtok');
+  try {
+    const ws = await pinnedWorkspace(t);
+    ws.ctx.fetchImpl = (async () =>
+      new Response(loadFixtureRaw('error-401.json'), {
+        status: 401,
+        headers: { 'content-type': 'application/json' },
+      })) as typeof fetch;
+    await assert.rejects(
+      runCheck(checkFlags({ refresh: true }), ws.ctx),
+      (e: unknown) => e instanceof CliError && e.exitCode === 4 && /rejected the token/.test(e.message),
+    );
   } finally {
     rmTemp(t);
   }

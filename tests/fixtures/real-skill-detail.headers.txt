@@ -1,0 +1,16 @@
+HTTP/1.1 401 Unauthorized
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://va.vercel-scripts.com https://vercel.live; script-src-elem 'self' 'unsafe-inline' https://va.vercel-scripts.com https://vercel.live; style-src 'self' 'unsafe-inline' https://vercel.live; img-src 'self' data: blob: https://vercel.com https://vercel.live; connect-src 'self' https://vercel.live wss://ws-us3.pusher.com; font-src 'self' https://vercel.live https://assets.vercel.com; frame-src https://vercel.live; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://vercel.com
+Content-Type: application/json
+Date: Thu, 16 Jul 2026 01:34:41 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Matched-Path: /api/v1/skills/[...id]
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::iad1::7p6z6-1784165681115-d089a2cdf22e
+Transfer-Encoding: chunked
+

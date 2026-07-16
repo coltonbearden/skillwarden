@@ -24,7 +24,16 @@ export type PinnedAudits = Record<
 >;
 
 const STATUS_RANK: Record<AuditStatus, number> = { pass: 0, warn: 1, fail: 2 };
-const RISK_RANK: Record<string, number> = { NONE: 0, LOW: 1, MEDIUM: 2, HIGH: 3, CRITICAL: 4 };
+// SAFE observed live 2026-07-15 (Gen Agent Trust Hub) alongside the documented
+// NONE→CRITICAL scale; unknown levels never participate in regression checks.
+const RISK_RANK: Record<string, number> = {
+  SAFE: 0,
+  NONE: 0,
+  LOW: 1,
+  MEDIUM: 2,
+  HIGH: 3,
+  CRITICAL: 4,
+};
 
 export function modelAudits(input: AuditResponse | 'unaudited'): AuditModel {
   if (input === 'unaudited' || input.audits.length === 0) {

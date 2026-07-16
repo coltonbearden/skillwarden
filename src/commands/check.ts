@@ -67,13 +67,21 @@ export async function runCheck(flags: CheckFlags, ctx: CommandContext): Promise<
   const registryStale = new Map<string, number | null>();
   const auditStale = new Map<string, number | null>();
 
-  const tokenless = !hasToken(ctx) && !flags.offline;
-  if (tokenless) {
-    ctx.stderr(
-      'skillwarden: no SKILLS_SH_API_KEY set — registry and audit planes reported as unknown ' +
-        '(integrity still checked). See README > Authentication.',
-    );
-  } else {
+  // Planes degrade to 'unknown' when data is unreachable for benign reasons:
+  // an offline cache miss, or a 401 on an auth-gated route (the audit route is
+  // anonymously readable today, the detail route is not — see D-10). Any other
+  // API failure aborts: a half-checked report must not read as clean.
+  let authLimited = false;
+  const degradable = (e: unknown): boolean => {
+    if (!(e instanceof CliError)) return false;
+    if (flags.offline && e.exitCode === 3) return true;
+    if (!flags.offline && e.exitCode === 4 && !hasToken(ctx)) {
+      authLimited = true;
+      return true;
+    }
+    return false;
+  };
+  {
     const { client } = buildApi(ctx, flags);
     for (const rawId of ids) {
       const id = parseSkillId(rawId);
@@ -85,23 +93,29 @@ export async function runCheck(flags: CheckFlags, ctx: CommandContext): Promise<
       } catch (e) {
         if (e instanceof NotFoundError) {
           registry.set(rawId, 'gone');
-        } else if (flags.offline && e instanceof CliError && e.exitCode === 3) {
-          registry.set(rawId, 'unknown'); // offline cache miss: plane unknown, keep going
+        } else if (degradable(e)) {
+          registry.set(rawId, 'unknown');
         } else {
-          throw e; // half-checked must not read as clean
+          throw e;
         }
       }
       try {
         audits.set(rawId, modelAudits(await client.skillAudits(id)));
         auditStale.set(rawId, client.servedAge(auditUrl));
       } catch (e) {
-        if (flags.offline && e instanceof CliError && e.exitCode === 3) {
+        if (degradable(e)) {
           audits.set(rawId, 'unknown');
         } else {
           throw e;
         }
       }
     }
+  }
+  if (authLimited) {
+    ctx.stderr(
+      'skillwarden: no SKILLS_SH_API_KEY set — auth-gated planes reported as unknown ' +
+        '(integrity still checked). See README > Authentication.',
+    );
   }
 
   const localById = new Map(
