@@ -1,5 +1,7 @@
 # skillwarden
 
+[![CI](https://github.com/FirstCastSolutions423/skillwarden/actions/workflows/ci.yml/badge.svg)](https://github.com/FirstCastSolutions423/skillwarden/actions/workflows/ci.yml)
+
 `npm audit` for agent skills: pin, verify, and audit-gate the skills your coding agents execute.
 
 Agent skills are instruction packages that tools like Claude Code run with your credentials
