@@ -13,6 +13,7 @@ You are running fully autonomously. Design, build, and verify a production-quali
 - Error envelope: `{"error": "code", "message": "..."}`. Statuses: 400 bad params, 401 bad key, 404 skill not found, 429 rate limited (wait `Retry-After`), 503 temporary (retry with backoff).
 
 **Endpoints:**
+
 1. `GET /skills` — leaderboard. Params: `view` = `all-time` (default) | `trending` | `hot`; `page` (0-indexed); `per_page` 1–500 (default 100). `hot` view adds `installsYesterday` and `change` (this hour vs same hour yesterday).
 2. `GET /skills/search` — `q` (min 2 chars, required), `limit` 1–200 (default 50). Single-word = fuzzy, multi-word = semantic; response includes `searchType` and `durationMs`.
 3. `GET /skills/curated` — official first-party set grouped by owner, with `totalOwners`, `totalSkills`, `generatedAt`.
@@ -26,6 +27,7 @@ You are running fully autonomously. Design, build, and verify a production-quali
 **Existing first-party tooling:** `npx skills` (find + add/install) already exists and is good. Reimplementing it has zero value.
 
 Design implications (binding):
+
 1. **Search and install are already served** by the official CLI. Differentiation lives one layer up: audit-gated install policies, local install-base reconciliation and auditing, hash-based update/drift watching, trend intelligence from `hot`/`trending` deltas, duplicate filtering, curated-vs-community analysis.
 2. `hash` + `files[]` enable a local mirror, content diffing, and offline analysis with zero GitHub scraping.
 3. Client must honor `Cache-Control`, sleep on `Retry-After`/`X-RateLimit-Reset` for 429, retry with backoff on 503 only, and surface remaining quota from headers.
@@ -42,7 +44,7 @@ Design implications (binding):
 - **Hard blockers — the only reasons to stop and ask:**
   1. Docs and API both unreachable after 3 attempts.
   2. The site's Terms of Service prohibit this use.
-  Everything else is not a blocker: build against the documented contract plus captured fixtures, and record the assumption. There is no API key and none is needed.
+     Everything else is not a blocker: build against the documented contract plus captured fixtures, and record the assumption. There is no API key and none is needed.
 - **No placeholders.** No TODOs, no stubs, no "implement later", no "add error handling as appropriate." If session budget threatens completeness, cut scope at the Phase 3 gate (demote features to stretch) — never cut quality mid-build.
 - **Secrets:** if an optional API key is supported, it comes from the `SKILLS_SH_API_KEY` env var only. Never hardcoded, never written to any file, never echoed in logs. The tool must be fully functional without it.
 
@@ -61,6 +63,7 @@ Design implications (binding):
 ## PHASE 1 — BRAINSTORM & SELECT
 
 Generate **5 distinct tool ideas**, each:
+
 - Genuinely useful daily to a developer running Claude Code (or any skills-consuming agent)
 - **Not** a reimplementation of `npx skills find/add` — each idea must exploit at least two of: install telemetry (`trending`/`hot` deltas), security audits, `files[]`+`hash` content access, curated set, local install-base reconciliation, duplicate detection
 - Realistic to build and drive from a terminal
@@ -79,6 +82,7 @@ Deliverable `docs/IDEAS.md`: all 5 ideas, score matrix, selection rationale. **G
 ## PHASE 2 — SPEC
 
 Write the PRD at `docs/PRD.md`:
+
 - Problem statement and target user
 - Feature list: MVP requirements as `R-01…R-nn`, stretch as `S-01…S-nn` — strictly separated
 - CLI interface: every command, every flag, example invocations, exit codes
@@ -113,6 +117,7 @@ Write `docs/PLAN.md`. No code in this phase.
 ## PHASE 4 — BUILD
 
 Implement the plan in order. Requirements:
+
 - All MVP `R-##`s complete; every file written in full
 - Unit tests for core logic (API client, throttle/cache, audit-state modeling, local state); one integration smoke test that runs entirely from `tests/fixtures/` — **the suite must pass with no network and no API key**
 - Linter and formatter configured and passing

@@ -14,7 +14,10 @@ limit is 600 req/min per (team, project).
 Real 401 envelope (captured, `tests/fixtures/error-401.json`):
 
 ```json
-{"error":"authentication_required","message":"This endpoint requires authentication. Pass a Vercel OIDC token (Authorization: Bearer <VERCEL_OIDC_TOKEN>) — see https://skills.sh/docs/api#authentication."}
+{
+  "error": "authentication_required",
+  "message": "This endpoint requires authentication. Pass a Vercel OIDC token (Authorization: Bearer <VERCEL_OIDC_TOKEN>) — see https://skills.sh/docs/api#authentication."
+}
 ```
 
 Consequences for design (binding for Phases 1–5):
@@ -30,13 +33,13 @@ Consequences for design (binding for Phases 1–5):
 
 ## Endpoint table (documented; observed where possible)
 
-| Endpoint | Params | Documented response | Observed 2026-07-15 |
-|---|---|---|---|
-| `GET /api/v1/skills` | `view` = `all-time` (default) \| `trending` \| `hot`; `page` 0-indexed; `per_page` 1–500 (default 100) | `{data: Skill[], pagination: {page, perPage, total, hasMore}}`; `hot` adds `installsYesterday`, `change` per skill | 401 without token; JSON error envelope confirmed |
-| `GET /api/v1/skills/search` | `q` required, min 2 chars; `limit` 1–200 (default 50); `owner` (GitHub owner filter — **not in the brief; live docs addition**) | `{data, query, searchType: "fuzzy"\|"semantic", count, durationMs}`; single word→fuzzy, multi-word→semantic | 401 without token |
-| `GET /api/v1/skills/curated` | — | `{data: [{owner, totalInstalls, featuredRepo, featuredSkill, skills[]}], totalOwners, totalSkills, generatedAt}` | 401 without token |
-| `GET /api/v1/skills/{source}/{slug}` | path: GitHub = 3 segments (`owner/repo/slug`), well-known = 2 (`domain.com/slug`) | `{id, source, slug, installs, hash: sha256\|null, files: [{path, contents}]\|null}` | 401 without token |
-| `GET /api/v1/skills/audit/{source}/{slug}` | same path rules | `{id, source, slug, audits: [{provider, slug, status: pass\|warn\|fail, summary, auditedAt, riskLevel?: NONE→CRITICAL, categories?}]}`; 404 = not yet audited (data state) | 401 without token |
+| Endpoint                                   | Params                                                                                                                          | Documented response                                                                                                                                                        | Observed 2026-07-15                              |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| `GET /api/v1/skills`                       | `view` = `all-time` (default) \| `trending` \| `hot`; `page` 0-indexed; `per_page` 1–500 (default 100)                          | `{data: Skill[], pagination: {page, perPage, total, hasMore}}`; `hot` adds `installsYesterday`, `change` per skill                                                         | 401 without token; JSON error envelope confirmed |
+| `GET /api/v1/skills/search`                | `q` required, min 2 chars; `limit` 1–200 (default 50); `owner` (GitHub owner filter — **not in the brief; live docs addition**) | `{data, query, searchType: "fuzzy"\|"semantic", count, durationMs}`; single word→fuzzy, multi-word→semantic                                                                | 401 without token                                |
+| `GET /api/v1/skills/curated`               | —                                                                                                                               | `{data: [{owner, totalInstalls, featuredRepo, featuredSkill, skills[]}], totalOwners, totalSkills, generatedAt}`                                                           | 401 without token                                |
+| `GET /api/v1/skills/{source}/{slug}`       | path: GitHub = 3 segments (`owner/repo/slug`), well-known = 2 (`domain.com/slug`)                                               | `{id, source, slug, installs, hash: sha256\|null, files: [{path, contents}]\|null}`                                                                                        | 401 without token                                |
+| `GET /api/v1/skills/audit/{source}/{slug}` | same path rules                                                                                                                 | `{id, source, slug, audits: [{provider, slug, status: pass\|warn\|fail, summary, auditedAt, riskLevel?: NONE→CRITICAL, categories?}]}`; 404 = not yet audited (data state) | 401 without token                                |
 
 Skill object (listings/search): `id` (= `{source}/{slug}`, stable), `slug`, `name`, `source`,
 `installs` (deduplicated), `sourceType` = `github` \| `well-known`, `installUrl`, `url`,
@@ -74,13 +77,13 @@ assumption: popular skills have full 5-partner coverage; long-tail skills partia
 
 ## Open questions → working assumptions
 
-| # | Question | Working assumption |
-|---|---|---|
-| 1 | Error `code` strings for 400/404/429/503 | Envelope shape is documented; treat `error` as an opaque string, key all behavior off HTTP status. Assumed strings live in fixtures only. |
-| 2 | Do any Vercel-account OIDC tokens work, or only allowlisted ones? | Any valid Vercel OIDC token authenticates (docs: "no signup, no key to generate"); scoping is for rate-limit accounting per (team, project). |
-| 3 | `installUrl` exact format per sourceType | GitHub → repo URL; well-known → `https://{domain}/.well-known/skills/{slug}`. Client never parses it — passes it through to `npx skills add` verbatim. |
-| 4 | `trending`/`hot` ranking algorithms | Opaque server-side ranking; client displays returned order, never re-sorts. Fixture ranking approximated from real weekly series. |
-| 5 | Do `X-RateLimit-*` headers appear on every authenticated response? | Yes per docs; client treats them as optional everywhere (confirmed absent on 401). |
-| 6 | `pagination.total` semantics (total skills vs total pages) | Total item count across pages; `hasMore` is authoritative for iteration. |
-| 7 | Are multi-file skills' `files[]` ordered? | No order guarantee; treat as a set keyed by `path`; hash the set canonically when comparing. |
-| 8 | 60 req/min anonymous tier | Removed (or never shipped); design assumes 0 req/min unauthenticated, 600/min authenticated. |
+| #   | Question                                                           | Working assumption                                                                                                                                     |
+| --- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | Error `code` strings for 400/404/429/503                           | Envelope shape is documented; treat `error` as an opaque string, key all behavior off HTTP status. Assumed strings live in fixtures only.              |
+| 2   | Do any Vercel-account OIDC tokens work, or only allowlisted ones?  | Any valid Vercel OIDC token authenticates (docs: "no signup, no key to generate"); scoping is for rate-limit accounting per (team, project).           |
+| 3   | `installUrl` exact format per sourceType                           | GitHub → repo URL; well-known → `https://{domain}/.well-known/skills/{slug}`. Client never parses it — passes it through to `npx skills add` verbatim. |
+| 4   | `trending`/`hot` ranking algorithms                                | Opaque server-side ranking; client displays returned order, never re-sorts. Fixture ranking approximated from real weekly series.                      |
+| 5   | Do `X-RateLimit-*` headers appear on every authenticated response? | Yes per docs; client treats them as optional everywhere (confirmed absent on 401).                                                                     |
+| 6   | `pagination.total` semantics (total skills vs total pages)         | Total item count across pages; `hasMore` is authoritative for iteration.                                                                               |
+| 7   | Are multi-file skills' `files[]` ordered?                          | No order guarantee; treat as a set keyed by `path`; hash the set canonically when comparing.                                                           |
+| 8   | 60 req/min anonymous tier                                          | Removed (or never shipped); design assumes 0 req/min unauthenticated, 600/min authenticated.                                                           |

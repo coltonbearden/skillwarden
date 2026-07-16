@@ -16,7 +16,7 @@ interface CommandContext {
   env: Record<string, string | undefined>;
   stdout: (line: string) => void;
   stderr: (line: string) => void;
-  fetchImpl: typeof fetch;           // real fetch in prod, loopback/fake in tests
+  fetchImpl: typeof fetch; // real fetch in prod, loopback/fake in tests
   sleep: (ms: number) => Promise<void>;
   now: () => Date;
   isTTY: boolean;
@@ -180,15 +180,17 @@ file path as dir).
 
 `api/client.ts`: `createClient(opts: { baseUrl, token?, cache, fetchImpl, sleep, now,
 verbose, stderr, mode: 'online' | 'offline' | 'refresh' })` →
+
 ```ts
 interface Client {
-  leaderboard(view: 'all-time'|'trending'|'hot', page?, perPage?): Promise<LeaderboardResponse>;
+  leaderboard(view: 'all-time' | 'trending' | 'hot', page?, perPage?): Promise<LeaderboardResponse>;
   search(q: string, limit?): Promise<SearchResponse>;
   curated(): Promise<CuratedResponse>;
-  skillDetail(id: SkillId): Promise<SkillDetail>;        // throws NotFoundError on 404
-  skillAudits(id: SkillId): Promise<AuditResponse | 'unaudited'>;  // 404 → 'unaudited'
+  skillDetail(id: SkillId): Promise<SkillDetail>; // throws NotFoundError on 404
+  skillAudits(id: SkillId): Promise<AuditResponse | 'unaudited'>; // 404 → 'unaudited'
 }
 ```
+
 plus `parseSkillId(raw): SkillId` (`{source, slug, segments}`; GitHub = 3 path segments,
 well-known = 2; anything else → CliError exit 2). Request pipeline: cache-fresh → serve;
 offline → any entry else `offlineMiss`; online: throttle (≥1000 ms between request
@@ -214,7 +216,7 @@ PartnerAudit[] }` — overall = worst of statuses (`fail` > `warn` > `pass`); em
 `audits[]` → `unaudited`. `compareAudits(pinned: PinnedAudits, current: AuditModel):
 { regressed: boolean, changes: string[] }` — regression = any partner status worsening,
 riskLevel rising (NONE<LOW<MEDIUM<HIGH<CRITICAL, unknown levels never regress), a
-previously-passing partner disappearing is *not* a regression (partner coverage
+previously-passing partner disappearing is _not_ a regression (partner coverage
 fluctuates), a new failing/warning partner is. `toPinnedAudits(model)` for the lockfile.
 **Interfaces produced:** `modelAudits`, `compareAudits`, `toPinnedAudits`, types.
 **Verify:** `audit-model.test.ts` on `audit-results.json`, `audit-mixed.json`,
@@ -264,6 +266,7 @@ per-id summary lines; partial failure: process remaining ids, exit with the wors
 ### T12 — check engine (pure) [M] (R-07 core) — deps: T4, T8, T9
 
 `core/check-engine.ts`:
+
 ```ts
 interface CheckInputs {
   lockfile: Lockfile;
@@ -276,6 +279,7 @@ evaluate(inputs): CheckReport                  // per-skill { integrity, registr
 applyPolicy(report, conds: PolicyCond[]): { exit1: boolean, matched: string[] }
 parsePolicy(raw: string): PolicyCond[]         // validates, 'none' exclusive, else CliError exit 2
 ```
+
 Integrity: `dir-missing` | `modified` (any digest differs) | `missing-file` |
 `extra-file` | `ok` — evaluated against pinned `files`; `unreadable` local skill →
 integrity `unknown` + warning. Registry plane: pinned `registryHash` vs current `hash`

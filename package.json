@@ -1,0 +1,44 @@
+{
+  "name": "skillwarden",
+  "version": "0.1.0",
+  "description": "npm audit for agent skills: pin, verify, and audit-gate the skills your coding agents execute",
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "skills.sh",
+    "security",
+    "supply-chain",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": "Colton Bearden",
+  "type": "module",
+  "bin": {
+    "skillwarden": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.10"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "npm run build && npm run test:unit && npm run test:integration",
+    "test:unit": "node --test \"tests/unit/*.test.ts\"",
+    "test:integration": "node --test \"tests/integration/*.test.ts\""
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/node": "26.1.1",
+    "eslint": "10.7.0",
+    "prettier": "3.9.5",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.64.0"
+  }
+}

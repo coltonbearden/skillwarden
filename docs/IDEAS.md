@@ -42,7 +42,7 @@ that makes it actionable.
 
 ## Idea 4 — `skillbrief`: daily digest (S/M)
 
-One command prints a morning briefing: hot movers, audit status changes among *your*
+One command prints a morning briefing: hot movers, audit status changes among _your_
 installed skills, curated additions, duplicate alerts. High utility but it is an
 aggregation of ideas 1+2 — building it first means building both of them shallowly.
 **Interactions:** `brief [--json]`, cron-friendly.
@@ -59,13 +59,13 @@ episodic (only at install time) rather than daily, and stateless — no local le
 
 ## Score matrix (0–5 each)
 
-| Idea | Daily utility | Data-axis leverage | Feasibility this session | Differentiation | Total |
-|---|---|---|---|---|---|
-| 1 skillwarden | 5 | 5 (4 axes) | 4 | 5 | **19** |
-| 2 skillscope | 3 | 3 (2 axes) | 3 | 4 | 13 |
-| 3 skillsnap | 4 | 4 (3 axes) | 4 | 5 | 17 |
-| 4 skillbrief | 4 | 5 (4 axes) | 2 | 4 | 15 |
-| 5 skillvet | 3 | 4 (3 axes) | 5 | 4 | 16 |
+| Idea          | Daily utility | Data-axis leverage | Feasibility this session | Differentiation | Total  |
+| ------------- | ------------- | ------------------ | ------------------------ | --------------- | ------ |
+| 1 skillwarden | 5             | 5 (4 axes)         | 4                        | 5               | **19** |
+| 2 skillscope  | 3             | 3 (2 axes)         | 3                        | 4               | 13     |
+| 3 skillsnap   | 4             | 4 (3 axes)         | 4                        | 5               | 17     |
+| 4 skillbrief  | 4             | 5 (4 axes)         | 2                        | 4               | 15     |
+| 5 skillvet    | 3             | 4 (3 axes)         | 5                        | 4               | 16     |
 
 ## Selection: idea 1 — `skillwarden`
 
@@ -80,12 +80,12 @@ Highest total, and the profile fits the constraints unusually well:
   (`brief`) on the same client/cache.
 - **Real daily driver.** Agents execute what skills tell them to; today nothing on a dev
   machine notices when an installed skill's instructions change upstream, a fork shadows
-  the original, or an auditor flips to *fail*. Exit-code policy gating slots into CI the
+  the original, or an auditor flips to _fail_. Exit-code policy gating slots into CI the
   way `npm audit` does.
 
 Key design insight from Phase 0 carried in: the registry's `hash` algorithm input is
 undocumented, so drift detection never recomputes it locally — it compares local files
-against *pinned* `files[]` (tamper) and pinned `hash` against *registry* `hash` (upstream
+against _pinned_ `files[]` (tamper) and pinned `hash` against _registry_ `hash` (upstream
 drift). Both comparisons use data the API hands us verbatim.
 
 Language/runtime: Node.js ≥ 20 + TypeScript, zero runtime dependencies, `npx`-distributable
