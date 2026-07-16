@@ -6,20 +6,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
-import { loadFixture, loadFixtureRaw, makeTemp, rmTemp } from '../helpers.ts';
+import { loadFixture, loadFixtureRaw, makeTemp, rmTemp } from '../helpers.mjs';
 
 const execFileP = promisify(execFile);
 const REPO = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const CLI = path.join(REPO, 'dist', 'cli.js');
 
-const DETAIL = loadFixture('skill-detail.json') as { files: { path: string; contents: string }[] };
+const DETAIL = loadFixture('skill-detail.json');
 const ID = 'vercel-labs/skills/find-skills';
-
-interface RunResult {
-  code: number;
-  stdout: string;
-  stderr: string;
-}
 
 test('smoke: full workflow against fixture server, no real network, no real key', async (t) => {
   const base = makeTemp('smoke');
@@ -28,12 +22,12 @@ test('smoke: full workflow against fixture server, no real network, no real key'
   const skillDir = path.join(proj, '.claude', 'skills', 'find-skills');
   fs.mkdirSync(skillDir, { recursive: true });
   fs.mkdirSync(home, { recursive: true });
-  fs.writeFileSync(path.join(skillDir, 'SKILL.md'), DETAIL.files[0]!.contents);
+  fs.writeFileSync(path.join(skillDir, 'SKILL.md'), DETAIL.files[0].contents);
 
   let rateLimitHits = 0;
   const server = http.createServer((req, res) => {
     const url = req.url ?? '';
-    const send = (status: number, body: string, headers: Record<string, string> = {}) => {
+    const send = (status, body, headers = {}) => {
       res.writeHead(status, {
         'content-type': 'application/json',
         'cache-control': 'max-age=300',
@@ -71,8 +65,8 @@ test('smoke: full workflow against fixture server, no real network, no real key'
     }
     send(404, loadFixtureRaw('error-404-skill.json'));
   });
-  await new Promise<void>((resolve) => server.listen(0, '127.0.0.1', resolve));
-  const port = (server.address() as { port: number }).port;
+  await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
+  const port = server.address().port;
 
   const env = {
     ...process.env,
@@ -84,7 +78,7 @@ test('smoke: full workflow against fixture server, no real network, no real key'
     USERPROFILE: home,
   };
 
-  const run = async (...args: string[]): Promise<RunResult> => {
+  const run = async (...args) => {
     try {
       const { stdout, stderr } = await execFileP(process.execPath, [CLI, ...args], {
         cwd: proj,
@@ -92,7 +86,7 @@ test('smoke: full workflow against fixture server, no real network, no real key'
       });
       return { code: 0, stdout, stderr };
     } catch (e) {
-      const err = e as { code?: number; stdout?: string; stderr?: string };
+      const err = e;
       return { code: err.code ?? -1, stdout: err.stdout ?? '', stderr: err.stderr ?? '' };
     }
   };
@@ -154,7 +148,7 @@ test('smoke: full workflow against fixture server, no real network, no real key'
   assert.equal(rateLimitHits, 2, '429 must be followed by exactly one retry');
 
   // 9. offline check runs from cache after the server dies
-  await new Promise<void>((resolve, reject) => server.close((e) => (e ? reject(e) : resolve())));
+  await new Promise((resolve, reject) => server.close((e) => (e ? reject(e) : resolve())));
   const offline = await run('check', '--offline');
   assert.equal(offline.code, 0, offline.stderr);
   assert.match(offline.stdout, /registry: {2}current \(cached \d+s ago\)/);

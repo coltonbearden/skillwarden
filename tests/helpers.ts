@@ -1,30 +1,8 @@
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 
-const FIXTURES = path.join(path.dirname(fileURLToPath(import.meta.url)), 'fixtures');
-
-export function fixturePath(name: string): string {
-  return path.join(FIXTURES, name);
-}
-
-export function loadFixture(name: string): unknown {
-  return JSON.parse(fs.readFileSync(fixturePath(name), 'utf-8'));
-}
-
-export function loadFixtureRaw(name: string): string {
-  return fs.readFileSync(fixturePath(name), 'utf-8');
-}
-
-/** Create a disposable temp directory; caller removes via rmTemp. */
-export function makeTemp(prefix: string): string {
-  return fs.mkdtempSync(path.join(os.tmpdir(), `skillwarden-${prefix}-`));
-}
-
-export function rmTemp(dir: string): void {
-  fs.rmSync(dir, { recursive: true, force: true });
-}
+export { fixturePath, loadFixture, loadFixtureRaw, makeTemp, rmTemp } from './helpers.mjs';
 
 /** Write a skill directory: root/<slug>/SKILL.md (+ extra files). */
 export function writeSkill(
