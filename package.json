@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FirstCastSolutions423/skillwarden.git"
+    "url": "git+https://github.com/coltonbearden/skillwarden.git"
   },
   "bugs": {
-    "url": "https://github.com/FirstCastSolutions423/skillwarden/issues"
+    "url": "https://github.com/coltonbearden/skillwarden/issues"
   },
-  "homepage": "https://github.com/FirstCastSolutions423/skillwarden#readme"
+  "homepage": "https://github.com/coltonbearden/skillwarden#readme"
 }
